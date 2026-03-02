@@ -1,0 +1,50 @@
+{
+  "model": "squeezenet1_1",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.7794,
+  "test_loss": 0.656011584854126,
+  "test_acc": 0.7774,
+  "corrupt_results": {
+    "brightness": 0.71676,
+    "contrast": 0.44826,
+    "defocus_blur": 0.66366,
+    "elastic_transform": 0.65058,
+    "fog": 0.62156,
+    "frost": 0.58608,
+    "gaussian_blur": 0.6184,
+    "gaussian_noise": 0.44764,
+    "glass_blur": 0.5201,
+    "impulse_noise": 0.34776,
+    "jpeg_compression": 0.7185,
+    "motion_blur": 0.55762,
+    "pixelate": 0.7344,
+    "saturate": 0.71572,
+    "shot_noise": 0.51398,
+    "snow": 0.61724,
+    "spatter": 0.67824,
+    "speckle_noise": 0.5218,
+    "zoom_blur": 0.61578
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase1/models/squeezenet1_1_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 20,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "seed": 42,
+  "mean_corrupt_acc": 0.5944252631578948
+}

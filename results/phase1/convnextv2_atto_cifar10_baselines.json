@@ -1,0 +1,50 @@
+{
+  "model": "convnextv2_atto",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.8196,
+  "test_loss": 0.8915041221618653,
+  "test_acc": 0.8026,
+  "corrupt_results": {
+    "brightness": 0.7724,
+    "contrast": 0.5864,
+    "defocus_blur": 0.77336,
+    "elastic_transform": 0.74206,
+    "fog": 0.7107,
+    "frost": 0.72898,
+    "gaussian_blur": 0.75968,
+    "gaussian_noise": 0.68084,
+    "glass_blur": 0.74102,
+    "impulse_noise": 0.7026,
+    "jpeg_compression": 0.75288,
+    "motion_blur": 0.71452,
+    "pixelate": 0.78672,
+    "saturate": 0.7435,
+    "shot_noise": 0.71648,
+    "snow": 0.7381,
+    "spatter": 0.7557,
+    "speckle_noise": 0.71832,
+    "zoom_blur": 0.75258
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase1/models/convnextv2_atto_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 20,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "seed": 42,
+  "mean_corrupt_acc": 0.73036
+}

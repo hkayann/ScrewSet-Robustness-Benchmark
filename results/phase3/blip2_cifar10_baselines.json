@@ -1,0 +1,205 @@
+{
+    "model": "blip2",
+    "model_family": "BLIP-2",
+    "backend": "blip2",
+    "dataset": "cifar10",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 10,
+    "test_acc": 0.671,
+    "corrupt_results": {
+        "brightness": {
+            "severity_accs": [
+                0.661,
+                0.643,
+                0.632,
+                0.633,
+                0.539
+            ],
+            "mean": 0.6216
+        },
+        "contrast": {
+            "severity_accs": [
+                0.655,
+                0.63,
+                0.575,
+                0.524,
+                0.294
+            ],
+            "mean": 0.5356
+        },
+        "defocus_blur": {
+            "severity_accs": [
+                0.665,
+                0.64,
+                0.583,
+                0.5,
+                0.335
+            ],
+            "mean": 0.5446
+        },
+        "elastic_transform": {
+            "severity_accs": [
+                0.568,
+                0.549,
+                0.511,
+                0.483,
+                0.447
+            ],
+            "mean": 0.5115999999999999
+        },
+        "fog": {
+            "severity_accs": [
+                0.658,
+                0.64,
+                0.603,
+                0.545,
+                0.417
+            ],
+            "mean": 0.5726
+        },
+        "frost": {
+            "severity_accs": [
+                0.657,
+                0.625,
+                0.589,
+                0.594,
+                0.546
+            ],
+            "mean": 0.6022000000000001
+        },
+        "gaussian_blur": {
+            "severity_accs": [
+                0.665,
+                0.591,
+                0.519,
+                0.48,
+                0.34
+            ],
+            "mean": 0.519
+        },
+        "gaussian_noise": {
+            "severity_accs": [
+                0.487,
+                0.415,
+                0.354,
+                0.323,
+                0.273
+            ],
+            "mean": 0.37039999999999995
+        },
+        "glass_blur": {
+            "severity_accs": [
+                0.506,
+                0.516,
+                0.497,
+                0.378,
+                0.324
+            ],
+            "mean": 0.44420000000000004
+        },
+        "impulse_noise": {
+            "severity_accs": [
+                0.712,
+                0.689,
+                0.669,
+                0.568,
+                0.493
+            ],
+            "mean": 0.6262
+        },
+        "jpeg_compression": {
+            "severity_accs": [
+                0.284,
+                0.219,
+                0.221,
+                0.195,
+                0.149
+            ],
+            "mean": 0.2136
+        },
+        "motion_blur": {
+            "severity_accs": [
+                0.611,
+                0.564,
+                0.479,
+                0.492,
+                0.381
+            ],
+            "mean": 0.5054000000000001
+        },
+        "pixelate": {
+            "severity_accs": [
+                0.63,
+                0.604,
+                0.559,
+                0.511,
+                0.331
+            ],
+            "mean": 0.527
+        },
+        "saturate": {
+            "severity_accs": [
+                0.634,
+                0.568,
+                0.65,
+                0.645,
+                0.616
+            ],
+            "mean": 0.6226
+        },
+        "shot_noise": {
+            "severity_accs": [
+                0.59,
+                0.556,
+                0.455,
+                0.404,
+                0.327
+            ],
+            "mean": 0.4664
+        },
+        "snow": {
+            "severity_accs": [
+                0.648,
+                0.6,
+                0.579,
+                0.542,
+                0.493
+            ],
+            "mean": 0.5724
+        },
+        "spatter": {
+            "severity_accs": [
+                0.679,
+                0.701,
+                0.643,
+                0.696,
+                0.681
+            ],
+            "mean": 0.6799999999999999
+        },
+        "speckle_noise": {
+            "severity_accs": [
+                0.618,
+                0.562,
+                0.544,
+                0.472,
+                0.375
+            ],
+            "mean": 0.5142
+        },
+        "zoom_blur": {
+            "severity_accs": [
+                0.555,
+                0.559,
+                0.515,
+                0.5,
+                0.412
+            ],
+            "mean": 0.5082
+        }
+    },
+    "mean_corrupt_acc": 0.5240947368421053,
+    "text_templates": "ensemble_80",
+    "seed": 42,
+    "corruption_eval_note": "Remedy run: CIFAR-10-C subsampled 1000 per severity"
+}

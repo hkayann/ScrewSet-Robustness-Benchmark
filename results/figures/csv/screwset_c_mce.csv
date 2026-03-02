@@ -1,0 +1,25 @@
+model,display_name,phase,mCE,Multi-object,Occlusion BR,Occlusion TL,Reflection,Scrap paper,Shadow
+convnext_tiny,ConvNeXt-Tiny,phase2,0.5909,0.5672,0.6853,0.6827,0.5835,0.3149,0.7118
+swin_tiny_patch4_window7_224,Swin-Tiny,phase2,0.7141,0.5243,0.9784,0.9022,0.7063,0.3272,0.8463
+mobilevit_s,MobileViT-S,phase2,0.7743,0.7073,0.9616,0.9631,0.8194,0.3549,0.8397
+vit_small_patch16_224,ViT-Small,phase2,0.8232,0.613,0.9992,0.9888,0.7464,0.7231,0.8688
+vit_tiny_patch16_224,ViT-Tiny,phase2,0.8632,0.6683,0.996,0.9864,0.7681,0.8667,0.8937
+deit_small_patch16_224,DeiT-Small,phase2,0.8826,0.6826,0.9976,0.988,0.8034,0.9087,0.9153
+squeezenet1_1,SqueezeNet,phase1,0.911,0.9075,1.0024,1.0032,0.9077,0.7179,0.9269
+deit_tiny_patch16_224,DeiT-Tiny,phase2,0.9145,0.6606,0.9992,1.0,0.8539,1.081,0.892
+efficientformer_l1,EfficientFormer,phase2,0.9227,0.6911,0.9944,0.9495,0.9671,1.0728,0.8613
+shufflenet_v2_x1_0,ShuffleNetV2,phase1,0.961,0.9152,0.9968,0.9864,1.0,0.8554,1.0125
+ghostnetv2_100,GhostNetV2,phase1,0.9698,0.959,0.9992,1.0,0.9799,0.8759,1.005
+efficientnetv2_rw_s,EfficientNetV2-S,phase1,0.9727,0.9133,1.0016,1.0,1.0016,0.8831,1.0365
+mobilenet_v3_large,MobileNetV3-L,phase1,0.9755,0.9285,0.9992,1.0,1.0016,0.8964,1.0274
+resnet18,ResNet-18,phase1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+convnextv2_atto,ConvNeXtV2-A,phase1,1.0182,1.0057,0.9992,0.9824,0.9294,1.24,0.9527
+mobilenetv4_conv_small,MobileNetV4-S,phase1,1.0211,0.9962,0.9992,0.9976,0.9751,1.1836,0.9751
+siglip_vit_b16,SigLIP-B/16,phase3,1.0313,1.0734,0.9576,0.9647,0.9366,1.279,0.9767
+clip_vit_l14,CLIP-L/14,phase3,1.0566,1.1592,0.972,0.9631,0.9679,1.2677,1.01
+openclip_vit_b16,OpenCLIP-B/16,phase3,1.0652,1.1535,0.9944,0.9824,0.9687,1.2646,1.0274
+clip_vit_b32,CLIP-B/32,phase3,1.0742,1.1659,0.9928,0.9912,0.9823,1.2779,1.0349
+clip_vit_b16,CLIP-B/16,phase3,1.077,1.1678,0.9896,0.992,0.9896,1.2923,1.0307
+eva02_clip_vit_b16,EVA02-CLIP-B/16,phase3,1.0835,1.1888,1.012,0.9832,0.9936,1.2862,1.0374
+llava,LLaVA-1.5,phase3,1.0845,1.1897,0.9992,1.0,1.0016,1.28,1.0365
+blip2,BLIP-2,phase3,1.1066,1.2059,1.0248,1.0256,1.0169,1.3077,1.059

@@ -1,0 +1,23 @@
+{
+    "model": "vit_small_patch16_224",
+    "model_family": "ViT",
+    "dataset": "imagenet_a",
+    "pretrained": true,
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.1316,
+    "normalization_mean": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "normalization_std": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "resize": 248,
+    "crop": 224,
+    "batch_size": 256,
+    "amp": true,
+    "seed": 42
+}

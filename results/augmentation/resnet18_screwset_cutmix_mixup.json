@@ -1,0 +1,46 @@
+{
+    "model": "resnet18",
+    "dataset": "screwset",
+    "augmentation": "cutmix_mixup",
+    "augmentation_meta": {
+        "method": "cutmix_mixup",
+        "mixup_alpha": 0.8,
+        "cutmix_alpha": 1.0,
+        "switch_prob": 0.5,
+        "label_smoothing": 0.1,
+        "year": "2018/2019",
+        "reference": "Zhang+2018 (MixUp, ICLR); Yun+2019 (CutMix, ICCV)"
+    },
+    "phase": "Phase1-CNN",
+    "pretrained": false,
+    "num_classes": 40,
+    "best_val_acc": 0.9822265625,
+    "test_loss": 0.42878096755594014,
+    "test_acc": 0.982177734375,
+    "mean_corrupt_acc": 0.11041666666666666,
+    "corrupt_results": {
+        "screwset_multi_object": 0.35390625,
+        "screwset_occlusion_bottom_right": 0.07421875,
+        "screwset_occlusion_top_left": 0.06875,
+        "screwset_reflection": 0.05546875,
+        "screwset_scrap_paper": 0.03125,
+        "screwset_shadow": 0.07890625
+    },
+    "model_path": "/home/hakan/ARCADE--Screwset/results/augmentation/models/resnet18_screwset_cutmix_mixup_best.pth",
+    "training_time_sec": 1786.5,
+    "normalization_mean": [
+        0.775,
+        0.7343,
+        0.6862
+    ],
+    "normalization_std": [
+        0.0802,
+        0.0838,
+        0.0871
+    ],
+    "num_epochs": 20,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "seed": 42,
+    "optimizer": "Adam"
+}

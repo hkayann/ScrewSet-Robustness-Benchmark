@@ -1,0 +1,56 @@
+{
+  "model": "efficientformer_l1",
+  "model_family": "EfficientFormer",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.9628,
+  "test_loss": 0.2623101487636566,
+  "test_acc": 0.9607,
+  "corrupt_results": {
+    "brightness": 0.9461,
+    "contrast": 0.79146,
+    "defocus_blur": 0.85832,
+    "elastic_transform": 0.86234,
+    "fog": 0.92242,
+    "frost": 0.85556,
+    "gaussian_blur": 0.81062,
+    "gaussian_noise": 0.3177,
+    "glass_blur": 0.55614,
+    "impulse_noise": 0.53262,
+    "jpeg_compression": 0.8215,
+    "motion_blur": 0.81846,
+    "pixelate": 0.77432,
+    "saturate": 0.92428,
+    "shot_noise": 0.4654,
+    "snow": 0.8751,
+    "spatter": 0.90496,
+    "speckle_noise": 0.51412,
+    "zoom_blur": 0.83974
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/efficientformer_l1_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.7574294736842105
+}

@@ -1,0 +1,40 @@
+{
+  "model": "efficientformer_l1",
+  "model_family": "EfficientFormer",
+  "dataset": "screwset",
+  "num_classes": 40,
+  "best_val_acc": 0.99951171875,
+  "test_loss": 0.0027857359673362225,
+  "test_acc": 0.99912109375,
+  "corrupt_results": {
+    "screwset_multi_object": 0.43359375,
+    "screwset_occlusion_bottom_right": 0.0296875,
+    "screwset_occlusion_top_left": 0.07421875,
+    "screwset_reflection": 0.05859375,
+    "screwset_scrap_paper": 0.1828125,
+    "screwset_shadow": 0.18984375
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/efficientformer_l1_screwset_best.pth",
+  "normalization_mean": [
+    0.775,
+    0.7343,
+    0.6862
+  ],
+  "normalization_std": [
+    0.0802,
+    0.0838,
+    0.0871
+  ],
+  "resize": "Resize(256)+CenterCrop(224)",
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.16145833333333334
+}

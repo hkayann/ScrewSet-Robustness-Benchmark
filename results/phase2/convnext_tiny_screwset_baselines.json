@@ -1,0 +1,40 @@
+{
+  "model": "convnext_tiny",
+  "model_family": "ConvNeXt",
+  "dataset": "screwset",
+  "num_classes": 40,
+  "best_val_acc": 0.999755859375,
+  "test_loss": 0.000501112308120355,
+  "test_acc": 0.9998046875,
+  "corrupt_results": {
+    "screwset_multi_object": 0.53515625,
+    "screwset_occlusion_bottom_right": 0.33125,
+    "screwset_occlusion_top_left": 0.334375,
+    "screwset_reflection": 0.43203125,
+    "screwset_scrap_paper": 0.76015625,
+    "screwset_shadow": 0.33046875
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/convnext_tiny_screwset_best.pth",
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "resize": "Resize(256)+CenterCrop(224)",
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.45390624999999996
+}

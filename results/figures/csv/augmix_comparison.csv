@@ -1,0 +1,5 @@
+Model,Clean (Base),Clean (AugMix),SS-C (Base),SS-C (AugMix),Delta SS-C,Multi-object (Base),Multi-object (AugMix),Multi-object (Delta),Occlusion BR (Base),Occlusion BR (AugMix),Occlusion BR (Delta),Occlusion TL (Base),Occlusion TL (AugMix),Occlusion TL (Delta),Reflection (Base),Reflection (AugMix),Reflection (Delta),Scrap paper (Base),Scrap paper (AugMix),Scrap paper (Delta),Shadow (Base),Shadow (AugMix),Shadow (Delta)
+ConvNeXt-Tiny,99.98,100.0,45.39,61.2,15.81,53.52,59.3,5.78,33.12,67.73,34.61,33.44,62.81,29.38,43.2,54.77,11.56,76.02,87.89,11.88,33.05,34.69,1.64
+EfficientNetV2-S,95.45,98.17,11.28,25.91,14.64,25.16,24.53,-0.63,2.27,15.86,13.59,2.5,19.84,17.34,2.5,34.84,32.34,32.73,40.86,8.12,2.5,19.53,17.03
+ResNet-18,98.02,98.24,9.23,26.05,16.82,18.05,20.39,2.34,2.42,15.08,12.66,2.5,22.42,19.92,2.66,42.42,39.77,23.83,37.42,13.59,5.94,18.59,12.66
+ViT-Tiny,99.66,99.79,21.17,41.56,20.39,45.23,45.78,0.55,2.81,24.61,21.8,3.83,37.66,33.83,25.23,41.41,16.17,33.98,76.64,42.66,15.94,23.28,7.34

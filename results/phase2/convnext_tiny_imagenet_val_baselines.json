@@ -1,0 +1,26 @@
+{
+    "model": "convnext_tiny",
+    "model_family": "ConvNeXt",
+    "dataset": "imagenet_val",
+    "pretrained": true,
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_loss": 0.7920038163757325,
+    "val_acc": 0.81866,
+    "mean_per_class_acc": 0.8186599999999999,
+    "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "resize": 256,
+    "crop": 224,
+    "batch_size": 256,
+    "amp": true,
+    "seed": 42
+}

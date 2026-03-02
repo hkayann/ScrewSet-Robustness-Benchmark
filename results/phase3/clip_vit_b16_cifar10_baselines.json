@@ -1,0 +1,33 @@
+{
+    "model": "clip_vit_b16",
+    "model_family": "CLIP (OpenAI)",
+    "backend": "open_clip",
+    "dataset": "cifar10",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 10,
+    "test_acc": 0.8841,
+    "corrupt_results": {
+        "brightness": 0.86114,
+        "contrast": 0.81506,
+        "defocus_blur": 0.80666,
+        "elastic_transform": 0.71582,
+        "fog": 0.82404,
+        "frost": 0.7971,
+        "gaussian_blur": 0.78806,
+        "gaussian_noise": 0.54732,
+        "glass_blur": 0.46036,
+        "impulse_noise": 0.72126,
+        "jpeg_compression": 0.6409,
+        "motion_blur": 0.75902,
+        "pixelate": 0.66644,
+        "saturate": 0.83838,
+        "shot_noise": 0.62574,
+        "snow": 0.77152,
+        "spatter": 0.82486,
+        "speckle_noise": 0.64572,
+        "zoom_blur": 0.77906
+    },
+    "mean_corrupt_acc": 0.7309715789473684,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

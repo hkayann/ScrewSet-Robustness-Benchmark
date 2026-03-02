@@ -1,0 +1,11 @@
+{
+    "model": "openclip_vit_b16",
+    "model_family": "OpenCLIP (LAION-2B)",
+    "backend": "open_clip",
+    "dataset": "imagenet_a",
+    "evaluation_mode": "zero_shot",
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.1872,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

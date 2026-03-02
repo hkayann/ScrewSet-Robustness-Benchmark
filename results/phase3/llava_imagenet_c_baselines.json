@@ -1,0 +1,9 @@
+{
+    "model": "llava",
+    "model_family": "LLaVA-1.5",
+    "backend": "llava",
+    "dataset": "imagenet_c",
+    "evaluation_mode": "zero_shot",
+    "skipped": true,
+    "skip_reason": "Generative llava too slow for 4.75M images (estimated 130+ hours)"
+}

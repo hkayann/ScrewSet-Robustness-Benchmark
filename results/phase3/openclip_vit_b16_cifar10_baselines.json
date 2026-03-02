@@ -1,0 +1,33 @@
+{
+    "model": "openclip_vit_b16",
+    "model_family": "OpenCLIP (LAION-2B)",
+    "backend": "open_clip",
+    "dataset": "cifar10",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 10,
+    "test_acc": 0.95,
+    "corrupt_results": {
+        "brightness": 0.93332,
+        "contrast": 0.87598,
+        "defocus_blur": 0.89658,
+        "elastic_transform": 0.8244,
+        "fog": 0.90276,
+        "frost": 0.881,
+        "gaussian_blur": 0.88192,
+        "gaussian_noise": 0.6392,
+        "glass_blur": 0.52618,
+        "impulse_noise": 0.79262,
+        "jpeg_compression": 0.7258,
+        "motion_blur": 0.82774,
+        "pixelate": 0.71506,
+        "saturate": 0.91412,
+        "shot_noise": 0.72428,
+        "snow": 0.87368,
+        "spatter": 0.90936,
+        "speckle_noise": 0.7466,
+        "zoom_blur": 0.8719
+    },
+    "mean_corrupt_acc": 0.8138157894736843,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

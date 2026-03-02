@@ -1,0 +1,50 @@
+{
+  "model": "mobilenetv4_conv_small",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.7686,
+  "test_loss": 0.9339718915939331,
+  "test_acc": 0.7648,
+  "corrupt_results": {
+    "brightness": 0.70692,
+    "contrast": 0.49888,
+    "defocus_blur": 0.69582,
+    "elastic_transform": 0.6809,
+    "fog": 0.62018,
+    "frost": 0.6429,
+    "gaussian_blur": 0.67082,
+    "gaussian_noise": 0.63312,
+    "glass_blur": 0.68802,
+    "impulse_noise": 0.61124,
+    "jpeg_compression": 0.73492,
+    "motion_blur": 0.63374,
+    "pixelate": 0.74556,
+    "saturate": 0.69798,
+    "shot_noise": 0.67712,
+    "snow": 0.66962,
+    "spatter": 0.71638,
+    "speckle_noise": 0.68,
+    "zoom_blur": 0.66042
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase1/models/mobilenetv4_conv_small_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 20,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "seed": 42,
+  "mean_corrupt_acc": 0.6665547368421053
+}

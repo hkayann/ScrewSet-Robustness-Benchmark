@@ -1,0 +1,9 @@
+{
+    "model": "blip2",
+    "model_family": "BLIP-2",
+    "backend": "blip2",
+    "dataset": "imagenet_c",
+    "evaluation_mode": "zero_shot",
+    "skipped": true,
+    "skip_reason": "Generative blip2 too slow for 4.75M images (estimated 130+ hours)"
+}

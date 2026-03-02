@@ -1,0 +1,21 @@
+{
+    "model": "mobilenet_v3_large",
+    "dataset": "imagenet_a",
+    "pretrained": true,
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.0168,
+    "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "resize": 256,
+    "crop": 224,
+    "batch_size": 256,
+    "seed": 42
+}

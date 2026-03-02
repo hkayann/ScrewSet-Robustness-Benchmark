@@ -1,1 +1,49 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Data (too large for git — download separately)
+data/
+
+# Papers (reference PDFs, not tracked)
+paper/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Logs
+*.log
+nohup.out
+
+# Model checkpoints (.pth) — retrain on target machine
+**/*.pth
+models/
+
+# Brevitas (install via pip, not tracked)
+brevitas-master/
+
+# Large media
+*.mp4
+*.png
+
+# Editor / IDE
+.vscode/
+*.swp
+.idea/
+
+# Stale / superseded results
+results/phase*/_stale/
+
+# Old AAAI-era scripts & results (kept on disk for reference, not tracked)
+scripts/baselines/
+scripts/eff_dim/
+scripts/quantization/
+scripts/analysis/cifar_10_analysis_*
+scripts/analysis/imagenet_analysis_*
+scripts/analysis/screwset_analysis_*
+results/baselines/
+results/eff_dim/
+results/quantization/

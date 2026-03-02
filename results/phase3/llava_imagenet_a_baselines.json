@@ -1,0 +1,11 @@
+{
+    "model": "llava",
+    "model_family": "LLaVA-1.5",
+    "backend": "llava",
+    "dataset": "imagenet_a",
+    "evaluation_mode": "zero_shot",
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.22666666666666666,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

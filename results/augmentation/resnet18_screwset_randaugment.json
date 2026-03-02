@@ -1,0 +1,44 @@
+{
+    "model": "resnet18",
+    "dataset": "screwset",
+    "augmentation": "randaugment",
+    "augmentation_meta": {
+        "method": "randaugment",
+        "num_ops": 2,
+        "magnitude": 9,
+        "year": "2020",
+        "reference": "Cubuk+2020 (RandAugment, NeurIPS)"
+    },
+    "phase": "Phase1-CNN",
+    "pretrained": false,
+    "num_classes": 40,
+    "best_val_acc": 0.96962890625,
+    "test_loss": 0.08914687027445325,
+    "test_acc": 0.96953125,
+    "mean_corrupt_acc": 0.2046875,
+    "corrupt_results": {
+        "screwset_multi_object": 0.24609375,
+        "screwset_occlusion_bottom_right": 0.0734375,
+        "screwset_occlusion_top_left": 0.08671875,
+        "screwset_reflection": 0.2625,
+        "screwset_scrap_paper": 0.36328125,
+        "screwset_shadow": 0.19609375
+    },
+    "model_path": "/home/hakan/ARCADE--Screwset/results/augmentation/models/resnet18_screwset_randaugment_best.pth",
+    "training_time_sec": 1254.0,
+    "normalization_mean": [
+        0.775,
+        0.7343,
+        0.6862
+    ],
+    "normalization_std": [
+        0.0802,
+        0.0838,
+        0.0871
+    ],
+    "num_epochs": 20,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "seed": 42,
+    "optimizer": "Adam"
+}

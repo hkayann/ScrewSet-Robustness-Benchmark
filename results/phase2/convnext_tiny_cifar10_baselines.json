@@ -1,0 +1,56 @@
+{
+  "model": "convnext_tiny",
+  "model_family": "ConvNeXt",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.982,
+  "test_loss": 0.09652660257816315,
+  "test_acc": 0.9803,
+  "corrupt_results": {
+    "brightness": 0.97382,
+    "contrast": 0.95034,
+    "defocus_blur": 0.93746,
+    "elastic_transform": 0.9137,
+    "fog": 0.95984,
+    "frost": 0.92304,
+    "gaussian_blur": 0.91208,
+    "gaussian_noise": 0.63964,
+    "glass_blur": 0.678,
+    "impulse_noise": 0.67424,
+    "jpeg_compression": 0.83984,
+    "motion_blur": 0.91464,
+    "pixelate": 0.85198,
+    "saturate": 0.9638,
+    "shot_noise": 0.7212,
+    "snow": 0.93444,
+    "spatter": 0.94416,
+    "speckle_noise": 0.73662,
+    "zoom_blur": 0.92608
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/convnext_tiny_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.8628905263157894
+}

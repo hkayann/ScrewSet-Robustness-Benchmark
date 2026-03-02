@@ -1,0 +1,56 @@
+{
+  "model": "mobilevit_s",
+  "model_family": "MobileViT",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.977,
+  "test_loss": 0.15175077773332596,
+  "test_acc": 0.973,
+  "corrupt_results": {
+    "brightness": 0.96318,
+    "contrast": 0.88234,
+    "defocus_blur": 0.91168,
+    "elastic_transform": 0.88224,
+    "fog": 0.92824,
+    "frost": 0.88148,
+    "gaussian_blur": 0.87986,
+    "gaussian_noise": 0.33316,
+    "glass_blur": 0.57508,
+    "impulse_noise": 0.59916,
+    "jpeg_compression": 0.78662,
+    "motion_blur": 0.87132,
+    "pixelate": 0.71458,
+    "saturate": 0.94486,
+    "shot_noise": 0.4786,
+    "snow": 0.90974,
+    "spatter": 0.92854,
+    "speckle_noise": 0.55312,
+    "zoom_blur": 0.88694
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/mobilevit_s_cifar10_best.pth",
+  "normalization_mean": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "normalization_std": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "resize": [
+    256,
+    256
+  ],
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.7847757894736842
+}

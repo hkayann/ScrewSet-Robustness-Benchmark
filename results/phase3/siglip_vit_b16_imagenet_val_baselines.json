@@ -1,0 +1,12 @@
+{
+    "model": "siglip_vit_b16",
+    "model_family": "SigLIP (Google)",
+    "backend": "open_clip",
+    "dataset": "imagenet_val",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_acc": 0.67308,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

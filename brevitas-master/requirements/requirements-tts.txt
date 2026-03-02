@@ -1,7 +1,0 @@
-librosa
-numpy
-pillow
-pyyaml
-scipy
-soundfile
-tqdm

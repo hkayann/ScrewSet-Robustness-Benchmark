@@ -1,0 +1,26 @@
+{
+    "model": "vit_tiny_patch16_224",
+    "model_family": "ViT",
+    "dataset": "imagenet_val",
+    "pretrained": true,
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_loss": 0.9424586997795105,
+    "val_acc": 0.7545,
+    "mean_per_class_acc": 0.7545,
+    "normalization_mean": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "normalization_std": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "resize": 248,
+    "crop": 224,
+    "batch_size": 256,
+    "amp": true,
+    "seed": 42
+}

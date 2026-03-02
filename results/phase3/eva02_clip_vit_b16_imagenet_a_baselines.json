@@ -1,0 +1,11 @@
+{
+    "model": "eva02_clip_vit_b16",
+    "model_family": "EVA-02-CLIP",
+    "backend": "open_clip",
+    "dataset": "imagenet_a",
+    "evaluation_mode": "zero_shot",
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.32666666666666666,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

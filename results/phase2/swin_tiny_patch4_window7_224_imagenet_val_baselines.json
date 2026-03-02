@@ -1,0 +1,26 @@
+{
+    "model": "swin_tiny_patch4_window7_224",
+    "model_family": "Swin",
+    "dataset": "imagenet_val",
+    "pretrained": true,
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_loss": 0.8271983100128174,
+    "val_acc": 0.80912,
+    "mean_per_class_acc": 0.80912,
+    "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "resize": 256,
+    "crop": 224,
+    "batch_size": 256,
+    "amp": true,
+    "seed": 42
+}

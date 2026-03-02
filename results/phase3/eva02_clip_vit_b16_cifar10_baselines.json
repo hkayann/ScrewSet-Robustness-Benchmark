@@ -1,0 +1,33 @@
+{
+    "model": "eva02_clip_vit_b16",
+    "model_family": "EVA-02-CLIP",
+    "backend": "open_clip",
+    "dataset": "cifar10",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 10,
+    "test_acc": 0.9848,
+    "corrupt_results": {
+        "brightness": 0.97836,
+        "contrast": 0.9578,
+        "defocus_blur": 0.9559,
+        "elastic_transform": 0.90202,
+        "fog": 0.9538,
+        "frost": 0.95118,
+        "gaussian_blur": 0.95048,
+        "gaussian_noise": 0.8263,
+        "glass_blur": 0.7421,
+        "impulse_noise": 0.8806,
+        "jpeg_compression": 0.86134,
+        "motion_blur": 0.9207,
+        "pixelate": 0.83792,
+        "saturate": 0.96878,
+        "shot_noise": 0.8656,
+        "snow": 0.94634,
+        "spatter": 0.96978,
+        "speckle_noise": 0.87004,
+        "zoom_blur": 0.94588
+    },
+    "mean_corrupt_acc": 0.9097326315789473,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

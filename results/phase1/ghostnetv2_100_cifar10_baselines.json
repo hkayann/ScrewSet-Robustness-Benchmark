@@ -1,0 +1,50 @@
+{
+  "model": "ghostnetv2_100",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.854,
+  "test_loss": 0.5946975919723511,
+  "test_acc": 0.8501,
+  "corrupt_results": {
+    "brightness": 0.82566,
+    "contrast": 0.617,
+    "defocus_blur": 0.75306,
+    "elastic_transform": 0.74646,
+    "fog": 0.7457,
+    "frost": 0.68456,
+    "gaussian_blur": 0.70384,
+    "gaussian_noise": 0.40078,
+    "glass_blur": 0.55752,
+    "impulse_noise": 0.50118,
+    "jpeg_compression": 0.77622,
+    "motion_blur": 0.69614,
+    "pixelate": 0.7655,
+    "saturate": 0.816,
+    "shot_noise": 0.48222,
+    "snow": 0.71872,
+    "spatter": 0.74714,
+    "speckle_noise": 0.49682,
+    "zoom_blur": 0.70588
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase1/models/ghostnetv2_100_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 20,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "seed": 42,
+  "mean_corrupt_acc": 0.6705473684210526
+}

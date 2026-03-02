@@ -1,0 +1,49 @@
+{
+    "model": "vit_tiny_patch16_224",
+    "dataset": "screwset",
+    "augmentation": "3augment",
+    "augmentation_meta": {
+        "method": "3augment",
+        "p_each": 0.1,
+        "components": "Grayscale+Solarize+GaussianBlur",
+        "year": "2022",
+        "reference": "Touvron+2022 (DeiT-III, ECCV); standard ViT recipe 2023-2025"
+    },
+    "phase": "Phase2-ViT",
+    "pretrained": true,
+    "num_classes": 40,
+    "best_val_acc": 0.997998046875,
+    "test_loss": 0.008204417175147683,
+    "test_acc": 0.997412109375,
+    "mean_corrupt_acc": 0.24635416666666665,
+    "corrupt_results": {
+        "screwset_multi_object": 0.4078125,
+        "screwset_occlusion_bottom_right": 0.0296875,
+        "screwset_occlusion_top_left": 0.0703125,
+        "screwset_reflection": 0.271875,
+        "screwset_scrap_paper": 0.55703125,
+        "screwset_shadow": 0.14140625
+    },
+    "model_path": "/home/hakan/ARCADE--Screwset/results/augmentation/models/vit_tiny_patch16_224_screwset_3augment_best.pth",
+    "training_time_sec": 899.5,
+    "normalization_mean": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "normalization_std": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "num_epochs": 30,
+    "learning_rate": 0.0005,
+    "batch_size": 256,
+    "seed": 42,
+    "optimizer": "AdamW",
+    "weight_decay": 0.05,
+    "warmup_epochs": 5,
+    "min_lr": 1e-06,
+    "scheduler": "CosineWarmup",
+    "amp": true
+}

@@ -1,0 +1,11 @@
+{
+    "model": "clip_vit_l14",
+    "model_family": "CLIP (OpenAI)",
+    "backend": "open_clip",
+    "dataset": "imagenet_a",
+    "evaluation_mode": "zero_shot",
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.44813333333333333,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}

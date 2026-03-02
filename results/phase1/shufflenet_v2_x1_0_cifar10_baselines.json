@@ -1,0 +1,50 @@
+{
+  "model": "shufflenet_v2_x1_0",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.8278,
+  "test_loss": 0.664574411392212,
+  "test_acc": 0.8201,
+  "corrupt_results": {
+    "brightness": 0.78414,
+    "contrast": 0.55178,
+    "defocus_blur": 0.756,
+    "elastic_transform": 0.74094,
+    "fog": 0.71196,
+    "frost": 0.69292,
+    "gaussian_blur": 0.724,
+    "gaussian_noise": 0.46824,
+    "glass_blur": 0.64398,
+    "impulse_noise": 0.38434,
+    "jpeg_compression": 0.76426,
+    "motion_blur": 0.6887,
+    "pixelate": 0.78568,
+    "saturate": 0.75818,
+    "shot_noise": 0.55896,
+    "snow": 0.70106,
+    "spatter": 0.7249,
+    "speckle_noise": 0.58618,
+    "zoom_blur": 0.71276
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase1/models/shufflenet_v2_x1_0_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 20,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "seed": 42,
+  "mean_corrupt_acc": 0.6704726315789473
+}

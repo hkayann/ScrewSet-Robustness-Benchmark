@@ -1,0 +1,23 @@
+{
+    "model": "mobilevit_s",
+    "model_family": "MobileViT",
+    "dataset": "imagenet_a",
+    "pretrained": true,
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.0552,
+    "normalization_mean": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "normalization_std": [
+        1.0,
+        1.0,
+        1.0
+    ],
+    "resize": 284,
+    "crop": 256,
+    "batch_size": 256,
+    "amp": true,
+    "seed": 42
+}

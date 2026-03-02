@@ -1,0 +1,56 @@
+{
+  "model": "vit_small_patch16_224",
+  "model_family": "ViT",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.9714,
+  "test_loss": 0.08723970597982407,
+  "test_acc": 0.9718,
+  "corrupt_results": {
+    "brightness": 0.9622,
+    "contrast": 0.896,
+    "defocus_blur": 0.9359,
+    "elastic_transform": 0.89872,
+    "fog": 0.913,
+    "frost": 0.90996,
+    "gaussian_blur": 0.92318,
+    "gaussian_noise": 0.77854,
+    "glass_blur": 0.69694,
+    "impulse_noise": 0.88944,
+    "jpeg_compression": 0.84754,
+    "motion_blur": 0.8846,
+    "pixelate": 0.84844,
+    "saturate": 0.94864,
+    "shot_noise": 0.82204,
+    "snow": 0.91698,
+    "spatter": 0.93388,
+    "speckle_noise": 0.82956,
+    "zoom_blur": 0.92272
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/vit_small_patch16_224_cifar10_best.pth",
+  "normalization_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "normalization_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.8820147368421052
+}

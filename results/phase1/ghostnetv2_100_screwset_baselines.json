@@ -1,0 +1,37 @@
+{
+  "model": "ghostnetv2_100",
+  "dataset": "screwset",
+  "num_classes": 40,
+  "best_val_acc": 0.9474609375,
+  "test_loss": 0.13567169216275943,
+  "test_acc": 0.950244140625,
+  "corrupt_results": {
+    "screwset_multi_object": 0.2140625,
+    "screwset_occlusion_bottom_right": 0.025,
+    "screwset_occlusion_top_left": 0.025,
+    "screwset_reflection": 0.04609375,
+    "screwset_scrap_paper": 0.3328125,
+    "screwset_shadow": 0.0546875
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase1/models/ghostnetv2_100_screwset_best.pth",
+  "normalization_mean": [
+    0.775,
+    0.7343,
+    0.6862
+  ],
+  "normalization_std": [
+    0.0802,
+    0.0838,
+    0.0871
+  ],
+  "resize": [
+    240,
+    320
+  ],
+  "num_epochs": 20,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "seed": 42,
+  "mean_corrupt_acc": 0.11627604166666666
+}

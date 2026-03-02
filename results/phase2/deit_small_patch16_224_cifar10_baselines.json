@@ -1,0 +1,56 @@
+{
+  "model": "deit_small_patch16_224",
+  "model_family": "DeiT",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.966,
+  "test_loss": 0.10928175454139709,
+  "test_acc": 0.9652,
+  "corrupt_results": {
+    "brightness": 0.95296,
+    "contrast": 0.92542,
+    "defocus_blur": 0.91396,
+    "elastic_transform": 0.8907,
+    "fog": 0.92504,
+    "frost": 0.92544,
+    "gaussian_blur": 0.89608,
+    "gaussian_noise": 0.76258,
+    "glass_blur": 0.71664,
+    "impulse_noise": 0.81764,
+    "jpeg_compression": 0.8276,
+    "motion_blur": 0.86756,
+    "pixelate": 0.83648,
+    "saturate": 0.94378,
+    "shot_noise": 0.81348,
+    "snow": 0.9249,
+    "spatter": 0.93248,
+    "speckle_noise": 0.81648,
+    "zoom_blur": 0.89564
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/deit_small_patch16_224_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.8728873684210526
+}

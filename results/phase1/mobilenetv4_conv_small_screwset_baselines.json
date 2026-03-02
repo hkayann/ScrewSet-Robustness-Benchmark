@@ -1,0 +1,37 @@
+{
+  "model": "mobilenetv4_conv_small",
+  "dataset": "screwset",
+  "num_classes": 40,
+  "best_val_acc": 0.962939453125,
+  "test_loss": 0.10749185176596257,
+  "test_acc": 0.96025390625,
+  "corrupt_results": {
+    "screwset_multi_object": 0.18359375,
+    "screwset_occlusion_bottom_right": 0.025,
+    "screwset_occlusion_top_left": 0.02734375,
+    "screwset_reflection": 0.05078125,
+    "screwset_scrap_paper": 0.0984375,
+    "screwset_shadow": 0.0828125
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase1/models/mobilenetv4_conv_small_screwset_best.pth",
+  "normalization_mean": [
+    0.775,
+    0.7343,
+    0.6862
+  ],
+  "normalization_std": [
+    0.0802,
+    0.0838,
+    0.0871
+  ],
+  "resize": [
+    240,
+    320
+  ],
+  "num_epochs": 20,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "optimizer": "Adam",
+  "seed": 42,
+  "mean_corrupt_acc": 0.07799479166666666
+}

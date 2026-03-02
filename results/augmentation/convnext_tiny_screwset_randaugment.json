@@ -1,0 +1,49 @@
+{
+    "model": "convnext_tiny",
+    "dataset": "screwset",
+    "augmentation": "randaugment",
+    "augmentation_meta": {
+        "method": "randaugment",
+        "num_ops": 2,
+        "magnitude": 9,
+        "year": "2020",
+        "reference": "Cubuk+2020 (RandAugment, NeurIPS)"
+    },
+    "phase": "Phase2-ViT",
+    "pretrained": true,
+    "num_classes": 40,
+    "best_val_acc": 1.0,
+    "test_loss": 0.00012272417661733924,
+    "test_acc": 1.0,
+    "mean_corrupt_acc": 0.7139322916666666,
+    "corrupt_results": {
+        "screwset_multi_object": 0.6328125,
+        "screwset_occlusion_bottom_right": 0.865625,
+        "screwset_occlusion_top_left": 0.8328125,
+        "screwset_reflection": 0.775,
+        "screwset_scrap_paper": 0.82265625,
+        "screwset_shadow": 0.3546875
+    },
+    "model_path": "/home/hakan/ARCADE--Screwset/results/augmentation/models/convnext_tiny_screwset_randaugment_best.pth",
+    "training_time_sec": 1297.3,
+    "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "num_epochs": 30,
+    "learning_rate": 0.0005,
+    "batch_size": 256,
+    "seed": 42,
+    "optimizer": "AdamW",
+    "weight_decay": 0.05,
+    "warmup_epochs": 5,
+    "min_lr": 1e-06,
+    "scheduler": "CosineWarmup",
+    "amp": true
+}

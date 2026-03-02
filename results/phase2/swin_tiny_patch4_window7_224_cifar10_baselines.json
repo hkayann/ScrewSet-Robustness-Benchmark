@@ -1,0 +1,56 @@
+{
+  "model": "swin_tiny_patch4_window7_224",
+  "model_family": "Swin",
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "best_val_acc": 0.965,
+  "test_loss": 0.11327815061807632,
+  "test_acc": 0.961,
+  "corrupt_results": {
+    "brightness": 0.951,
+    "contrast": 0.91102,
+    "defocus_blur": 0.90162,
+    "elastic_transform": 0.84972,
+    "fog": 0.9206,
+    "frost": 0.88868,
+    "gaussian_blur": 0.88028,
+    "gaussian_noise": 0.62716,
+    "glass_blur": 0.592,
+    "impulse_noise": 0.79468,
+    "jpeg_compression": 0.81458,
+    "motion_blur": 0.85082,
+    "pixelate": 0.76238,
+    "saturate": 0.93626,
+    "shot_noise": 0.71096,
+    "snow": 0.90286,
+    "spatter": 0.91128,
+    "speckle_noise": 0.7325,
+    "zoom_blur": 0.876
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/swin_tiny_patch4_window7_224_cifar10_best.pth",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.243,
+    0.261
+  ],
+  "resize": [
+    224,
+    224
+  ],
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.8323368421052632
+}

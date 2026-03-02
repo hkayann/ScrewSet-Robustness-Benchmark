@@ -1,0 +1,42 @@
+{
+    "model": "resnet18",
+    "dataset": "screwset",
+    "augmentation": "trivialaugment",
+    "augmentation_meta": {
+        "method": "trivialaugment",
+        "year": "2021",
+        "reference": "M\u00fcller & Hutter 2021 (TrivialAugmentWide, ICCV)"
+    },
+    "phase": "Phase1-CNN",
+    "pretrained": false,
+    "num_classes": 40,
+    "best_val_acc": 0.961279296875,
+    "test_loss": 0.10311124021500291,
+    "test_acc": 0.96494140625,
+    "mean_corrupt_acc": 0.3334635416666667,
+    "corrupt_results": {
+        "screwset_multi_object": 0.2796875,
+        "screwset_occlusion_bottom_right": 0.428125,
+        "screwset_occlusion_top_left": 0.15546875,
+        "screwset_reflection": 0.30546875,
+        "screwset_scrap_paper": 0.6484375,
+        "screwset_shadow": 0.18359375
+    },
+    "model_path": "/home/hakan/ARCADE--Screwset/results/augmentation/models/resnet18_screwset_trivialaugment_best.pth",
+    "training_time_sec": 1051.0,
+    "normalization_mean": [
+        0.775,
+        0.7343,
+        0.6862
+    ],
+    "normalization_std": [
+        0.0802,
+        0.0838,
+        0.0871
+    ],
+    "num_epochs": 20,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "seed": 42,
+    "optimizer": "Adam"
+}

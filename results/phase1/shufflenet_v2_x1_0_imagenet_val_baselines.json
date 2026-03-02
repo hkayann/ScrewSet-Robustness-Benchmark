@@ -1,0 +1,24 @@
+{
+    "model": "shufflenet_v2_x1_0",
+    "dataset": "imagenet_val",
+    "pretrained": true,
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_loss": 1.3596888473510742,
+    "val_acc": 0.69344,
+    "mean_per_class_acc": 0.6934400000000001,
+    "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "resize": 256,
+    "crop": 224,
+    "batch_size": 256,
+    "seed": 42
+}

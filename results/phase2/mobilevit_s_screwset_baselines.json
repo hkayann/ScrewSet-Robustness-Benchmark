@@ -1,0 +1,40 @@
+{
+  "model": "mobilevit_s",
+  "model_family": "MobileViT",
+  "dataset": "screwset",
+  "num_classes": 40,
+  "best_val_acc": 1.0,
+  "test_loss": 8.836127235554159e-05,
+  "test_acc": 1.0,
+  "corrupt_results": {
+    "screwset_multi_object": 0.4203125,
+    "screwset_occlusion_bottom_right": 0.06171875,
+    "screwset_occlusion_top_left": 0.0609375,
+    "screwset_reflection": 0.20234375,
+    "screwset_scrap_paper": 0.7296875,
+    "screwset_shadow": 0.21015625
+  },
+  "model_path": "/home/hakan/ARCADE--Screwset/results/phase2/models/mobilevit_s_screwset_best.pth",
+  "normalization_mean": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "normalization_std": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "resize": "Resize(284)+CenterCrop(256)",
+  "num_epochs": 30,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 5,
+  "min_lr": 1e-06,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "scheduler": "CosineWarmup",
+  "amp": true,
+  "seed": 42,
+  "mean_corrupt_acc": 0.28085937499999997
+}

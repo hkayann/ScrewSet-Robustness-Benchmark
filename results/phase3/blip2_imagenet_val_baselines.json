@@ -1,0 +1,12 @@
+{
+    "model": "blip2",
+    "model_family": "BLIP-2",
+    "backend": "blip2",
+    "dataset": "imagenet_val",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_acc": 0.53348,
+    "text_templates": "ensemble_80",
+    "seed": 42
+}
