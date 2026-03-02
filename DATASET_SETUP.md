@@ -1,7 +1,7 @@
 # Dataset Setup Guide for ARCADE--Screwset
 
 > **Give this file to your AI assistant on the target machine.**
-> All datasets go under `<repo_root>/data/`. Total disk needed: ~300 GB.
+> All datasets go under `<repo_root>/data/`. Budget **at least 200 GB** free disk (117 GB final + 62 GB temp tarballs).
 
 ---
 
@@ -424,15 +424,23 @@ pip install git+https://github.com/Xilinx/brevitas.git
 
 ## Disk space summary
 
-| Dataset | Directory | Size |
-|---------|-----------|------|
-| CIFAR-10 | `data/cifar10/` | 341 MB |
-| CIFAR-10-C | `data/cifar10_c/` | 5.5 GB |
-| ScrewSet (clean) | `data/screwset_split/` | 19 GB |
-| ScrewSet-C | `data/screwset_c/` | 4 GB |
-| ImageNet-A | `data/imagenet-a/` | 666 MB |
-| ImageNet val | `data/imagenet-val/` | 6.4 GB |
-| ImageNet-C | `data/imagenet-c/` | 72 GB (+ tarballs) |
-| ImageNet-ES (LENS) | `data/lens/` | 8.8 GB |
-| LENS split (symlinks) | `data/lens_split/` | 38 MB |
-| **Total** | | **~117 GB** |
+| Dataset | Directory | Extracted size | Download size |
+|---------|-----------|---------------|---------------|
+| CIFAR-10 | `data/cifar10/` | 341 MB | 170 MB |
+| CIFAR-10-C | `data/cifar10_c/` | 5.5 GB | 2.7 GB |
+| ScrewSet (clean) | `data/screwset_split/` | 19 GB | ~10 GB |
+| ScrewSet-C | `data/screwset_c/` | 4 GB | ~2 GB |
+| ImageNet-A | `data/imagenet-a/` | 666 MB | 650 MB |
+| ImageNet val | `data/imagenet-val/` | 6.4 GB | 6.4 GB |
+| ImageNet-C | `data/imagenet-c/` | 72 GB | 62 GB (5 tars) |
+| ImageNet-ES (LENS) | `data/lens/` | 8.8 GB | ~5 GB |
+| LENS split (symlinks) | `data/lens_split/` | 38 MB | — (generated) |
+| **Total extracted** | | **~117 GB** | |
+| **Peak during download** | | **~179 GB** | *(before deleting tarballs)* |
+
+> **Important:** ImageNet-C alone needs ~134 GB during extraction (62 GB tarballs + 72 GB extracted).
+> Delete the `.tar` files after extraction to reclaim 62 GB:
+> ```bash
+> rm data/imagenet-c/*.tar
+> ```
+> Budget **at least 200 GB free** before starting all downloads.
