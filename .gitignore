@@ -44,6 +44,10 @@ brevitas-master/
 *.swp
 .idea/
 
+# Markdown files (only README.md is tracked)
+*.md
+!README.md
+
 # Stale / superseded results
 results/phase*/_stale/
 
