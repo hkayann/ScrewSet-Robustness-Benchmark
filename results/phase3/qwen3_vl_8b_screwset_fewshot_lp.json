@@ -1,0 +1,14 @@
+{
+    "model": "qwen3_vl_8b",
+    "dataset": "screwset",
+    "n_classes": 40,
+    "smoke_test": false,
+    "seed": 42,
+    "zero_shot_acc": 0.200048828125,
+    "few_shot_accs": {
+        "1_shot": 0.1955078125,
+        "2_shot": 0.19931640625,
+        "4_shot": 0.16064453125
+    },
+    "linear_probe_acc": 0.4581054747104645
+}

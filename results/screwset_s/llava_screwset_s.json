@@ -1,0 +1,11 @@
+{
+    "model": "llava",
+    "phase": 3,
+    "model_family": "LLaVA-1.5",
+    "dataset": "screwset_s",
+    "evaluation_mode": "zero_shot_generative",
+    "note": "Skipped \u2014 generative VLMs too slow for corruption eval (19\u00d75\u00d720480 images)",
+    "screwset_s_results": null,
+    "screwset_s_overall_mean": null,
+    "seed": 42
+}

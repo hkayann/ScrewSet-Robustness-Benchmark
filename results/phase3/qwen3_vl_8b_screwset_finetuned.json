@@ -1,0 +1,237 @@
+{
+  "model": "qwen3_vl_8b",
+  "model_family": "Qwen3-VL",
+  "evaluation_mode": "finetuned_lora",
+  "dataset": "screwset",
+  "num_classes": 40,
+  "lora_config": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "training_config": {
+    "epochs": 1,
+    "batch_size": 4,
+    "grad_accum_steps": 4,
+    "effective_batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "seed": 42
+  },
+  "best_val_acc": 0.434423828125,
+  "best_epoch": 1,
+  "test_acc": 0.42734375,
+  "per_class_accuracy": {
+    "10#_19_4.6": {
+      "correct": 507,
+      "total": 512,
+      "acc": 0.990234375
+    },
+    "10#_38_4.6": {
+      "correct": 512,
+      "total": 512,
+      "acc": 1.0
+    },
+    "7#_16_Yellow": {
+      "correct": 453,
+      "total": 512,
+      "acc": 0.884765625
+    },
+    "7#_25_Black": {
+      "correct": 508,
+      "total": 512,
+      "acc": 0.9921875
+    },
+    "7#_25_Yellow": {
+      "correct": 502,
+      "total": 512,
+      "acc": 0.98046875
+    },
+    "7#_40_Black": {
+      "correct": 483,
+      "total": 512,
+      "acc": 0.943359375
+    },
+    "7#_40_Yellow": {
+      "correct": 494,
+      "total": 512,
+      "acc": 0.96484375
+    },
+    "8#_16_Round": {
+      "correct": 133,
+      "total": 512,
+      "acc": 0.259765625
+    },
+    "M3_10_Flat": {
+      "correct": 272,
+      "total": 512,
+      "acc": 0.53125
+    },
+    "M3_10_Round": {
+      "correct": 261,
+      "total": 512,
+      "acc": 0.509765625
+    },
+    "M3_14_Flat": {
+      "correct": 245,
+      "total": 512,
+      "acc": 0.478515625
+    },
+    "M3_14_Round": {
+      "correct": 203,
+      "total": 512,
+      "acc": 0.396484375
+    },
+    "M3_18_Flat": {
+      "correct": 142,
+      "total": 512,
+      "acc": 0.27734375
+    },
+    "M3_18_Round": {
+      "correct": 84,
+      "total": 512,
+      "acc": 0.1640625
+    },
+    "M3_6_Flat": {
+      "correct": 270,
+      "total": 512,
+      "acc": 0.52734375
+    },
+    "M3_6_Round": {
+      "correct": 281,
+      "total": 512,
+      "acc": 0.548828125
+    },
+    "M4.2_20_Flat": {
+      "correct": 144,
+      "total": 512,
+      "acc": 0.28125
+    },
+    "M4.2_20_Round": {
+      "correct": 69,
+      "total": 512,
+      "acc": 0.134765625
+    },
+    "M4.2_25_Flat": {
+      "correct": 271,
+      "total": 512,
+      "acc": 0.529296875
+    },
+    "M4.2_25_Round": {
+      "correct": 228,
+      "total": 512,
+      "acc": 0.4453125
+    },
+    "M4_12_Flat": {
+      "correct": 68,
+      "total": 512,
+      "acc": 0.1328125
+    },
+    "M4_12_Round": {
+      "correct": 85,
+      "total": 512,
+      "acc": 0.166015625
+    },
+    "M4_16_Flat": {
+      "correct": 126,
+      "total": 512,
+      "acc": 0.24609375
+    },
+    "M4_16_Round": {
+      "correct": 85,
+      "total": 512,
+      "acc": 0.166015625
+    },
+    "M4_18_Flat": {
+      "correct": 190,
+      "total": 512,
+      "acc": 0.37109375
+    },
+    "M4_18_Round": {
+      "correct": 188,
+      "total": 512,
+      "acc": 0.3671875
+    },
+    "M4_25_Flat": {
+      "correct": 261,
+      "total": 512,
+      "acc": 0.509765625
+    },
+    "M4_25_Round": {
+      "correct": 315,
+      "total": 512,
+      "acc": 0.615234375
+    },
+    "M4_30_Flat": {
+      "correct": 83,
+      "total": 512,
+      "acc": 0.162109375
+    },
+    "M4_30_Round": {
+      "correct": 327,
+      "total": 512,
+      "acc": 0.638671875
+    },
+    "M4_8_Flat": {
+      "correct": 31,
+      "total": 512,
+      "acc": 0.060546875
+    },
+    "M4_8_Round": {
+      "correct": 29,
+      "total": 512,
+      "acc": 0.056640625
+    },
+    "M5_10_Flat": {
+      "correct": 167,
+      "total": 512,
+      "acc": 0.326171875
+    },
+    "M5_10_Round": {
+      "correct": 210,
+      "total": 512,
+      "acc": 0.41015625
+    },
+    "M5_16_Flat": {
+      "correct": 100,
+      "total": 512,
+      "acc": 0.1953125
+    },
+    "M5_16_Round": {
+      "correct": 204,
+      "total": 512,
+      "acc": 0.3984375
+    },
+    "M5_18_Flat": {
+      "correct": 60,
+      "total": 512,
+      "acc": 0.1171875
+    },
+    "M5_18_Round": {
+      "correct": 87,
+      "total": 512,
+      "acc": 0.169921875
+    },
+    "M5_20_Flat": {
+      "correct": 1,
+      "total": 512,
+      "acc": 0.001953125
+    },
+    "M6_20_Round": {
+      "correct": 73,
+      "total": 512,
+      "acc": 0.142578125
+    }
+  },
+  "smoke_test": false
+}

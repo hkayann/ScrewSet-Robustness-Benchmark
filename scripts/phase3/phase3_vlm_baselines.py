@@ -133,6 +133,14 @@ ALL_MODELS = {
         # NOTE: LLaVA is generative — evaluated only on clean test sets,
         # corruption evaluation is skipped (too slow for millions of images).
     },
+    "qwen2_5_vl": {
+        "backend": "qwen2_5_vl",
+        "model_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+        "family": "Qwen2.5-VL",
+        "params": "7B",
+        "expected_imagenet_zs": None,  # generative, not directly comparable
+        # NOTE: Evaluated via dedicated scripts/phase3/eval_qwen_vl.py
+    },
 }
 
 # Eval batch sizes (no gradients → can use large batches)
@@ -145,6 +153,7 @@ EVAL_BATCH_SIZES = {
     "eva02_clip_vit_b16": 512,
     "blip2": 64,
     "llava": 4,
+    "qwen2_5_vl": 16,
 }
 
 NUM_WORKERS = 12
@@ -531,16 +540,26 @@ def _match_response_to_class(response, target_name, class_names_lower, target_id
     """
     from difflib import SequenceMatcher
 
+    if not response:
+        return False
     # 1. Exact match
     if response == target_name:
         return True
     # 2. Target contained in response or vice versa
-    if target_name in response or response in target_name:
+    if target_name in response:
         return True
     # 3. Word overlap (meaningful words > 3 chars)
     response_words = set(response.split())
     target_words = set(target_name.split())
-    if any(w in response_words for w in target_words if len(w) > 3):
+    generic_tokens = {
+        "screw", "screws", "head", "number", "grade", "mm",
+        "flat", "round",
+    }
+    meaningful_target_words = [
+        w for w in target_words
+        if len(w) > 3 and w not in generic_tokens
+    ]
+    if meaningful_target_words and any(w in response_words for w in meaningful_target_words):
         return True
     # 4. Best fuzzy match among ALL class names (no cutoff)
     best_ratio = 0.0

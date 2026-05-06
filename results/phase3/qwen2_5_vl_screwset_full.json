@@ -1,0 +1,253 @@
+{
+    "model": "qwen2_5_vl",
+    "model_family": "Qwen2.5-VL",
+    "dataset": "screwset",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 40,
+    "test_acc": 0.12197265625,
+    "per_class_accuracy": {
+        "number 10 19mm grade 4.6 screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "number 10 38mm grade 4.6 screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "number 7 16mm yellow screw": {
+            "correct": 37,
+            "total": 512,
+            "acc": 0.072265625
+        },
+        "number 7 25mm black screw": {
+            "correct": 13,
+            "total": 512,
+            "acc": 0.025390625
+        },
+        "number 7 25mm yellow screw": {
+            "correct": 31,
+            "total": 512,
+            "acc": 0.060546875
+        },
+        "number 7 40mm black screw": {
+            "correct": 184,
+            "total": 512,
+            "acc": 0.359375
+        },
+        "number 7 40mm yellow screw": {
+            "correct": 149,
+            "total": 512,
+            "acc": 0.291015625
+        },
+        "number 8 16mm round head screw": {
+            "correct": 11,
+            "total": 512,
+            "acc": 0.021484375
+        },
+        "M3 10mm flat head screw": {
+            "correct": 504,
+            "total": 512,
+            "acc": 0.984375
+        },
+        "M3 10mm round head screw": {
+            "correct": 508,
+            "total": 512,
+            "acc": 0.9921875
+        },
+        "M3 14mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M3 14mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M3 18mm flat head screw": {
+            "correct": 3,
+            "total": 512,
+            "acc": 0.005859375
+        },
+        "M3 18mm round head screw": {
+            "correct": 6,
+            "total": 512,
+            "acc": 0.01171875
+        },
+        "M3 6mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M3 6mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4.2 20mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4.2 20mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4.2 25mm flat head screw": {
+            "correct": 1,
+            "total": 512,
+            "acc": 0.001953125
+        },
+        "M4.2 25mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 12mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 12mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 16mm flat head screw": {
+            "correct": 8,
+            "total": 512,
+            "acc": 0.015625
+        },
+        "M4 16mm round head screw": {
+            "correct": 7,
+            "total": 512,
+            "acc": 0.013671875
+        },
+        "M4 18mm flat head screw": {
+            "correct": 4,
+            "total": 512,
+            "acc": 0.0078125
+        },
+        "M4 18mm round head screw": {
+            "correct": 4,
+            "total": 512,
+            "acc": 0.0078125
+        },
+        "M4 25mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 25mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 30mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 30mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 8mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M4 8mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M5 10mm flat head screw": {
+            "correct": 500,
+            "total": 512,
+            "acc": 0.9765625
+        },
+        "M5 10mm round head screw": {
+            "correct": 512,
+            "total": 512,
+            "acc": 1.0
+        },
+        "M5 16mm flat head screw": {
+            "correct": 6,
+            "total": 512,
+            "acc": 0.01171875
+        },
+        "M5 16mm round head screw": {
+            "correct": 7,
+            "total": 512,
+            "acc": 0.013671875
+        },
+        "M5 18mm flat head screw": {
+            "correct": 3,
+            "total": 512,
+            "acc": 0.005859375
+        },
+        "M5 18mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M5 20mm flat head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        },
+        "M6 20mm round head screw": {
+            "correct": 0,
+            "total": 512,
+            "acc": 0.0
+        }
+    },
+    "class_name_mapping": {
+        "10#_19_4.6": "number 10 19mm grade 4.6 screw",
+        "10#_38_4.6": "number 10 38mm grade 4.6 screw",
+        "7#_16_Yellow": "number 7 16mm yellow screw",
+        "7#_25_Black": "number 7 25mm black screw",
+        "7#_25_Yellow": "number 7 25mm yellow screw",
+        "7#_40_Black": "number 7 40mm black screw",
+        "7#_40_Yellow": "number 7 40mm yellow screw",
+        "8#_16_Round": "number 8 16mm round head screw",
+        "M3_10_Flat": "M3 10mm flat head screw",
+        "M3_10_Round": "M3 10mm round head screw",
+        "M3_14_Flat": "M3 14mm flat head screw",
+        "M3_14_Round": "M3 14mm round head screw",
+        "M3_18_Flat": "M3 18mm flat head screw",
+        "M3_18_Round": "M3 18mm round head screw",
+        "M3_6_Flat": "M3 6mm flat head screw",
+        "M3_6_Round": "M3 6mm round head screw",
+        "M4.2_20_Flat": "M4.2 20mm flat head screw",
+        "M4.2_20_Round": "M4.2 20mm round head screw",
+        "M4.2_25_Flat": "M4.2 25mm flat head screw",
+        "M4.2_25_Round": "M4.2 25mm round head screw",
+        "M4_12_Flat": "M4 12mm flat head screw",
+        "M4_12_Round": "M4 12mm round head screw",
+        "M4_16_Flat": "M4 16mm flat head screw",
+        "M4_16_Round": "M4 16mm round head screw",
+        "M4_18_Flat": "M4 18mm flat head screw",
+        "M4_18_Round": "M4 18mm round head screw",
+        "M4_25_Flat": "M4 25mm flat head screw",
+        "M4_25_Round": "M4 25mm round head screw",
+        "M4_30_Flat": "M4 30mm flat head screw",
+        "M4_30_Round": "M4 30mm round head screw",
+        "M4_8_Flat": "M4 8mm flat head screw",
+        "M4_8_Round": "M4 8mm round head screw",
+        "M5_10_Flat": "M5 10mm flat head screw",
+        "M5_10_Round": "M5 10mm round head screw",
+        "M5_16_Flat": "M5 16mm flat head screw",
+        "M5_16_Round": "M5 16mm round head screw",
+        "M5_18_Flat": "M5 18mm flat head screw",
+        "M5_18_Round": "M5 18mm round head screw",
+        "M5_20_Flat": "M5 20mm flat head screw",
+        "M6_20_Round": "M6 20mm round head screw"
+    },
+    "seed": 42
+}

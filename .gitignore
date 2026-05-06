@@ -2,8 +2,18 @@
 .DS_Store
 Thumbs.db
 
+# Editor / AI assistants
+.claude/
+.cursor/
+.vscode/
+.idea/
+
+# env
+.venv/
+
 # Data (too large for git — download separately)
 data/
+papers/
 
 # Papers (reference PDFs, not tracked)
 paper/
@@ -14,8 +24,10 @@ __pycache__/
 *.pyo
 *.egg-info/
 
-# Logs
+# Logs and PIDs
+logs/
 *.log
+*.pid
 nohup.out
 
 # Model checkpoints (.pth) — retrain on target machine
@@ -29,8 +41,6 @@ brevitas-master/
 *.mp4
 *.png
 
-# Editor / IDE
-.vscode/
 *.swp
 .idea/
 

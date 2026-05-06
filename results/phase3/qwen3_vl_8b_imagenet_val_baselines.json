@@ -1,0 +1,12 @@
+{
+    "model": "qwen3_vl_8b",
+    "model_family": "Qwen3-VL",
+    "backend": "qwen3_vl",
+    "dataset": "imagenet_val",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_acc": 0.39484,
+    "text_templates": "generative_prompt",
+    "seed": 42
+}

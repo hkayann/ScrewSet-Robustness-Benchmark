@@ -1,0 +1,180 @@
+{
+    "model": "mobilenet_v3_large",
+    "phase": 1,
+    "dataset": "screwset_s",
+    "num_classes": 40,
+    "best_val_acc": 0.963037109375,
+    "model_path": "/home/c1857243/workspace/ARCADE--Screwset/results/screwset_s/models/mobilenet_v3_large_screwset_best.pth",
+    "normalization_mean": [
+        0.775,
+        0.7343,
+        0.6862
+    ],
+    "normalization_std": [
+        0.0802,
+        0.0838,
+        0.0871
+    ],
+    "resize": [
+        240,
+        320
+    ],
+    "screwset_s_results": {
+        "gaussian_noise": {
+            "severity_1": 0.916211,
+            "severity_2": 0.846436,
+            "severity_3": 0.721191,
+            "severity_4": 0.343408,
+            "severity_5": 0.150879,
+            "mean": 0.595625
+        },
+        "shot_noise": {
+            "severity_1": 0.866699,
+            "severity_2": 0.740479,
+            "severity_3": 0.392383,
+            "severity_4": 0.169141,
+            "severity_5": 0.133789,
+            "mean": 0.460498
+        },
+        "impulse_noise": {
+            "severity_1": 0.904883,
+            "severity_2": 0.825342,
+            "severity_3": 0.687598,
+            "severity_4": 0.307812,
+            "severity_5": 0.161426,
+            "mean": 0.577412
+        },
+        "defocus_blur": {
+            "severity_1": 0.632373,
+            "severity_2": 0.426709,
+            "severity_3": 0.237305,
+            "severity_4": 0.158057,
+            "severity_5": 0.123877,
+            "mean": 0.315664
+        },
+        "glass_blur": {
+            "severity_1": 0.440723,
+            "severity_2": 0.376758,
+            "severity_3": 0.211133,
+            "severity_4": 0.189062,
+            "severity_5": 0.139111,
+            "mean": 0.271357
+        },
+        "motion_blur": {
+            "severity_1": 0.361572,
+            "severity_2": 0.233154,
+            "severity_3": 0.231494,
+            "severity_4": 0.234082,
+            "severity_5": 0.174365,
+            "mean": 0.246933
+        },
+        "zoom_blur": {
+            "severity_1": 0.699854,
+            "severity_2": 0.610547,
+            "severity_3": 0.509766,
+            "severity_4": 0.463623,
+            "severity_5": 0.406396,
+            "mean": 0.538037
+        },
+        "snow": {
+            "severity_1": 0.038086,
+            "severity_2": 0.024902,
+            "severity_3": 0.025,
+            "severity_4": 0.025,
+            "severity_5": 0.025,
+            "mean": 0.027598
+        },
+        "frost": {
+            "severity_1": 0.037305,
+            "severity_2": 0.044287,
+            "severity_3": 0.041992,
+            "severity_4": 0.045508,
+            "severity_5": 0.026318,
+            "mean": 0.039082
+        },
+        "fog": {
+            "severity_1": 0.030273,
+            "severity_2": 0.024414,
+            "severity_3": 0.024268,
+            "severity_4": 0.024756,
+            "severity_5": 0.025977,
+            "mean": 0.025938
+        },
+        "brightness": {
+            "severity_1": 0.5271,
+            "severity_2": 0.08877,
+            "severity_3": 0.045312,
+            "severity_4": 0.042969,
+            "severity_5": 0.045361,
+            "mean": 0.149902
+        },
+        "contrast": {
+            "severity_1": 0.024902,
+            "severity_2": 0.024902,
+            "severity_3": 0.024902,
+            "severity_4": 0.024902,
+            "severity_5": 0.024854,
+            "mean": 0.024892
+        },
+        "elastic_transform": {
+            "severity_1": 0.573828,
+            "severity_2": 0.235596,
+            "severity_3": 0.794141,
+            "severity_4": 0.698145,
+            "severity_5": 0.461377,
+            "mean": 0.552617
+        },
+        "pixelate": {
+            "severity_1": 0.970068,
+            "severity_2": 0.970605,
+            "severity_3": 0.929932,
+            "severity_4": 0.807813,
+            "severity_5": 0.728955,
+            "mean": 0.881475
+        },
+        "jpeg_compression": {
+            "severity_1": 0.960205,
+            "severity_2": 0.954053,
+            "severity_3": 0.952979,
+            "severity_4": 0.935156,
+            "severity_5": 0.887891,
+            "mean": 0.938057
+        },
+        "speckle_noise": {
+            "severity_1": 0.862354,
+            "severity_2": 0.787793,
+            "severity_3": 0.286963,
+            "severity_4": 0.173828,
+            "severity_5": 0.13877,
+            "mean": 0.449942
+        },
+        "gaussian_blur": {
+            "severity_1": 0.903809,
+            "severity_2": 0.465332,
+            "severity_3": 0.258496,
+            "severity_4": 0.17251,
+            "severity_5": 0.11123,
+            "mean": 0.382275
+        },
+        "spatter": {
+            "severity_1": 0.959766,
+            "severity_2": 0.844482,
+            "severity_3": 0.738086,
+            "severity_4": 0.139746,
+            "severity_5": 0.085889,
+            "mean": 0.553594
+        },
+        "saturate": {
+            "severity_1": 0.642188,
+            "severity_2": 0.500635,
+            "severity_3": 0.567139,
+            "severity_4": 0.061572,
+            "severity_5": 0.029443,
+            "mean": 0.360195
+        }
+    },
+    "screwset_s_overall_mean": 0.389005,
+    "num_corruptions": 19,
+    "num_severities": 5,
+    "seed": 42
+}

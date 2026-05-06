@@ -28,8 +28,6 @@ from scipy.ndimage import zoom as scizoom
 from scipy.ndimage import map_coordinates
 from skimage.filters import gaussian
 import skimage as sk
-from wand.image import Image as WandImage
-from wand.api import library as wandlibrary
 import ctypes
 import warnings
 import argparse
@@ -39,6 +37,13 @@ import multiprocessing
 from numba import jit, prange
 
 warnings.simplefilter("ignore", UserWarning)
+
+try:
+    from wand.image import Image as WandImage
+    from wand.api import library as wandlibrary
+    HAVE_WAND = True
+except Exception:
+    HAVE_WAND = False
 
 # ============================================================================
 # Configuration
@@ -99,17 +104,19 @@ def disk(radius, alias_blur=0.1, dtype=np.float32):
 
 
 # Setup wand motion blur
-wandlibrary.MagickMotionBlurImage.argtypes = (
-    ctypes.c_void_p,  # wand
-    ctypes.c_double,  # radius
-    ctypes.c_double,  # sigma
-    ctypes.c_double,  # angle
-)
+if HAVE_WAND:
+    wandlibrary.MagickMotionBlurImage.argtypes = (
+        ctypes.c_void_p,  # wand
+        ctypes.c_double,  # radius
+        ctypes.c_double,  # sigma
+        ctypes.c_double,  # angle
+    )
 
 
-class MotionImage(WandImage):
+class MotionImage(WandImage if HAVE_WAND else object):
     def motion_blur(self, radius=0.0, sigma=0.0, angle=0.0):
-        wandlibrary.MagickMotionBlurImage(self.wand, radius, sigma, angle)
+        if HAVE_WAND:
+            wandlibrary.MagickMotionBlurImage(self.wand, radius, sigma, angle)
 
 
 def plasma_fractal(mapsize=512, wibbledecay=3):
@@ -273,6 +280,21 @@ def motion_blur(x, severity=1):
     """Apply motion blur using ImageMagick."""
     # Scaled for larger images
     c = [(12, 4), (18, 6), (18, 10), (18, 14), (24, 18)][severity - 1]
+
+    if not HAVE_WAND:
+        ksize = max(3, int(c[0]))
+        if ksize % 2 == 0:
+            ksize += 1
+        kernel = np.zeros((ksize, ksize), dtype=np.float32)
+        kernel[ksize // 2, :] = 1.0
+        angle = np.random.uniform(-45, 45)
+        rot = cv2.getRotationMatrix2D((ksize // 2, ksize // 2), angle, 1.0)
+        kernel = cv2.warpAffine(kernel, rot, (ksize, ksize))
+        kernel_sum = np.sum(kernel)
+        if kernel_sum > 0:
+            kernel /= kernel_sum
+        result = cv2.filter2D(np.uint8(x), -1, kernel)
+        return np.clip(result, 0, 255)
     
     output = BytesIO()
     PILImage.fromarray(np.uint8(x)).save(output, format='PNG')
@@ -366,13 +388,29 @@ def snow(x, severity=1):
     snow_layer[snow_layer < c[3]] = 0
     
     # Motion blur the snow
-    snow_pil = PILImage.fromarray((np.clip(snow_layer, 0, 1) * 255).astype(np.uint8), mode='L')
-    output = BytesIO()
-    snow_pil.save(output, format='PNG')
-    snow_img = MotionImage(blob=output.getvalue())
-    snow_img.motion_blur(radius=c[4], sigma=c[5], angle=np.random.uniform(-135, -45))
-    
-    snow_layer = cv2.imdecode(np.frombuffer(snow_img.make_blob(), np.uint8), cv2.IMREAD_UNCHANGED) / 255.0
+    snow_uint8 = (np.clip(snow_layer, 0, 1) * 255).astype(np.uint8)
+    if HAVE_WAND:
+        snow_pil = PILImage.fromarray(snow_uint8, mode='L')
+        output = BytesIO()
+        snow_pil.save(output, format='PNG')
+        snow_img = MotionImage(blob=output.getvalue())
+        snow_img.motion_blur(radius=c[4], sigma=c[5], angle=np.random.uniform(-135, -45))
+        snow_layer = cv2.imdecode(np.frombuffer(snow_img.make_blob(), np.uint8), cv2.IMREAD_UNCHANGED) / 255.0
+    else:
+        # OpenCV fallback for motion blur on snow layer
+        ksize = max(3, int(c[4]))
+        if ksize % 2 == 0:
+            ksize += 1
+        kernel = np.zeros((ksize, ksize), dtype=np.float32)
+        kernel[ksize // 2, :] = 1.0
+        angle = np.random.uniform(-135, -45)
+        rot = cv2.getRotationMatrix2D((ksize // 2, ksize // 2), angle, 1.0)
+        kernel = cv2.warpAffine(kernel, rot, (ksize, ksize))
+        kernel_sum = np.sum(kernel)
+        if kernel_sum > 0:
+            kernel /= kernel_sum
+        snow_uint8 = cv2.filter2D(snow_uint8, -1, kernel)
+        snow_layer = snow_uint8.astype(np.float64) / 255.0
     
     # Ensure correct shape
     if snow_layer.shape[:2] != (h, w):
@@ -630,35 +668,41 @@ def generate_corruption(images, labels, corruption_name, output_dir, num_workers
     # Skip if already exists
     if output_path.exists():
         print(f"\nSkipping {corruption_name} (already exists at {output_path})")
-        existing = np.load(output_path)
+        existing = np.load(output_path, mmap_mode='r')
         return existing.shape
     
     n_images = len(images)
     h, w = images[0].shape[:2]
     
-    # Output shape: (N, H, W, 3) for severity 3 only
-    corrupted_all = np.zeros((n_images, h, w, 3), dtype=np.uint8)
-    
-    print(f"\nGenerating {corruption_name} (severity 3 only)...")
-    
-    severity = 3  # Only middle severity
-    # Prepare arguments for parallel processing
-    args_list = [
-        (images[i], corruption_name, severity, np.random.randint(0, 2**31))
-        for i in range(n_images)
-    ]
-    
-    # Process with progress bar
-    for i, args in enumerate(tqdm(args_list, desc=f"  Processing", leave=False)):
-        corrupted_all[i] = apply_corruption_to_image(args)
-    
-    # Save
+    # CIFAR-10-C layout: concatenate severity 1..5, each containing N images
     output_path = output_dir / f"{corruption_name}.npy"
-    np.save(output_path, corrupted_all)
-    print(f"  Saved to {output_path}")
-    print(f"  Shape: {corrupted_all.shape}, dtype: {corrupted_all.dtype}")
+    corrupted_all = np.lib.format.open_memmap(
+        output_path,
+        mode="w+",
+        dtype=np.uint8,
+        shape=(n_images * 5, h, w, 3),
+    )
+
+    print(f"\nGenerating {corruption_name} (severities 1..5)...")
+
+    for severity in range(1, 6):
+        start = (severity - 1) * n_images
+        end = severity * n_images
+        args_list = [
+            (images[i], corruption_name, severity, np.random.randint(0, 2**31))
+            for i in range(n_images)
+        ]
+
+        for i, args in enumerate(tqdm(args_list, desc=f"  Severity {severity}", leave=False)):
+            corrupted_all[start + i] = apply_corruption_to_image(args)
     
-    return corrupted_all.shape
+    # Flush memmap to disk
+    corrupted_all.flush()
+    del corrupted_all
+    print(f"  Saved to {output_path}")
+    print(f"  Shape: {(n_images * 5, h, w, 3)}, dtype: uint8")
+
+    return (n_images * 5, h, w, 3)
 
 
 def main():
@@ -688,8 +732,8 @@ def main():
     # Load dataset
     images, labels, class_names = load_screwset_test()
     
-    # Save labels (severity 3 only, no repetition)
-    labels_array = np.array(labels, dtype=np.uint8)
+    # Save labels in CIFAR-10-C layout (repeat labels for severity 1..5)
+    labels_array = np.tile(np.array(labels, dtype=np.uint8), 5)
     labels_path = output_dir / "labels.npy"
     np.save(labels_path, labels_array)
     print(f"Saved labels to {labels_path}, shape: {labels_array.shape}")
@@ -709,11 +753,11 @@ def main():
     # Save summary
     summary = {
         "dataset": "ScrewSet-S",
-        "description": "Simulated corruptions applied to ScrewSet test set (same as CIFAR-10-C / ImageNet-C), severity 3 only",
+        "description": "Simulated corruptions applied to ScrewSet test set (same format as CIFAR-10-C / ImageNet-C), severities 1-5",
         "num_images": len(images),
         "num_classes": len(class_names),
         "image_shape": [IMG_HEIGHT, IMG_WIDTH, 3],
-        "severity_level": 3,
+        "severity_levels": [1, 2, 3, 4, 5],
         "corruptions": results,
     }
     with open(output_dir / "summary.json", "w") as f:

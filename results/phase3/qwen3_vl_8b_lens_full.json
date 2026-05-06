@@ -1,0 +1,1011 @@
+{
+    "model": "qwen3_vl_8b",
+    "model_family": "Qwen3-VL",
+    "dataset": "lens",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 200,
+    "test_acc": 0.497,
+    "per_class_accuracy": {
+        "goldfish": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "European fire salamander": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "bullfrog": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "tailed frog": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "American alligator": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "boa constrictor": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "trilobite": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "scorpion": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "black widow": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "tarantula": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "centipede": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "goose": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "koala": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "jellyfish": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "brain coral": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "snail": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "slug": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "sea slug": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "American lobster": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "spiny lobster": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "black stork": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "king penguin": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "albatross": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "dugong": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "Chihuahua": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "Yorkshire terrier": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "golden retriever": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "Labrador retriever": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "German shepherd": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "standard poodle": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "tabby": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "Persian cat": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "Egyptian cat": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "cougar": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "lion": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "brown bear": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "ladybug": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "fly": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "bee": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "grasshopper": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "walking stick": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "cockroach": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "mantis": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "dragonfly": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "monarch": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "sulphur butterfly": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "sea cucumber": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "guinea pig": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "hog": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "ox": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "bison": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "bighorn": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "gazelle": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "Arabian camel": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "orangutan": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "chimpanzee": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "baboon": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "African elephant": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "lesser panda": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "abacus": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "academic gown": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "altar": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "apron": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "backpack": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "bannister": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "barbershop": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "barn": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "barrel": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "basketball": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "bathtub": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "beach wagon": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "beacon": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "beaker": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "beer bottle": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "bikini": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "binoculars": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "birdhouse": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "bow tie": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "brass": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "broom": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "bucket": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "bullet train": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "butcher shop": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "candle": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "cannon": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "cardigan": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "cash machine": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "CD player": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "chain": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "chest": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "Christmas stocking": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "cliff dwelling": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "computer keyboard": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "confectionery": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "convertible": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "crane": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "dam": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "desk": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "dining table": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "drumstick": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "dumbbell": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "flagpole": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "fountain": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "freight car": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "frying pan": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "fur coat": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "gasmask": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "go-kart": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "gondola": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "hourglass": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "iPod": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "jinrikisha": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "kimono": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "lampshade": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "lawn mower": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "lifeboat": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "limousine": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "magnetic compass": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "maypole": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "military uniform": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "miniskirt": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "moving van": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "nail": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "neck brace": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "obelisk": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "oboe": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "organ": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "parking meter": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "pay-phone": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "picket fence": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "pill bottle": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "plunger": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "pole": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "police van": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "poncho": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "pop bottle": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "potter's wheel": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "projectile": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "punching bag": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "reel": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "refrigerator": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "remote control": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "rocking chair": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "rugby ball": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "sandal": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "school bus": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "scoreboard": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "sewing machine": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "snorkel": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "sock": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "sombrero": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "space heater": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "spider web": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "sports car": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "steel arch bridge": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "stopwatch": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "sunglasses": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "suspension bridge": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "swimming trunks": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "syringe": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "teapot": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "teddy": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "thatch": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "torch": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "tractor": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "triumphal arch": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "trolleybus": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "turnstile": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "umbrella": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "vestment": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "viaduct": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "volleyball": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "water jug": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "water tower": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "wok": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "wooden spoon": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "comic book": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "plate": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "guacamole": {
+            "correct": 2,
+            "total": 5,
+            "acc": 0.4
+        },
+        "ice cream": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "ice lolly": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "pretzel": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "mashed potato": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "cauliflower": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "bell pepper": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "mushroom": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "orange": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "lemon": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "banana": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "pomegranate": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "meat loaf": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "pizza": {
+            "correct": 4,
+            "total": 5,
+            "acc": 0.8
+        },
+        "potpie": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        },
+        "espresso": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "alp": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "cliff": {
+            "correct": 1,
+            "total": 5,
+            "acc": 0.2
+        },
+        "coral reef": {
+            "correct": 3,
+            "total": 5,
+            "acc": 0.6
+        },
+        "lakeside": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "seashore": {
+            "correct": 0,
+            "total": 5,
+            "acc": 0.0
+        },
+        "acorn": {
+            "correct": 5,
+            "total": 5,
+            "acc": 1.0
+        }
+    },
+    "seed": 42
+}

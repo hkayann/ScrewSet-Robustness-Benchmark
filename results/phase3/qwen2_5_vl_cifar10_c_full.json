@@ -1,0 +1,5179 @@
+{
+    "model": "qwen2_5_vl",
+    "model_family": "Qwen2.5-VL",
+    "dataset": "cifar10_c",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 10,
+    "corruption_results": {
+        "gaussian_noise": {
+            "severity_accs": {
+                "severity_1": 0.8377,
+                "severity_2": 0.7708,
+                "severity_3": 0.6949,
+                "severity_4": 0.6554,
+                "severity_5": 0.6199
+            },
+            "mean_acc": 0.71574,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 763,
+                        "total": 1000,
+                        "acc": 0.763
+                    },
+                    "automobile": {
+                        "correct": 935,
+                        "total": 1000,
+                        "acc": 0.935
+                    },
+                    "bird": {
+                        "correct": 889,
+                        "total": 1000,
+                        "acc": 0.889
+                    },
+                    "cat": {
+                        "correct": 611,
+                        "total": 1000,
+                        "acc": 0.611
+                    },
+                    "deer": {
+                        "correct": 817,
+                        "total": 1000,
+                        "acc": 0.817
+                    },
+                    "dog": {
+                        "correct": 916,
+                        "total": 1000,
+                        "acc": 0.916
+                    },
+                    "frog": {
+                        "correct": 740,
+                        "total": 1000,
+                        "acc": 0.74
+                    },
+                    "horse": {
+                        "correct": 867,
+                        "total": 1000,
+                        "acc": 0.867
+                    },
+                    "ship": {
+                        "correct": 929,
+                        "total": 1000,
+                        "acc": 0.929
+                    },
+                    "truck": {
+                        "correct": 910,
+                        "total": 1000,
+                        "acc": 0.91
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 675,
+                        "total": 1000,
+                        "acc": 0.675
+                    },
+                    "automobile": {
+                        "correct": 905,
+                        "total": 1000,
+                        "acc": 0.905
+                    },
+                    "bird": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    },
+                    "cat": {
+                        "correct": 471,
+                        "total": 1000,
+                        "acc": 0.471
+                    },
+                    "deer": {
+                        "correct": 700,
+                        "total": 1000,
+                        "acc": 0.7
+                    },
+                    "dog": {
+                        "correct": 888,
+                        "total": 1000,
+                        "acc": 0.888
+                    },
+                    "frog": {
+                        "correct": 683,
+                        "total": 1000,
+                        "acc": 0.683
+                    },
+                    "horse": {
+                        "correct": 812,
+                        "total": 1000,
+                        "acc": 0.812
+                    },
+                    "ship": {
+                        "correct": 877,
+                        "total": 1000,
+                        "acc": 0.877
+                    },
+                    "truck": {
+                        "correct": 840,
+                        "total": 1000,
+                        "acc": 0.84
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 602,
+                        "total": 1000,
+                        "acc": 0.602
+                    },
+                    "automobile": {
+                        "correct": 859,
+                        "total": 1000,
+                        "acc": 0.859
+                    },
+                    "bird": {
+                        "correct": 811,
+                        "total": 1000,
+                        "acc": 0.811
+                    },
+                    "cat": {
+                        "correct": 331,
+                        "total": 1000,
+                        "acc": 0.331
+                    },
+                    "deer": {
+                        "correct": 593,
+                        "total": 1000,
+                        "acc": 0.593
+                    },
+                    "dog": {
+                        "correct": 847,
+                        "total": 1000,
+                        "acc": 0.847
+                    },
+                    "frog": {
+                        "correct": 578,
+                        "total": 1000,
+                        "acc": 0.578
+                    },
+                    "horse": {
+                        "correct": 736,
+                        "total": 1000,
+                        "acc": 0.736
+                    },
+                    "ship": {
+                        "correct": 848,
+                        "total": 1000,
+                        "acc": 0.848
+                    },
+                    "truck": {
+                        "correct": 744,
+                        "total": 1000,
+                        "acc": 0.744
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 562,
+                        "total": 1000,
+                        "acc": 0.562
+                    },
+                    "automobile": {
+                        "correct": 810,
+                        "total": 1000,
+                        "acc": 0.81
+                    },
+                    "bird": {
+                        "correct": 801,
+                        "total": 1000,
+                        "acc": 0.801
+                    },
+                    "cat": {
+                        "correct": 303,
+                        "total": 1000,
+                        "acc": 0.303
+                    },
+                    "deer": {
+                        "correct": 511,
+                        "total": 1000,
+                        "acc": 0.511
+                    },
+                    "dog": {
+                        "correct": 816,
+                        "total": 1000,
+                        "acc": 0.816
+                    },
+                    "frog": {
+                        "correct": 549,
+                        "total": 1000,
+                        "acc": 0.549
+                    },
+                    "horse": {
+                        "correct": 691,
+                        "total": 1000,
+                        "acc": 0.691
+                    },
+                    "ship": {
+                        "correct": 823,
+                        "total": 1000,
+                        "acc": 0.823
+                    },
+                    "truck": {
+                        "correct": 688,
+                        "total": 1000,
+                        "acc": 0.688
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 528,
+                        "total": 1000,
+                        "acc": 0.528
+                    },
+                    "automobile": {
+                        "correct": 775,
+                        "total": 1000,
+                        "acc": 0.775
+                    },
+                    "bird": {
+                        "correct": 805,
+                        "total": 1000,
+                        "acc": 0.805
+                    },
+                    "cat": {
+                        "correct": 249,
+                        "total": 1000,
+                        "acc": 0.249
+                    },
+                    "deer": {
+                        "correct": 475,
+                        "total": 1000,
+                        "acc": 0.475
+                    },
+                    "dog": {
+                        "correct": 768,
+                        "total": 1000,
+                        "acc": 0.768
+                    },
+                    "frog": {
+                        "correct": 529,
+                        "total": 1000,
+                        "acc": 0.529
+                    },
+                    "horse": {
+                        "correct": 655,
+                        "total": 1000,
+                        "acc": 0.655
+                    },
+                    "ship": {
+                        "correct": 790,
+                        "total": 1000,
+                        "acc": 0.79
+                    },
+                    "truck": {
+                        "correct": 625,
+                        "total": 1000,
+                        "acc": 0.625
+                    }
+                }
+            }
+        },
+        "shot_noise": {
+            "severity_accs": {
+                "severity_1": 0.8572,
+                "severity_2": 0.8301,
+                "severity_3": 0.7451,
+                "severity_4": 0.7069,
+                "severity_5": 0.6334
+            },
+            "mean_acc": 0.75454,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 783,
+                        "total": 1000,
+                        "acc": 0.783
+                    },
+                    "automobile": {
+                        "correct": 945,
+                        "total": 1000,
+                        "acc": 0.945
+                    },
+                    "bird": {
+                        "correct": 912,
+                        "total": 1000,
+                        "acc": 0.912
+                    },
+                    "cat": {
+                        "correct": 671,
+                        "total": 1000,
+                        "acc": 0.671
+                    },
+                    "deer": {
+                        "correct": 846,
+                        "total": 1000,
+                        "acc": 0.846
+                    },
+                    "dog": {
+                        "correct": 907,
+                        "total": 1000,
+                        "acc": 0.907
+                    },
+                    "frog": {
+                        "correct": 771,
+                        "total": 1000,
+                        "acc": 0.771
+                    },
+                    "horse": {
+                        "correct": 873,
+                        "total": 1000,
+                        "acc": 0.873
+                    },
+                    "ship": {
+                        "correct": 943,
+                        "total": 1000,
+                        "acc": 0.943
+                    },
+                    "truck": {
+                        "correct": 921,
+                        "total": 1000,
+                        "acc": 0.921
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 735,
+                        "total": 1000,
+                        "acc": 0.735
+                    },
+                    "automobile": {
+                        "correct": 941,
+                        "total": 1000,
+                        "acc": 0.941
+                    },
+                    "bird": {
+                        "correct": 885,
+                        "total": 1000,
+                        "acc": 0.885
+                    },
+                    "cat": {
+                        "correct": 591,
+                        "total": 1000,
+                        "acc": 0.591
+                    },
+                    "deer": {
+                        "correct": 819,
+                        "total": 1000,
+                        "acc": 0.819
+                    },
+                    "dog": {
+                        "correct": 898,
+                        "total": 1000,
+                        "acc": 0.898
+                    },
+                    "frog": {
+                        "correct": 755,
+                        "total": 1000,
+                        "acc": 0.755
+                    },
+                    "horse": {
+                        "correct": 859,
+                        "total": 1000,
+                        "acc": 0.859
+                    },
+                    "ship": {
+                        "correct": 921,
+                        "total": 1000,
+                        "acc": 0.921
+                    },
+                    "truck": {
+                        "correct": 897,
+                        "total": 1000,
+                        "acc": 0.897
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 622,
+                        "total": 1000,
+                        "acc": 0.622
+                    },
+                    "automobile": {
+                        "correct": 891,
+                        "total": 1000,
+                        "acc": 0.891
+                    },
+                    "bird": {
+                        "correct": 854,
+                        "total": 1000,
+                        "acc": 0.854
+                    },
+                    "cat": {
+                        "correct": 415,
+                        "total": 1000,
+                        "acc": 0.415
+                    },
+                    "deer": {
+                        "correct": 680,
+                        "total": 1000,
+                        "acc": 0.68
+                    },
+                    "dog": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    },
+                    "frog": {
+                        "correct": 701,
+                        "total": 1000,
+                        "acc": 0.701
+                    },
+                    "horse": {
+                        "correct": 771,
+                        "total": 1000,
+                        "acc": 0.771
+                    },
+                    "ship": {
+                        "correct": 874,
+                        "total": 1000,
+                        "acc": 0.874
+                    },
+                    "truck": {
+                        "correct": 786,
+                        "total": 1000,
+                        "acc": 0.786
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 582,
+                        "total": 1000,
+                        "acc": 0.582
+                    },
+                    "automobile": {
+                        "correct": 872,
+                        "total": 1000,
+                        "acc": 0.872
+                    },
+                    "bird": {
+                        "correct": 843,
+                        "total": 1000,
+                        "acc": 0.843
+                    },
+                    "cat": {
+                        "correct": 351,
+                        "total": 1000,
+                        "acc": 0.351
+                    },
+                    "deer": {
+                        "correct": 622,
+                        "total": 1000,
+                        "acc": 0.622
+                    },
+                    "dog": {
+                        "correct": 821,
+                        "total": 1000,
+                        "acc": 0.821
+                    },
+                    "frog": {
+                        "correct": 650,
+                        "total": 1000,
+                        "acc": 0.65
+                    },
+                    "horse": {
+                        "correct": 719,
+                        "total": 1000,
+                        "acc": 0.719
+                    },
+                    "ship": {
+                        "correct": 845,
+                        "total": 1000,
+                        "acc": 0.845
+                    },
+                    "truck": {
+                        "correct": 764,
+                        "total": 1000,
+                        "acc": 0.764
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 523,
+                        "total": 1000,
+                        "acc": 0.523
+                    },
+                    "automobile": {
+                        "correct": 816,
+                        "total": 1000,
+                        "acc": 0.816
+                    },
+                    "bird": {
+                        "correct": 808,
+                        "total": 1000,
+                        "acc": 0.808
+                    },
+                    "cat": {
+                        "correct": 265,
+                        "total": 1000,
+                        "acc": 0.265
+                    },
+                    "deer": {
+                        "correct": 520,
+                        "total": 1000,
+                        "acc": 0.52
+                    },
+                    "dog": {
+                        "correct": 764,
+                        "total": 1000,
+                        "acc": 0.764
+                    },
+                    "frog": {
+                        "correct": 574,
+                        "total": 1000,
+                        "acc": 0.574
+                    },
+                    "horse": {
+                        "correct": 648,
+                        "total": 1000,
+                        "acc": 0.648
+                    },
+                    "ship": {
+                        "correct": 804,
+                        "total": 1000,
+                        "acc": 0.804
+                    },
+                    "truck": {
+                        "correct": 612,
+                        "total": 1000,
+                        "acc": 0.612
+                    }
+                }
+            }
+        },
+        "impulse_noise": {
+            "severity_accs": {
+                "severity_1": 0.7275,
+                "severity_2": 0.6391,
+                "severity_3": 0.5762,
+                "severity_4": 0.4844,
+                "severity_5": 0.4273
+            },
+            "mean_acc": 0.5709,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 776,
+                        "total": 1000,
+                        "acc": 0.776
+                    },
+                    "automobile": {
+                        "correct": 882,
+                        "total": 1000,
+                        "acc": 0.882
+                    },
+                    "bird": {
+                        "correct": 781,
+                        "total": 1000,
+                        "acc": 0.781
+                    },
+                    "cat": {
+                        "correct": 513,
+                        "total": 1000,
+                        "acc": 0.513
+                    },
+                    "deer": {
+                        "correct": 597,
+                        "total": 1000,
+                        "acc": 0.597
+                    },
+                    "dog": {
+                        "correct": 833,
+                        "total": 1000,
+                        "acc": 0.833
+                    },
+                    "frog": {
+                        "correct": 576,
+                        "total": 1000,
+                        "acc": 0.576
+                    },
+                    "horse": {
+                        "correct": 707,
+                        "total": 1000,
+                        "acc": 0.707
+                    },
+                    "ship": {
+                        "correct": 791,
+                        "total": 1000,
+                        "acc": 0.791
+                    },
+                    "truck": {
+                        "correct": 819,
+                        "total": 1000,
+                        "acc": 0.819
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 728,
+                        "total": 1000,
+                        "acc": 0.728
+                    },
+                    "automobile": {
+                        "correct": 812,
+                        "total": 1000,
+                        "acc": 0.812
+                    },
+                    "bird": {
+                        "correct": 725,
+                        "total": 1000,
+                        "acc": 0.725
+                    },
+                    "cat": {
+                        "correct": 399,
+                        "total": 1000,
+                        "acc": 0.399
+                    },
+                    "deer": {
+                        "correct": 442,
+                        "total": 1000,
+                        "acc": 0.442
+                    },
+                    "dog": {
+                        "correct": 758,
+                        "total": 1000,
+                        "acc": 0.758
+                    },
+                    "frog": {
+                        "correct": 505,
+                        "total": 1000,
+                        "acc": 0.505
+                    },
+                    "horse": {
+                        "correct": 631,
+                        "total": 1000,
+                        "acc": 0.631
+                    },
+                    "ship": {
+                        "correct": 683,
+                        "total": 1000,
+                        "acc": 0.683
+                    },
+                    "truck": {
+                        "correct": 708,
+                        "total": 1000,
+                        "acc": 0.708
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 663,
+                        "total": 1000,
+                        "acc": 0.663
+                    },
+                    "automobile": {
+                        "correct": 728,
+                        "total": 1000,
+                        "acc": 0.728
+                    },
+                    "bird": {
+                        "correct": 668,
+                        "total": 1000,
+                        "acc": 0.668
+                    },
+                    "cat": {
+                        "correct": 309,
+                        "total": 1000,
+                        "acc": 0.309
+                    },
+                    "deer": {
+                        "correct": 333,
+                        "total": 1000,
+                        "acc": 0.333
+                    },
+                    "dog": {
+                        "correct": 709,
+                        "total": 1000,
+                        "acc": 0.709
+                    },
+                    "frog": {
+                        "correct": 504,
+                        "total": 1000,
+                        "acc": 0.504
+                    },
+                    "horse": {
+                        "correct": 562,
+                        "total": 1000,
+                        "acc": 0.562
+                    },
+                    "ship": {
+                        "correct": 674,
+                        "total": 1000,
+                        "acc": 0.674
+                    },
+                    "truck": {
+                        "correct": 612,
+                        "total": 1000,
+                        "acc": 0.612
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 539,
+                        "total": 1000,
+                        "acc": 0.539
+                    },
+                    "automobile": {
+                        "correct": 635,
+                        "total": 1000,
+                        "acc": 0.635
+                    },
+                    "bird": {
+                        "correct": 650,
+                        "total": 1000,
+                        "acc": 0.65
+                    },
+                    "cat": {
+                        "correct": 186,
+                        "total": 1000,
+                        "acc": 0.186
+                    },
+                    "deer": {
+                        "correct": 220,
+                        "total": 1000,
+                        "acc": 0.22
+                    },
+                    "dog": {
+                        "correct": 587,
+                        "total": 1000,
+                        "acc": 0.587
+                    },
+                    "frog": {
+                        "correct": 473,
+                        "total": 1000,
+                        "acc": 0.473
+                    },
+                    "horse": {
+                        "correct": 468,
+                        "total": 1000,
+                        "acc": 0.468
+                    },
+                    "ship": {
+                        "correct": 630,
+                        "total": 1000,
+                        "acc": 0.63
+                    },
+                    "truck": {
+                        "correct": 456,
+                        "total": 1000,
+                        "acc": 0.456
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 436,
+                        "total": 1000,
+                        "acc": 0.436
+                    },
+                    "automobile": {
+                        "correct": 513,
+                        "total": 1000,
+                        "acc": 0.513
+                    },
+                    "bird": {
+                        "correct": 623,
+                        "total": 1000,
+                        "acc": 0.623
+                    },
+                    "cat": {
+                        "correct": 149,
+                        "total": 1000,
+                        "acc": 0.149
+                    },
+                    "deer": {
+                        "correct": 184,
+                        "total": 1000,
+                        "acc": 0.184
+                    },
+                    "dog": {
+                        "correct": 515,
+                        "total": 1000,
+                        "acc": 0.515
+                    },
+                    "frog": {
+                        "correct": 533,
+                        "total": 1000,
+                        "acc": 0.533
+                    },
+                    "horse": {
+                        "correct": 417,
+                        "total": 1000,
+                        "acc": 0.417
+                    },
+                    "ship": {
+                        "correct": 565,
+                        "total": 1000,
+                        "acc": 0.565
+                    },
+                    "truck": {
+                        "correct": 338,
+                        "total": 1000,
+                        "acc": 0.338
+                    }
+                }
+            }
+        },
+        "defocus_blur": {
+            "severity_accs": {
+                "severity_1": 0.8708,
+                "severity_2": 0.8407,
+                "severity_3": 0.8065,
+                "severity_4": 0.7554,
+                "severity_5": 0.6835
+            },
+            "mean_acc": 0.79138,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 842,
+                        "total": 1000,
+                        "acc": 0.842
+                    },
+                    "automobile": {
+                        "correct": 949,
+                        "total": 1000,
+                        "acc": 0.949
+                    },
+                    "bird": {
+                        "correct": 935,
+                        "total": 1000,
+                        "acc": 0.935
+                    },
+                    "cat": {
+                        "correct": 720,
+                        "total": 1000,
+                        "acc": 0.72
+                    },
+                    "deer": {
+                        "correct": 847,
+                        "total": 1000,
+                        "acc": 0.847
+                    },
+                    "dog": {
+                        "correct": 899,
+                        "total": 1000,
+                        "acc": 0.899
+                    },
+                    "frog": {
+                        "correct": 763,
+                        "total": 1000,
+                        "acc": 0.763
+                    },
+                    "horse": {
+                        "correct": 885,
+                        "total": 1000,
+                        "acc": 0.885
+                    },
+                    "ship": {
+                        "correct": 945,
+                        "total": 1000,
+                        "acc": 0.945
+                    },
+                    "truck": {
+                        "correct": 923,
+                        "total": 1000,
+                        "acc": 0.923
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 796,
+                        "total": 1000,
+                        "acc": 0.796
+                    },
+                    "automobile": {
+                        "correct": 934,
+                        "total": 1000,
+                        "acc": 0.934
+                    },
+                    "bird": {
+                        "correct": 921,
+                        "total": 1000,
+                        "acc": 0.921
+                    },
+                    "cat": {
+                        "correct": 669,
+                        "total": 1000,
+                        "acc": 0.669
+                    },
+                    "deer": {
+                        "correct": 816,
+                        "total": 1000,
+                        "acc": 0.816
+                    },
+                    "dog": {
+                        "correct": 883,
+                        "total": 1000,
+                        "acc": 0.883
+                    },
+                    "frog": {
+                        "correct": 704,
+                        "total": 1000,
+                        "acc": 0.704
+                    },
+                    "horse": {
+                        "correct": 861,
+                        "total": 1000,
+                        "acc": 0.861
+                    },
+                    "ship": {
+                        "correct": 929,
+                        "total": 1000,
+                        "acc": 0.929
+                    },
+                    "truck": {
+                        "correct": 894,
+                        "total": 1000,
+                        "acc": 0.894
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 752,
+                        "total": 1000,
+                        "acc": 0.752
+                    },
+                    "automobile": {
+                        "correct": 918,
+                        "total": 1000,
+                        "acc": 0.918
+                    },
+                    "bird": {
+                        "correct": 917,
+                        "total": 1000,
+                        "acc": 0.917
+                    },
+                    "cat": {
+                        "correct": 604,
+                        "total": 1000,
+                        "acc": 0.604
+                    },
+                    "deer": {
+                        "correct": 767,
+                        "total": 1000,
+                        "acc": 0.767
+                    },
+                    "dog": {
+                        "correct": 862,
+                        "total": 1000,
+                        "acc": 0.862
+                    },
+                    "frog": {
+                        "correct": 640,
+                        "total": 1000,
+                        "acc": 0.64
+                    },
+                    "horse": {
+                        "correct": 837,
+                        "total": 1000,
+                        "acc": 0.837
+                    },
+                    "ship": {
+                        "correct": 916,
+                        "total": 1000,
+                        "acc": 0.916
+                    },
+                    "truck": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 706,
+                        "total": 1000,
+                        "acc": 0.706
+                    },
+                    "automobile": {
+                        "correct": 869,
+                        "total": 1000,
+                        "acc": 0.869
+                    },
+                    "bird": {
+                        "correct": 898,
+                        "total": 1000,
+                        "acc": 0.898
+                    },
+                    "cat": {
+                        "correct": 488,
+                        "total": 1000,
+                        "acc": 0.488
+                    },
+                    "deer": {
+                        "correct": 696,
+                        "total": 1000,
+                        "acc": 0.696
+                    },
+                    "dog": {
+                        "correct": 821,
+                        "total": 1000,
+                        "acc": 0.821
+                    },
+                    "frog": {
+                        "correct": 566,
+                        "total": 1000,
+                        "acc": 0.566
+                    },
+                    "horse": {
+                        "correct": 808,
+                        "total": 1000,
+                        "acc": 0.808
+                    },
+                    "ship": {
+                        "correct": 897,
+                        "total": 1000,
+                        "acc": 0.897
+                    },
+                    "truck": {
+                        "correct": 805,
+                        "total": 1000,
+                        "acc": 0.805
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 656,
+                        "total": 1000,
+                        "acc": 0.656
+                    },
+                    "automobile": {
+                        "correct": 812,
+                        "total": 1000,
+                        "acc": 0.812
+                    },
+                    "bird": {
+                        "correct": 863,
+                        "total": 1000,
+                        "acc": 0.863
+                    },
+                    "cat": {
+                        "correct": 377,
+                        "total": 1000,
+                        "acc": 0.377
+                    },
+                    "deer": {
+                        "correct": 619,
+                        "total": 1000,
+                        "acc": 0.619
+                    },
+                    "dog": {
+                        "correct": 775,
+                        "total": 1000,
+                        "acc": 0.775
+                    },
+                    "frog": {
+                        "correct": 490,
+                        "total": 1000,
+                        "acc": 0.49
+                    },
+                    "horse": {
+                        "correct": 720,
+                        "total": 1000,
+                        "acc": 0.72
+                    },
+                    "ship": {
+                        "correct": 858,
+                        "total": 1000,
+                        "acc": 0.858
+                    },
+                    "truck": {
+                        "correct": 665,
+                        "total": 1000,
+                        "acc": 0.665
+                    }
+                }
+            }
+        },
+        "glass_blur": {
+            "severity_accs": {
+                "severity_1": 0.5218,
+                "severity_2": 0.5119,
+                "severity_3": 0.5014,
+                "severity_4": 0.3646,
+                "severity_5": 0.3504
+            },
+            "mean_acc": 0.45002,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 429,
+                        "total": 1000,
+                        "acc": 0.429
+                    },
+                    "automobile": {
+                        "correct": 370,
+                        "total": 1000,
+                        "acc": 0.37
+                    },
+                    "bird": {
+                        "correct": 832,
+                        "total": 1000,
+                        "acc": 0.832
+                    },
+                    "cat": {
+                        "correct": 256,
+                        "total": 1000,
+                        "acc": 0.256
+                    },
+                    "deer": {
+                        "correct": 517,
+                        "total": 1000,
+                        "acc": 0.517
+                    },
+                    "dog": {
+                        "correct": 752,
+                        "total": 1000,
+                        "acc": 0.752
+                    },
+                    "frog": {
+                        "correct": 524,
+                        "total": 1000,
+                        "acc": 0.524
+                    },
+                    "horse": {
+                        "correct": 514,
+                        "total": 1000,
+                        "acc": 0.514
+                    },
+                    "ship": {
+                        "correct": 744,
+                        "total": 1000,
+                        "acc": 0.744
+                    },
+                    "truck": {
+                        "correct": 280,
+                        "total": 1000,
+                        "acc": 0.28
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 437,
+                        "total": 1000,
+                        "acc": 0.437
+                    },
+                    "automobile": {
+                        "correct": 356,
+                        "total": 1000,
+                        "acc": 0.356
+                    },
+                    "bird": {
+                        "correct": 841,
+                        "total": 1000,
+                        "acc": 0.841
+                    },
+                    "cat": {
+                        "correct": 247,
+                        "total": 1000,
+                        "acc": 0.247
+                    },
+                    "deer": {
+                        "correct": 473,
+                        "total": 1000,
+                        "acc": 0.473
+                    },
+                    "dog": {
+                        "correct": 753,
+                        "total": 1000,
+                        "acc": 0.753
+                    },
+                    "frog": {
+                        "correct": 502,
+                        "total": 1000,
+                        "acc": 0.502
+                    },
+                    "horse": {
+                        "correct": 496,
+                        "total": 1000,
+                        "acc": 0.496
+                    },
+                    "ship": {
+                        "correct": 732,
+                        "total": 1000,
+                        "acc": 0.732
+                    },
+                    "truck": {
+                        "correct": 282,
+                        "total": 1000,
+                        "acc": 0.282
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 400,
+                        "total": 1000,
+                        "acc": 0.4
+                    },
+                    "automobile": {
+                        "correct": 351,
+                        "total": 1000,
+                        "acc": 0.351
+                    },
+                    "bird": {
+                        "correct": 844,
+                        "total": 1000,
+                        "acc": 0.844
+                    },
+                    "cat": {
+                        "correct": 257,
+                        "total": 1000,
+                        "acc": 0.257
+                    },
+                    "deer": {
+                        "correct": 476,
+                        "total": 1000,
+                        "acc": 0.476
+                    },
+                    "dog": {
+                        "correct": 766,
+                        "total": 1000,
+                        "acc": 0.766
+                    },
+                    "frog": {
+                        "correct": 441,
+                        "total": 1000,
+                        "acc": 0.441
+                    },
+                    "horse": {
+                        "correct": 508,
+                        "total": 1000,
+                        "acc": 0.508
+                    },
+                    "ship": {
+                        "correct": 719,
+                        "total": 1000,
+                        "acc": 0.719
+                    },
+                    "truck": {
+                        "correct": 252,
+                        "total": 1000,
+                        "acc": 0.252
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 317,
+                        "total": 1000,
+                        "acc": 0.317
+                    },
+                    "automobile": {
+                        "correct": 149,
+                        "total": 1000,
+                        "acc": 0.149
+                    },
+                    "bird": {
+                        "correct": 763,
+                        "total": 1000,
+                        "acc": 0.763
+                    },
+                    "cat": {
+                        "correct": 115,
+                        "total": 1000,
+                        "acc": 0.115
+                    },
+                    "deer": {
+                        "correct": 339,
+                        "total": 1000,
+                        "acc": 0.339
+                    },
+                    "dog": {
+                        "correct": 555,
+                        "total": 1000,
+                        "acc": 0.555
+                    },
+                    "frog": {
+                        "correct": 431,
+                        "total": 1000,
+                        "acc": 0.431
+                    },
+                    "horse": {
+                        "correct": 336,
+                        "total": 1000,
+                        "acc": 0.336
+                    },
+                    "ship": {
+                        "correct": 539,
+                        "total": 1000,
+                        "acc": 0.539
+                    },
+                    "truck": {
+                        "correct": 102,
+                        "total": 1000,
+                        "acc": 0.102
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 291,
+                        "total": 1000,
+                        "acc": 0.291
+                    },
+                    "automobile": {
+                        "correct": 129,
+                        "total": 1000,
+                        "acc": 0.129
+                    },
+                    "bird": {
+                        "correct": 797,
+                        "total": 1000,
+                        "acc": 0.797
+                    },
+                    "cat": {
+                        "correct": 109,
+                        "total": 1000,
+                        "acc": 0.109
+                    },
+                    "deer": {
+                        "correct": 349,
+                        "total": 1000,
+                        "acc": 0.349
+                    },
+                    "dog": {
+                        "correct": 548,
+                        "total": 1000,
+                        "acc": 0.548
+                    },
+                    "frog": {
+                        "correct": 389,
+                        "total": 1000,
+                        "acc": 0.389
+                    },
+                    "horse": {
+                        "correct": 285,
+                        "total": 1000,
+                        "acc": 0.285
+                    },
+                    "ship": {
+                        "correct": 512,
+                        "total": 1000,
+                        "acc": 0.512
+                    },
+                    "truck": {
+                        "correct": 95,
+                        "total": 1000,
+                        "acc": 0.095
+                    }
+                }
+            }
+        },
+        "motion_blur": {
+            "severity_accs": {
+                "severity_1": 0.8143,
+                "severity_2": 0.7661,
+                "severity_3": 0.7208,
+                "severity_4": 0.7183,
+                "severity_5": 0.6685
+            },
+            "mean_acc": 0.7376,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 788,
+                        "total": 1000,
+                        "acc": 0.788
+                    },
+                    "automobile": {
+                        "correct": 913,
+                        "total": 1000,
+                        "acc": 0.913
+                    },
+                    "bird": {
+                        "correct": 921,
+                        "total": 1000,
+                        "acc": 0.921
+                    },
+                    "cat": {
+                        "correct": 615,
+                        "total": 1000,
+                        "acc": 0.615
+                    },
+                    "deer": {
+                        "correct": 783,
+                        "total": 1000,
+                        "acc": 0.783
+                    },
+                    "dog": {
+                        "correct": 872,
+                        "total": 1000,
+                        "acc": 0.872
+                    },
+                    "frog": {
+                        "correct": 639,
+                        "total": 1000,
+                        "acc": 0.639
+                    },
+                    "horse": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    },
+                    "ship": {
+                        "correct": 913,
+                        "total": 1000,
+                        "acc": 0.913
+                    },
+                    "truck": {
+                        "correct": 847,
+                        "total": 1000,
+                        "acc": 0.847
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 736,
+                        "total": 1000,
+                        "acc": 0.736
+                    },
+                    "automobile": {
+                        "correct": 885,
+                        "total": 1000,
+                        "acc": 0.885
+                    },
+                    "bird": {
+                        "correct": 904,
+                        "total": 1000,
+                        "acc": 0.904
+                    },
+                    "cat": {
+                        "correct": 545,
+                        "total": 1000,
+                        "acc": 0.545
+                    },
+                    "deer": {
+                        "correct": 734,
+                        "total": 1000,
+                        "acc": 0.734
+                    },
+                    "dog": {
+                        "correct": 837,
+                        "total": 1000,
+                        "acc": 0.837
+                    },
+                    "frog": {
+                        "correct": 560,
+                        "total": 1000,
+                        "acc": 0.56
+                    },
+                    "horse": {
+                        "correct": 809,
+                        "total": 1000,
+                        "acc": 0.809
+                    },
+                    "ship": {
+                        "correct": 886,
+                        "total": 1000,
+                        "acc": 0.886
+                    },
+                    "truck": {
+                        "correct": 765,
+                        "total": 1000,
+                        "acc": 0.765
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 693,
+                        "total": 1000,
+                        "acc": 0.693
+                    },
+                    "automobile": {
+                        "correct": 841,
+                        "total": 1000,
+                        "acc": 0.841
+                    },
+                    "bird": {
+                        "correct": 894,
+                        "total": 1000,
+                        "acc": 0.894
+                    },
+                    "cat": {
+                        "correct": 478,
+                        "total": 1000,
+                        "acc": 0.478
+                    },
+                    "deer": {
+                        "correct": 680,
+                        "total": 1000,
+                        "acc": 0.68
+                    },
+                    "dog": {
+                        "correct": 815,
+                        "total": 1000,
+                        "acc": 0.815
+                    },
+                    "frog": {
+                        "correct": 511,
+                        "total": 1000,
+                        "acc": 0.511
+                    },
+                    "horse": {
+                        "correct": 749,
+                        "total": 1000,
+                        "acc": 0.749
+                    },
+                    "ship": {
+                        "correct": 854,
+                        "total": 1000,
+                        "acc": 0.854
+                    },
+                    "truck": {
+                        "correct": 693,
+                        "total": 1000,
+                        "acc": 0.693
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 699,
+                        "total": 1000,
+                        "acc": 0.699
+                    },
+                    "automobile": {
+                        "correct": 830,
+                        "total": 1000,
+                        "acc": 0.83
+                    },
+                    "bird": {
+                        "correct": 892,
+                        "total": 1000,
+                        "acc": 0.892
+                    },
+                    "cat": {
+                        "correct": 460,
+                        "total": 1000,
+                        "acc": 0.46
+                    },
+                    "deer": {
+                        "correct": 661,
+                        "total": 1000,
+                        "acc": 0.661
+                    },
+                    "dog": {
+                        "correct": 807,
+                        "total": 1000,
+                        "acc": 0.807
+                    },
+                    "frog": {
+                        "correct": 519,
+                        "total": 1000,
+                        "acc": 0.519
+                    },
+                    "horse": {
+                        "correct": 757,
+                        "total": 1000,
+                        "acc": 0.757
+                    },
+                    "ship": {
+                        "correct": 872,
+                        "total": 1000,
+                        "acc": 0.872
+                    },
+                    "truck": {
+                        "correct": 686,
+                        "total": 1000,
+                        "acc": 0.686
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 674,
+                        "total": 1000,
+                        "acc": 0.674
+                    },
+                    "automobile": {
+                        "correct": 788,
+                        "total": 1000,
+                        "acc": 0.788
+                    },
+                    "bird": {
+                        "correct": 867,
+                        "total": 1000,
+                        "acc": 0.867
+                    },
+                    "cat": {
+                        "correct": 411,
+                        "total": 1000,
+                        "acc": 0.411
+                    },
+                    "deer": {
+                        "correct": 623,
+                        "total": 1000,
+                        "acc": 0.623
+                    },
+                    "dog": {
+                        "correct": 779,
+                        "total": 1000,
+                        "acc": 0.779
+                    },
+                    "frog": {
+                        "correct": 449,
+                        "total": 1000,
+                        "acc": 0.449
+                    },
+                    "horse": {
+                        "correct": 710,
+                        "total": 1000,
+                        "acc": 0.71
+                    },
+                    "ship": {
+                        "correct": 805,
+                        "total": 1000,
+                        "acc": 0.805
+                    },
+                    "truck": {
+                        "correct": 579,
+                        "total": 1000,
+                        "acc": 0.579
+                    }
+                }
+            }
+        },
+        "zoom_blur": {
+            "severity_accs": {
+                "severity_1": 0.7788,
+                "severity_2": 0.7754,
+                "severity_3": 0.7492,
+                "severity_4": 0.7287,
+                "severity_5": 0.6797
+            },
+            "mean_acc": 0.7423599999999999,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 746,
+                        "total": 1000,
+                        "acc": 0.746
+                    },
+                    "automobile": {
+                        "correct": 913,
+                        "total": 1000,
+                        "acc": 0.913
+                    },
+                    "bird": {
+                        "correct": 894,
+                        "total": 1000,
+                        "acc": 0.894
+                    },
+                    "cat": {
+                        "correct": 559,
+                        "total": 1000,
+                        "acc": 0.559
+                    },
+                    "deer": {
+                        "correct": 746,
+                        "total": 1000,
+                        "acc": 0.746
+                    },
+                    "dog": {
+                        "correct": 869,
+                        "total": 1000,
+                        "acc": 0.869
+                    },
+                    "frog": {
+                        "correct": 579,
+                        "total": 1000,
+                        "acc": 0.579
+                    },
+                    "horse": {
+                        "correct": 833,
+                        "total": 1000,
+                        "acc": 0.833
+                    },
+                    "ship": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    },
+                    "truck": {
+                        "correct": 797,
+                        "total": 1000,
+                        "acc": 0.797
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 746,
+                        "total": 1000,
+                        "acc": 0.746
+                    },
+                    "automobile": {
+                        "correct": 895,
+                        "total": 1000,
+                        "acc": 0.895
+                    },
+                    "bird": {
+                        "correct": 902,
+                        "total": 1000,
+                        "acc": 0.902
+                    },
+                    "cat": {
+                        "correct": 553,
+                        "total": 1000,
+                        "acc": 0.553
+                    },
+                    "deer": {
+                        "correct": 773,
+                        "total": 1000,
+                        "acc": 0.773
+                    },
+                    "dog": {
+                        "correct": 853,
+                        "total": 1000,
+                        "acc": 0.853
+                    },
+                    "frog": {
+                        "correct": 581,
+                        "total": 1000,
+                        "acc": 0.581
+                    },
+                    "horse": {
+                        "correct": 816,
+                        "total": 1000,
+                        "acc": 0.816
+                    },
+                    "ship": {
+                        "correct": 865,
+                        "total": 1000,
+                        "acc": 0.865
+                    },
+                    "truck": {
+                        "correct": 770,
+                        "total": 1000,
+                        "acc": 0.77
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 737,
+                        "total": 1000,
+                        "acc": 0.737
+                    },
+                    "automobile": {
+                        "correct": 874,
+                        "total": 1000,
+                        "acc": 0.874
+                    },
+                    "bird": {
+                        "correct": 885,
+                        "total": 1000,
+                        "acc": 0.885
+                    },
+                    "cat": {
+                        "correct": 520,
+                        "total": 1000,
+                        "acc": 0.52
+                    },
+                    "deer": {
+                        "correct": 747,
+                        "total": 1000,
+                        "acc": 0.747
+                    },
+                    "dog": {
+                        "correct": 835,
+                        "total": 1000,
+                        "acc": 0.835
+                    },
+                    "frog": {
+                        "correct": 528,
+                        "total": 1000,
+                        "acc": 0.528
+                    },
+                    "horse": {
+                        "correct": 792,
+                        "total": 1000,
+                        "acc": 0.792
+                    },
+                    "ship": {
+                        "correct": 845,
+                        "total": 1000,
+                        "acc": 0.845
+                    },
+                    "truck": {
+                        "correct": 729,
+                        "total": 1000,
+                        "acc": 0.729
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 748,
+                        "total": 1000,
+                        "acc": 0.748
+                    },
+                    "automobile": {
+                        "correct": 839,
+                        "total": 1000,
+                        "acc": 0.839
+                    },
+                    "bird": {
+                        "correct": 887,
+                        "total": 1000,
+                        "acc": 0.887
+                    },
+                    "cat": {
+                        "correct": 497,
+                        "total": 1000,
+                        "acc": 0.497
+                    },
+                    "deer": {
+                        "correct": 737,
+                        "total": 1000,
+                        "acc": 0.737
+                    },
+                    "dog": {
+                        "correct": 819,
+                        "total": 1000,
+                        "acc": 0.819
+                    },
+                    "frog": {
+                        "correct": 487,
+                        "total": 1000,
+                        "acc": 0.487
+                    },
+                    "horse": {
+                        "correct": 756,
+                        "total": 1000,
+                        "acc": 0.756
+                    },
+                    "ship": {
+                        "correct": 821,
+                        "total": 1000,
+                        "acc": 0.821
+                    },
+                    "truck": {
+                        "correct": 696,
+                        "total": 1000,
+                        "acc": 0.696
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 712,
+                        "total": 1000,
+                        "acc": 0.712
+                    },
+                    "automobile": {
+                        "correct": 777,
+                        "total": 1000,
+                        "acc": 0.777
+                    },
+                    "bird": {
+                        "correct": 871,
+                        "total": 1000,
+                        "acc": 0.871
+                    },
+                    "cat": {
+                        "correct": 458,
+                        "total": 1000,
+                        "acc": 0.458
+                    },
+                    "deer": {
+                        "correct": 692,
+                        "total": 1000,
+                        "acc": 0.692
+                    },
+                    "dog": {
+                        "correct": 786,
+                        "total": 1000,
+                        "acc": 0.786
+                    },
+                    "frog": {
+                        "correct": 402,
+                        "total": 1000,
+                        "acc": 0.402
+                    },
+                    "horse": {
+                        "correct": 707,
+                        "total": 1000,
+                        "acc": 0.707
+                    },
+                    "ship": {
+                        "correct": 778,
+                        "total": 1000,
+                        "acc": 0.778
+                    },
+                    "truck": {
+                        "correct": 614,
+                        "total": 1000,
+                        "acc": 0.614
+                    }
+                }
+            }
+        },
+        "snow": {
+            "severity_accs": {
+                "severity_1": 0.836,
+                "severity_2": 0.7907,
+                "severity_3": 0.7667,
+                "severity_4": 0.7302,
+                "severity_5": 0.7125
+            },
+            "mean_acc": 0.76722,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 814,
+                        "total": 1000,
+                        "acc": 0.814
+                    },
+                    "automobile": {
+                        "correct": 945,
+                        "total": 1000,
+                        "acc": 0.945
+                    },
+                    "bird": {
+                        "correct": 897,
+                        "total": 1000,
+                        "acc": 0.897
+                    },
+                    "cat": {
+                        "correct": 636,
+                        "total": 1000,
+                        "acc": 0.636
+                    },
+                    "deer": {
+                        "correct": 802,
+                        "total": 1000,
+                        "acc": 0.802
+                    },
+                    "dog": {
+                        "correct": 879,
+                        "total": 1000,
+                        "acc": 0.879
+                    },
+                    "frog": {
+                        "correct": 707,
+                        "total": 1000,
+                        "acc": 0.707
+                    },
+                    "horse": {
+                        "correct": 881,
+                        "total": 1000,
+                        "acc": 0.881
+                    },
+                    "ship": {
+                        "correct": 905,
+                        "total": 1000,
+                        "acc": 0.905
+                    },
+                    "truck": {
+                        "correct": 894,
+                        "total": 1000,
+                        "acc": 0.894
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 716,
+                        "total": 1000,
+                        "acc": 0.716
+                    },
+                    "automobile": {
+                        "correct": 892,
+                        "total": 1000,
+                        "acc": 0.892
+                    },
+                    "bird": {
+                        "correct": 911,
+                        "total": 1000,
+                        "acc": 0.911
+                    },
+                    "cat": {
+                        "correct": 576,
+                        "total": 1000,
+                        "acc": 0.576
+                    },
+                    "deer": {
+                        "correct": 746,
+                        "total": 1000,
+                        "acc": 0.746
+                    },
+                    "dog": {
+                        "correct": 867,
+                        "total": 1000,
+                        "acc": 0.867
+                    },
+                    "frog": {
+                        "correct": 652,
+                        "total": 1000,
+                        "acc": 0.652
+                    },
+                    "horse": {
+                        "correct": 831,
+                        "total": 1000,
+                        "acc": 0.831
+                    },
+                    "ship": {
+                        "correct": 890,
+                        "total": 1000,
+                        "acc": 0.89
+                    },
+                    "truck": {
+                        "correct": 826,
+                        "total": 1000,
+                        "acc": 0.826
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 710,
+                        "total": 1000,
+                        "acc": 0.71
+                    },
+                    "automobile": {
+                        "correct": 881,
+                        "total": 1000,
+                        "acc": 0.881
+                    },
+                    "bird": {
+                        "correct": 894,
+                        "total": 1000,
+                        "acc": 0.894
+                    },
+                    "cat": {
+                        "correct": 523,
+                        "total": 1000,
+                        "acc": 0.523
+                    },
+                    "deer": {
+                        "correct": 702,
+                        "total": 1000,
+                        "acc": 0.702
+                    },
+                    "dog": {
+                        "correct": 867,
+                        "total": 1000,
+                        "acc": 0.867
+                    },
+                    "frog": {
+                        "correct": 604,
+                        "total": 1000,
+                        "acc": 0.604
+                    },
+                    "horse": {
+                        "correct": 807,
+                        "total": 1000,
+                        "acc": 0.807
+                    },
+                    "ship": {
+                        "correct": 865,
+                        "total": 1000,
+                        "acc": 0.865
+                    },
+                    "truck": {
+                        "correct": 814,
+                        "total": 1000,
+                        "acc": 0.814
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 682,
+                        "total": 1000,
+                        "acc": 0.682
+                    },
+                    "automobile": {
+                        "correct": 843,
+                        "total": 1000,
+                        "acc": 0.843
+                    },
+                    "bird": {
+                        "correct": 881,
+                        "total": 1000,
+                        "acc": 0.881
+                    },
+                    "cat": {
+                        "correct": 475,
+                        "total": 1000,
+                        "acc": 0.475
+                    },
+                    "deer": {
+                        "correct": 680,
+                        "total": 1000,
+                        "acc": 0.68
+                    },
+                    "dog": {
+                        "correct": 848,
+                        "total": 1000,
+                        "acc": 0.848
+                    },
+                    "frog": {
+                        "correct": 506,
+                        "total": 1000,
+                        "acc": 0.506
+                    },
+                    "horse": {
+                        "correct": 778,
+                        "total": 1000,
+                        "acc": 0.778
+                    },
+                    "ship": {
+                        "correct": 839,
+                        "total": 1000,
+                        "acc": 0.839
+                    },
+                    "truck": {
+                        "correct": 770,
+                        "total": 1000,
+                        "acc": 0.77
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 625,
+                        "total": 1000,
+                        "acc": 0.625
+                    },
+                    "automobile": {
+                        "correct": 817,
+                        "total": 1000,
+                        "acc": 0.817
+                    },
+                    "bird": {
+                        "correct": 867,
+                        "total": 1000,
+                        "acc": 0.867
+                    },
+                    "cat": {
+                        "correct": 493,
+                        "total": 1000,
+                        "acc": 0.493
+                    },
+                    "deer": {
+                        "correct": 702,
+                        "total": 1000,
+                        "acc": 0.702
+                    },
+                    "dog": {
+                        "correct": 827,
+                        "total": 1000,
+                        "acc": 0.827
+                    },
+                    "frog": {
+                        "correct": 521,
+                        "total": 1000,
+                        "acc": 0.521
+                    },
+                    "horse": {
+                        "correct": 735,
+                        "total": 1000,
+                        "acc": 0.735
+                    },
+                    "ship": {
+                        "correct": 819,
+                        "total": 1000,
+                        "acc": 0.819
+                    },
+                    "truck": {
+                        "correct": 719,
+                        "total": 1000,
+                        "acc": 0.719
+                    }
+                }
+            }
+        },
+        "frost": {
+            "severity_accs": {
+                "severity_1": 0.8548,
+                "severity_2": 0.8211,
+                "severity_3": 0.7725,
+                "severity_4": 0.7696,
+                "severity_5": 0.7125
+            },
+            "mean_acc": 0.7861,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 798,
+                        "total": 1000,
+                        "acc": 0.798
+                    },
+                    "automobile": {
+                        "correct": 925,
+                        "total": 1000,
+                        "acc": 0.925
+                    },
+                    "bird": {
+                        "correct": 920,
+                        "total": 1000,
+                        "acc": 0.92
+                    },
+                    "cat": {
+                        "correct": 691,
+                        "total": 1000,
+                        "acc": 0.691
+                    },
+                    "deer": {
+                        "correct": 853,
+                        "total": 1000,
+                        "acc": 0.853
+                    },
+                    "dog": {
+                        "correct": 911,
+                        "total": 1000,
+                        "acc": 0.911
+                    },
+                    "frog": {
+                        "correct": 720,
+                        "total": 1000,
+                        "acc": 0.72
+                    },
+                    "horse": {
+                        "correct": 890,
+                        "total": 1000,
+                        "acc": 0.89
+                    },
+                    "ship": {
+                        "correct": 930,
+                        "total": 1000,
+                        "acc": 0.93
+                    },
+                    "truck": {
+                        "correct": 910,
+                        "total": 1000,
+                        "acc": 0.91
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 746,
+                        "total": 1000,
+                        "acc": 0.746
+                    },
+                    "automobile": {
+                        "correct": 909,
+                        "total": 1000,
+                        "acc": 0.909
+                    },
+                    "bird": {
+                        "correct": 903,
+                        "total": 1000,
+                        "acc": 0.903
+                    },
+                    "cat": {
+                        "correct": 629,
+                        "total": 1000,
+                        "acc": 0.629
+                    },
+                    "deer": {
+                        "correct": 820,
+                        "total": 1000,
+                        "acc": 0.82
+                    },
+                    "dog": {
+                        "correct": 896,
+                        "total": 1000,
+                        "acc": 0.896
+                    },
+                    "frog": {
+                        "correct": 683,
+                        "total": 1000,
+                        "acc": 0.683
+                    },
+                    "horse": {
+                        "correct": 841,
+                        "total": 1000,
+                        "acc": 0.841
+                    },
+                    "ship": {
+                        "correct": 907,
+                        "total": 1000,
+                        "acc": 0.907
+                    },
+                    "truck": {
+                        "correct": 877,
+                        "total": 1000,
+                        "acc": 0.877
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 652,
+                        "total": 1000,
+                        "acc": 0.652
+                    },
+                    "automobile": {
+                        "correct": 870,
+                        "total": 1000,
+                        "acc": 0.87
+                    },
+                    "bird": {
+                        "correct": 894,
+                        "total": 1000,
+                        "acc": 0.894
+                    },
+                    "cat": {
+                        "correct": 572,
+                        "total": 1000,
+                        "acc": 0.572
+                    },
+                    "deer": {
+                        "correct": 787,
+                        "total": 1000,
+                        "acc": 0.787
+                    },
+                    "dog": {
+                        "correct": 873,
+                        "total": 1000,
+                        "acc": 0.873
+                    },
+                    "frog": {
+                        "correct": 649,
+                        "total": 1000,
+                        "acc": 0.649
+                    },
+                    "horse": {
+                        "correct": 786,
+                        "total": 1000,
+                        "acc": 0.786
+                    },
+                    "ship": {
+                        "correct": 850,
+                        "total": 1000,
+                        "acc": 0.85
+                    },
+                    "truck": {
+                        "correct": 792,
+                        "total": 1000,
+                        "acc": 0.792
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 643,
+                        "total": 1000,
+                        "acc": 0.643
+                    },
+                    "automobile": {
+                        "correct": 846,
+                        "total": 1000,
+                        "acc": 0.846
+                    },
+                    "bird": {
+                        "correct": 902,
+                        "total": 1000,
+                        "acc": 0.902
+                    },
+                    "cat": {
+                        "correct": 551,
+                        "total": 1000,
+                        "acc": 0.551
+                    },
+                    "deer": {
+                        "correct": 768,
+                        "total": 1000,
+                        "acc": 0.768
+                    },
+                    "dog": {
+                        "correct": 863,
+                        "total": 1000,
+                        "acc": 0.863
+                    },
+                    "frog": {
+                        "correct": 659,
+                        "total": 1000,
+                        "acc": 0.659
+                    },
+                    "horse": {
+                        "correct": 788,
+                        "total": 1000,
+                        "acc": 0.788
+                    },
+                    "ship": {
+                        "correct": 887,
+                        "total": 1000,
+                        "acc": 0.887
+                    },
+                    "truck": {
+                        "correct": 789,
+                        "total": 1000,
+                        "acc": 0.789
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 560,
+                        "total": 1000,
+                        "acc": 0.56
+                    },
+                    "automobile": {
+                        "correct": 802,
+                        "total": 1000,
+                        "acc": 0.802
+                    },
+                    "bird": {
+                        "correct": 872,
+                        "total": 1000,
+                        "acc": 0.872
+                    },
+                    "cat": {
+                        "correct": 484,
+                        "total": 1000,
+                        "acc": 0.484
+                    },
+                    "deer": {
+                        "correct": 725,
+                        "total": 1000,
+                        "acc": 0.725
+                    },
+                    "dog": {
+                        "correct": 803,
+                        "total": 1000,
+                        "acc": 0.803
+                    },
+                    "frog": {
+                        "correct": 609,
+                        "total": 1000,
+                        "acc": 0.609
+                    },
+                    "horse": {
+                        "correct": 708,
+                        "total": 1000,
+                        "acc": 0.708
+                    },
+                    "ship": {
+                        "correct": 843,
+                        "total": 1000,
+                        "acc": 0.843
+                    },
+                    "truck": {
+                        "correct": 719,
+                        "total": 1000,
+                        "acc": 0.719
+                    }
+                }
+            }
+        },
+        "fog": {
+            "severity_accs": {
+                "severity_1": 0.8685,
+                "severity_2": 0.8264,
+                "severity_3": 0.7767,
+                "severity_4": 0.7157,
+                "severity_5": 0.5673
+            },
+            "mean_acc": 0.75092,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 853,
+                        "total": 1000,
+                        "acc": 0.853
+                    },
+                    "automobile": {
+                        "correct": 937,
+                        "total": 1000,
+                        "acc": 0.937
+                    },
+                    "bird": {
+                        "correct": 928,
+                        "total": 1000,
+                        "acc": 0.928
+                    },
+                    "cat": {
+                        "correct": 719,
+                        "total": 1000,
+                        "acc": 0.719
+                    },
+                    "deer": {
+                        "correct": 854,
+                        "total": 1000,
+                        "acc": 0.854
+                    },
+                    "dog": {
+                        "correct": 900,
+                        "total": 1000,
+                        "acc": 0.9
+                    },
+                    "frog": {
+                        "correct": 747,
+                        "total": 1000,
+                        "acc": 0.747
+                    },
+                    "horse": {
+                        "correct": 887,
+                        "total": 1000,
+                        "acc": 0.887
+                    },
+                    "ship": {
+                        "correct": 940,
+                        "total": 1000,
+                        "acc": 0.94
+                    },
+                    "truck": {
+                        "correct": 920,
+                        "total": 1000,
+                        "acc": 0.92
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 815,
+                        "total": 1000,
+                        "acc": 0.815
+                    },
+                    "automobile": {
+                        "correct": 920,
+                        "total": 1000,
+                        "acc": 0.92
+                    },
+                    "bird": {
+                        "correct": 918,
+                        "total": 1000,
+                        "acc": 0.918
+                    },
+                    "cat": {
+                        "correct": 665,
+                        "total": 1000,
+                        "acc": 0.665
+                    },
+                    "deer": {
+                        "correct": 827,
+                        "total": 1000,
+                        "acc": 0.827
+                    },
+                    "dog": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    },
+                    "frog": {
+                        "correct": 642,
+                        "total": 1000,
+                        "acc": 0.642
+                    },
+                    "horse": {
+                        "correct": 846,
+                        "total": 1000,
+                        "acc": 0.846
+                    },
+                    "ship": {
+                        "correct": 911,
+                        "total": 1000,
+                        "acc": 0.911
+                    },
+                    "truck": {
+                        "correct": 863,
+                        "total": 1000,
+                        "acc": 0.863
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 766,
+                        "total": 1000,
+                        "acc": 0.766
+                    },
+                    "automobile": {
+                        "correct": 900,
+                        "total": 1000,
+                        "acc": 0.9
+                    },
+                    "bird": {
+                        "correct": 900,
+                        "total": 1000,
+                        "acc": 0.9
+                    },
+                    "cat": {
+                        "correct": 618,
+                        "total": 1000,
+                        "acc": 0.618
+                    },
+                    "deer": {
+                        "correct": 756,
+                        "total": 1000,
+                        "acc": 0.756
+                    },
+                    "dog": {
+                        "correct": 823,
+                        "total": 1000,
+                        "acc": 0.823
+                    },
+                    "frog": {
+                        "correct": 564,
+                        "total": 1000,
+                        "acc": 0.564
+                    },
+                    "horse": {
+                        "correct": 798,
+                        "total": 1000,
+                        "acc": 0.798
+                    },
+                    "ship": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    },
+                    "truck": {
+                        "correct": 790,
+                        "total": 1000,
+                        "acc": 0.79
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 718,
+                        "total": 1000,
+                        "acc": 0.718
+                    },
+                    "automobile": {
+                        "correct": 850,
+                        "total": 1000,
+                        "acc": 0.85
+                    },
+                    "bird": {
+                        "correct": 896,
+                        "total": 1000,
+                        "acc": 0.896
+                    },
+                    "cat": {
+                        "correct": 512,
+                        "total": 1000,
+                        "acc": 0.512
+                    },
+                    "deer": {
+                        "correct": 687,
+                        "total": 1000,
+                        "acc": 0.687
+                    },
+                    "dog": {
+                        "correct": 786,
+                        "total": 1000,
+                        "acc": 0.786
+                    },
+                    "frog": {
+                        "correct": 492,
+                        "total": 1000,
+                        "acc": 0.492
+                    },
+                    "horse": {
+                        "correct": 724,
+                        "total": 1000,
+                        "acc": 0.724
+                    },
+                    "ship": {
+                        "correct": 803,
+                        "total": 1000,
+                        "acc": 0.803
+                    },
+                    "truck": {
+                        "correct": 689,
+                        "total": 1000,
+                        "acc": 0.689
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 561,
+                        "total": 1000,
+                        "acc": 0.561
+                    },
+                    "automobile": {
+                        "correct": 698,
+                        "total": 1000,
+                        "acc": 0.698
+                    },
+                    "bird": {
+                        "correct": 869,
+                        "total": 1000,
+                        "acc": 0.869
+                    },
+                    "cat": {
+                        "correct": 372,
+                        "total": 1000,
+                        "acc": 0.372
+                    },
+                    "deer": {
+                        "correct": 506,
+                        "total": 1000,
+                        "acc": 0.506
+                    },
+                    "dog": {
+                        "correct": 658,
+                        "total": 1000,
+                        "acc": 0.658
+                    },
+                    "frog": {
+                        "correct": 315,
+                        "total": 1000,
+                        "acc": 0.315
+                    },
+                    "horse": {
+                        "correct": 534,
+                        "total": 1000,
+                        "acc": 0.534
+                    },
+                    "ship": {
+                        "correct": 697,
+                        "total": 1000,
+                        "acc": 0.697
+                    },
+                    "truck": {
+                        "correct": 463,
+                        "total": 1000,
+                        "acc": 0.463
+                    }
+                }
+            }
+        },
+        "brightness": {
+            "severity_accs": {
+                "severity_1": 0.8829,
+                "severity_2": 0.879,
+                "severity_3": 0.8723,
+                "severity_4": 0.8618,
+                "severity_5": 0.8276
+            },
+            "mean_acc": 0.8647199999999999,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 865,
+                        "total": 1000,
+                        "acc": 0.865
+                    },
+                    "automobile": {
+                        "correct": 945,
+                        "total": 1000,
+                        "acc": 0.945
+                    },
+                    "bird": {
+                        "correct": 932,
+                        "total": 1000,
+                        "acc": 0.932
+                    },
+                    "cat": {
+                        "correct": 744,
+                        "total": 1000,
+                        "acc": 0.744
+                    },
+                    "deer": {
+                        "correct": 856,
+                        "total": 1000,
+                        "acc": 0.856
+                    },
+                    "dog": {
+                        "correct": 910,
+                        "total": 1000,
+                        "acc": 0.91
+                    },
+                    "frog": {
+                        "correct": 788,
+                        "total": 1000,
+                        "acc": 0.788
+                    },
+                    "horse": {
+                        "correct": 908,
+                        "total": 1000,
+                        "acc": 0.908
+                    },
+                    "ship": {
+                        "correct": 951,
+                        "total": 1000,
+                        "acc": 0.951
+                    },
+                    "truck": {
+                        "correct": 930,
+                        "total": 1000,
+                        "acc": 0.93
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 862,
+                        "total": 1000,
+                        "acc": 0.862
+                    },
+                    "automobile": {
+                        "correct": 937,
+                        "total": 1000,
+                        "acc": 0.937
+                    },
+                    "bird": {
+                        "correct": 934,
+                        "total": 1000,
+                        "acc": 0.934
+                    },
+                    "cat": {
+                        "correct": 724,
+                        "total": 1000,
+                        "acc": 0.724
+                    },
+                    "deer": {
+                        "correct": 858,
+                        "total": 1000,
+                        "acc": 0.858
+                    },
+                    "dog": {
+                        "correct": 903,
+                        "total": 1000,
+                        "acc": 0.903
+                    },
+                    "frog": {
+                        "correct": 776,
+                        "total": 1000,
+                        "acc": 0.776
+                    },
+                    "horse": {
+                        "correct": 919,
+                        "total": 1000,
+                        "acc": 0.919
+                    },
+                    "ship": {
+                        "correct": 951,
+                        "total": 1000,
+                        "acc": 0.951
+                    },
+                    "truck": {
+                        "correct": 926,
+                        "total": 1000,
+                        "acc": 0.926
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 854,
+                        "total": 1000,
+                        "acc": 0.854
+                    },
+                    "automobile": {
+                        "correct": 930,
+                        "total": 1000,
+                        "acc": 0.93
+                    },
+                    "bird": {
+                        "correct": 936,
+                        "total": 1000,
+                        "acc": 0.936
+                    },
+                    "cat": {
+                        "correct": 699,
+                        "total": 1000,
+                        "acc": 0.699
+                    },
+                    "deer": {
+                        "correct": 862,
+                        "total": 1000,
+                        "acc": 0.862
+                    },
+                    "dog": {
+                        "correct": 903,
+                        "total": 1000,
+                        "acc": 0.903
+                    },
+                    "frog": {
+                        "correct": 762,
+                        "total": 1000,
+                        "acc": 0.762
+                    },
+                    "horse": {
+                        "correct": 916,
+                        "total": 1000,
+                        "acc": 0.916
+                    },
+                    "ship": {
+                        "correct": 946,
+                        "total": 1000,
+                        "acc": 0.946
+                    },
+                    "truck": {
+                        "correct": 915,
+                        "total": 1000,
+                        "acc": 0.915
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 848,
+                        "total": 1000,
+                        "acc": 0.848
+                    },
+                    "automobile": {
+                        "correct": 923,
+                        "total": 1000,
+                        "acc": 0.923
+                    },
+                    "bird": {
+                        "correct": 926,
+                        "total": 1000,
+                        "acc": 0.926
+                    },
+                    "cat": {
+                        "correct": 675,
+                        "total": 1000,
+                        "acc": 0.675
+                    },
+                    "deer": {
+                        "correct": 855,
+                        "total": 1000,
+                        "acc": 0.855
+                    },
+                    "dog": {
+                        "correct": 902,
+                        "total": 1000,
+                        "acc": 0.902
+                    },
+                    "frog": {
+                        "correct": 755,
+                        "total": 1000,
+                        "acc": 0.755
+                    },
+                    "horse": {
+                        "correct": 903,
+                        "total": 1000,
+                        "acc": 0.903
+                    },
+                    "ship": {
+                        "correct": 932,
+                        "total": 1000,
+                        "acc": 0.932
+                    },
+                    "truck": {
+                        "correct": 899,
+                        "total": 1000,
+                        "acc": 0.899
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 828,
+                        "total": 1000,
+                        "acc": 0.828
+                    },
+                    "automobile": {
+                        "correct": 888,
+                        "total": 1000,
+                        "acc": 0.888
+                    },
+                    "bird": {
+                        "correct": 904,
+                        "total": 1000,
+                        "acc": 0.904
+                    },
+                    "cat": {
+                        "correct": 614,
+                        "total": 1000,
+                        "acc": 0.614
+                    },
+                    "deer": {
+                        "correct": 831,
+                        "total": 1000,
+                        "acc": 0.831
+                    },
+                    "dog": {
+                        "correct": 864,
+                        "total": 1000,
+                        "acc": 0.864
+                    },
+                    "frog": {
+                        "correct": 720,
+                        "total": 1000,
+                        "acc": 0.72
+                    },
+                    "horse": {
+                        "correct": 882,
+                        "total": 1000,
+                        "acc": 0.882
+                    },
+                    "ship": {
+                        "correct": 893,
+                        "total": 1000,
+                        "acc": 0.893
+                    },
+                    "truck": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    }
+                }
+            }
+        },
+        "contrast": {
+            "severity_accs": {
+                "severity_1": 0.8683,
+                "severity_2": 0.8309,
+                "severity_3": 0.7993,
+                "severity_4": 0.7595,
+                "severity_5": 0.6319
+            },
+            "mean_acc": 0.77798,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 863,
+                        "total": 1000,
+                        "acc": 0.863
+                    },
+                    "automobile": {
+                        "correct": 940,
+                        "total": 1000,
+                        "acc": 0.94
+                    },
+                    "bird": {
+                        "correct": 925,
+                        "total": 1000,
+                        "acc": 0.925
+                    },
+                    "cat": {
+                        "correct": 727,
+                        "total": 1000,
+                        "acc": 0.727
+                    },
+                    "deer": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    },
+                    "dog": {
+                        "correct": 896,
+                        "total": 1000,
+                        "acc": 0.896
+                    },
+                    "frog": {
+                        "correct": 742,
+                        "total": 1000,
+                        "acc": 0.742
+                    },
+                    "horse": {
+                        "correct": 880,
+                        "total": 1000,
+                        "acc": 0.88
+                    },
+                    "ship": {
+                        "correct": 944,
+                        "total": 1000,
+                        "acc": 0.944
+                    },
+                    "truck": {
+                        "correct": 909,
+                        "total": 1000,
+                        "acc": 0.909
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 843,
+                        "total": 1000,
+                        "acc": 0.843
+                    },
+                    "automobile": {
+                        "correct": 920,
+                        "total": 1000,
+                        "acc": 0.92
+                    },
+                    "bird": {
+                        "correct": 912,
+                        "total": 1000,
+                        "acc": 0.912
+                    },
+                    "cat": {
+                        "correct": 655,
+                        "total": 1000,
+                        "acc": 0.655
+                    },
+                    "deer": {
+                        "correct": 821,
+                        "total": 1000,
+                        "acc": 0.821
+                    },
+                    "dog": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    },
+                    "frog": {
+                        "correct": 691,
+                        "total": 1000,
+                        "acc": 0.691
+                    },
+                    "horse": {
+                        "correct": 837,
+                        "total": 1000,
+                        "acc": 0.837
+                    },
+                    "ship": {
+                        "correct": 918,
+                        "total": 1000,
+                        "acc": 0.918
+                    },
+                    "truck": {
+                        "correct": 855,
+                        "total": 1000,
+                        "acc": 0.855
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 823,
+                        "total": 1000,
+                        "acc": 0.823
+                    },
+                    "automobile": {
+                        "correct": 889,
+                        "total": 1000,
+                        "acc": 0.889
+                    },
+                    "bird": {
+                        "correct": 910,
+                        "total": 1000,
+                        "acc": 0.91
+                    },
+                    "cat": {
+                        "correct": 604,
+                        "total": 1000,
+                        "acc": 0.604
+                    },
+                    "deer": {
+                        "correct": 789,
+                        "total": 1000,
+                        "acc": 0.789
+                    },
+                    "dog": {
+                        "correct": 836,
+                        "total": 1000,
+                        "acc": 0.836
+                    },
+                    "frog": {
+                        "correct": 633,
+                        "total": 1000,
+                        "acc": 0.633
+                    },
+                    "horse": {
+                        "correct": 811,
+                        "total": 1000,
+                        "acc": 0.811
+                    },
+                    "ship": {
+                        "correct": 889,
+                        "total": 1000,
+                        "acc": 0.889
+                    },
+                    "truck": {
+                        "correct": 809,
+                        "total": 1000,
+                        "acc": 0.809
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 793,
+                        "total": 1000,
+                        "acc": 0.793
+                    },
+                    "automobile": {
+                        "correct": 850,
+                        "total": 1000,
+                        "acc": 0.85
+                    },
+                    "bird": {
+                        "correct": 898,
+                        "total": 1000,
+                        "acc": 0.898
+                    },
+                    "cat": {
+                        "correct": 550,
+                        "total": 1000,
+                        "acc": 0.55
+                    },
+                    "deer": {
+                        "correct": 748,
+                        "total": 1000,
+                        "acc": 0.748
+                    },
+                    "dog": {
+                        "correct": 810,
+                        "total": 1000,
+                        "acc": 0.81
+                    },
+                    "frog": {
+                        "correct": 577,
+                        "total": 1000,
+                        "acc": 0.577
+                    },
+                    "horse": {
+                        "correct": 772,
+                        "total": 1000,
+                        "acc": 0.772
+                    },
+                    "ship": {
+                        "correct": 874,
+                        "total": 1000,
+                        "acc": 0.874
+                    },
+                    "truck": {
+                        "correct": 723,
+                        "total": 1000,
+                        "acc": 0.723
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 695,
+                        "total": 1000,
+                        "acc": 0.695
+                    },
+                    "automobile": {
+                        "correct": 729,
+                        "total": 1000,
+                        "acc": 0.729
+                    },
+                    "bird": {
+                        "correct": 871,
+                        "total": 1000,
+                        "acc": 0.871
+                    },
+                    "cat": {
+                        "correct": 384,
+                        "total": 1000,
+                        "acc": 0.384
+                    },
+                    "deer": {
+                        "correct": 644,
+                        "total": 1000,
+                        "acc": 0.644
+                    },
+                    "dog": {
+                        "correct": 640,
+                        "total": 1000,
+                        "acc": 0.64
+                    },
+                    "frog": {
+                        "correct": 452,
+                        "total": 1000,
+                        "acc": 0.452
+                    },
+                    "horse": {
+                        "correct": 667,
+                        "total": 1000,
+                        "acc": 0.667
+                    },
+                    "ship": {
+                        "correct": 759,
+                        "total": 1000,
+                        "acc": 0.759
+                    },
+                    "truck": {
+                        "correct": 478,
+                        "total": 1000,
+                        "acc": 0.478
+                    }
+                }
+            }
+        },
+        "elastic_transform": {
+            "severity_accs": {
+                "severity_1": 0.7715,
+                "severity_2": 0.7794,
+                "severity_3": 0.7379,
+                "severity_4": 0.647,
+                "severity_5": 0.5213
+            },
+            "mean_acc": 0.6914200000000001,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 721,
+                        "total": 1000,
+                        "acc": 0.721
+                    },
+                    "automobile": {
+                        "correct": 872,
+                        "total": 1000,
+                        "acc": 0.872
+                    },
+                    "bird": {
+                        "correct": 919,
+                        "total": 1000,
+                        "acc": 0.919
+                    },
+                    "cat": {
+                        "correct": 530,
+                        "total": 1000,
+                        "acc": 0.53
+                    },
+                    "deer": {
+                        "correct": 719,
+                        "total": 1000,
+                        "acc": 0.719
+                    },
+                    "dog": {
+                        "correct": 837,
+                        "total": 1000,
+                        "acc": 0.837
+                    },
+                    "frog": {
+                        "correct": 599,
+                        "total": 1000,
+                        "acc": 0.599
+                    },
+                    "horse": {
+                        "correct": 814,
+                        "total": 1000,
+                        "acc": 0.814
+                    },
+                    "ship": {
+                        "correct": 892,
+                        "total": 1000,
+                        "acc": 0.892
+                    },
+                    "truck": {
+                        "correct": 812,
+                        "total": 1000,
+                        "acc": 0.812
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 728,
+                        "total": 1000,
+                        "acc": 0.728
+                    },
+                    "automobile": {
+                        "correct": 904,
+                        "total": 1000,
+                        "acc": 0.904
+                    },
+                    "bird": {
+                        "correct": 907,
+                        "total": 1000,
+                        "acc": 0.907
+                    },
+                    "cat": {
+                        "correct": 542,
+                        "total": 1000,
+                        "acc": 0.542
+                    },
+                    "deer": {
+                        "correct": 739,
+                        "total": 1000,
+                        "acc": 0.739
+                    },
+                    "dog": {
+                        "correct": 845,
+                        "total": 1000,
+                        "acc": 0.845
+                    },
+                    "frog": {
+                        "correct": 605,
+                        "total": 1000,
+                        "acc": 0.605
+                    },
+                    "horse": {
+                        "correct": 810,
+                        "total": 1000,
+                        "acc": 0.81
+                    },
+                    "ship": {
+                        "correct": 897,
+                        "total": 1000,
+                        "acc": 0.897
+                    },
+                    "truck": {
+                        "correct": 817,
+                        "total": 1000,
+                        "acc": 0.817
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 675,
+                        "total": 1000,
+                        "acc": 0.675
+                    },
+                    "automobile": {
+                        "correct": 868,
+                        "total": 1000,
+                        "acc": 0.868
+                    },
+                    "bird": {
+                        "correct": 896,
+                        "total": 1000,
+                        "acc": 0.896
+                    },
+                    "cat": {
+                        "correct": 500,
+                        "total": 1000,
+                        "acc": 0.5
+                    },
+                    "deer": {
+                        "correct": 706,
+                        "total": 1000,
+                        "acc": 0.706
+                    },
+                    "dog": {
+                        "correct": 836,
+                        "total": 1000,
+                        "acc": 0.836
+                    },
+                    "frog": {
+                        "correct": 520,
+                        "total": 1000,
+                        "acc": 0.52
+                    },
+                    "horse": {
+                        "correct": 795,
+                        "total": 1000,
+                        "acc": 0.795
+                    },
+                    "ship": {
+                        "correct": 846,
+                        "total": 1000,
+                        "acc": 0.846
+                    },
+                    "truck": {
+                        "correct": 737,
+                        "total": 1000,
+                        "acc": 0.737
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 482,
+                        "total": 1000,
+                        "acc": 0.482
+                    },
+                    "automobile": {
+                        "correct": 718,
+                        "total": 1000,
+                        "acc": 0.718
+                    },
+                    "bird": {
+                        "correct": 869,
+                        "total": 1000,
+                        "acc": 0.869
+                    },
+                    "cat": {
+                        "correct": 434,
+                        "total": 1000,
+                        "acc": 0.434
+                    },
+                    "deer": {
+                        "correct": 662,
+                        "total": 1000,
+                        "acc": 0.662
+                    },
+                    "dog": {
+                        "correct": 827,
+                        "total": 1000,
+                        "acc": 0.827
+                    },
+                    "frog": {
+                        "correct": 475,
+                        "total": 1000,
+                        "acc": 0.475
+                    },
+                    "horse": {
+                        "correct": 711,
+                        "total": 1000,
+                        "acc": 0.711
+                    },
+                    "ship": {
+                        "correct": 742,
+                        "total": 1000,
+                        "acc": 0.742
+                    },
+                    "truck": {
+                        "correct": 550,
+                        "total": 1000,
+                        "acc": 0.55
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 359,
+                        "total": 1000,
+                        "acc": 0.359
+                    },
+                    "automobile": {
+                        "correct": 402,
+                        "total": 1000,
+                        "acc": 0.402
+                    },
+                    "bird": {
+                        "correct": 823,
+                        "total": 1000,
+                        "acc": 0.823
+                    },
+                    "cat": {
+                        "correct": 326,
+                        "total": 1000,
+                        "acc": 0.326
+                    },
+                    "deer": {
+                        "correct": 533,
+                        "total": 1000,
+                        "acc": 0.533
+                    },
+                    "dog": {
+                        "correct": 782,
+                        "total": 1000,
+                        "acc": 0.782
+                    },
+                    "frog": {
+                        "correct": 436,
+                        "total": 1000,
+                        "acc": 0.436
+                    },
+                    "horse": {
+                        "correct": 600,
+                        "total": 1000,
+                        "acc": 0.6
+                    },
+                    "ship": {
+                        "correct": 636,
+                        "total": 1000,
+                        "acc": 0.636
+                    },
+                    "truck": {
+                        "correct": 316,
+                        "total": 1000,
+                        "acc": 0.316
+                    }
+                }
+            }
+        },
+        "pixelate": {
+            "severity_accs": {
+                "severity_1": 0.8692,
+                "severity_2": 0.824,
+                "severity_3": 0.815,
+                "severity_4": 0.7464,
+                "severity_5": 0.6856
+            },
+            "mean_acc": 0.78804,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 832,
+                        "total": 1000,
+                        "acc": 0.832
+                    },
+                    "automobile": {
+                        "correct": 940,
+                        "total": 1000,
+                        "acc": 0.94
+                    },
+                    "bird": {
+                        "correct": 924,
+                        "total": 1000,
+                        "acc": 0.924
+                    },
+                    "cat": {
+                        "correct": 711,
+                        "total": 1000,
+                        "acc": 0.711
+                    },
+                    "deer": {
+                        "correct": 839,
+                        "total": 1000,
+                        "acc": 0.839
+                    },
+                    "dog": {
+                        "correct": 907,
+                        "total": 1000,
+                        "acc": 0.907
+                    },
+                    "frog": {
+                        "correct": 747,
+                        "total": 1000,
+                        "acc": 0.747
+                    },
+                    "horse": {
+                        "correct": 904,
+                        "total": 1000,
+                        "acc": 0.904
+                    },
+                    "ship": {
+                        "correct": 963,
+                        "total": 1000,
+                        "acc": 0.963
+                    },
+                    "truck": {
+                        "correct": 925,
+                        "total": 1000,
+                        "acc": 0.925
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 771,
+                        "total": 1000,
+                        "acc": 0.771
+                    },
+                    "automobile": {
+                        "correct": 878,
+                        "total": 1000,
+                        "acc": 0.878
+                    },
+                    "bird": {
+                        "correct": 896,
+                        "total": 1000,
+                        "acc": 0.896
+                    },
+                    "cat": {
+                        "correct": 562,
+                        "total": 1000,
+                        "acc": 0.562
+                    },
+                    "deer": {
+                        "correct": 828,
+                        "total": 1000,
+                        "acc": 0.828
+                    },
+                    "dog": {
+                        "correct": 884,
+                        "total": 1000,
+                        "acc": 0.884
+                    },
+                    "frog": {
+                        "correct": 674,
+                        "total": 1000,
+                        "acc": 0.674
+                    },
+                    "horse": {
+                        "correct": 877,
+                        "total": 1000,
+                        "acc": 0.877
+                    },
+                    "ship": {
+                        "correct": 956,
+                        "total": 1000,
+                        "acc": 0.956
+                    },
+                    "truck": {
+                        "correct": 914,
+                        "total": 1000,
+                        "acc": 0.914
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 772,
+                        "total": 1000,
+                        "acc": 0.772
+                    },
+                    "automobile": {
+                        "correct": 871,
+                        "total": 1000,
+                        "acc": 0.871
+                    },
+                    "bird": {
+                        "correct": 879,
+                        "total": 1000,
+                        "acc": 0.879
+                    },
+                    "cat": {
+                        "correct": 555,
+                        "total": 1000,
+                        "acc": 0.555
+                    },
+                    "deer": {
+                        "correct": 824,
+                        "total": 1000,
+                        "acc": 0.824
+                    },
+                    "dog": {
+                        "correct": 867,
+                        "total": 1000,
+                        "acc": 0.867
+                    },
+                    "frog": {
+                        "correct": 653,
+                        "total": 1000,
+                        "acc": 0.653
+                    },
+                    "horse": {
+                        "correct": 862,
+                        "total": 1000,
+                        "acc": 0.862
+                    },
+                    "ship": {
+                        "correct": 968,
+                        "total": 1000,
+                        "acc": 0.968
+                    },
+                    "truck": {
+                        "correct": 899,
+                        "total": 1000,
+                        "acc": 0.899
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 702,
+                        "total": 1000,
+                        "acc": 0.702
+                    },
+                    "automobile": {
+                        "correct": 774,
+                        "total": 1000,
+                        "acc": 0.774
+                    },
+                    "bird": {
+                        "correct": 826,
+                        "total": 1000,
+                        "acc": 0.826
+                    },
+                    "cat": {
+                        "correct": 406,
+                        "total": 1000,
+                        "acc": 0.406
+                    },
+                    "deer": {
+                        "correct": 735,
+                        "total": 1000,
+                        "acc": 0.735
+                    },
+                    "dog": {
+                        "correct": 832,
+                        "total": 1000,
+                        "acc": 0.832
+                    },
+                    "frog": {
+                        "correct": 579,
+                        "total": 1000,
+                        "acc": 0.579
+                    },
+                    "horse": {
+                        "correct": 787,
+                        "total": 1000,
+                        "acc": 0.787
+                    },
+                    "ship": {
+                        "correct": 966,
+                        "total": 1000,
+                        "acc": 0.966
+                    },
+                    "truck": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 635,
+                        "total": 1000,
+                        "acc": 0.635
+                    },
+                    "automobile": {
+                        "correct": 662,
+                        "total": 1000,
+                        "acc": 0.662
+                    },
+                    "bird": {
+                        "correct": 775,
+                        "total": 1000,
+                        "acc": 0.775
+                    },
+                    "cat": {
+                        "correct": 326,
+                        "total": 1000,
+                        "acc": 0.326
+                    },
+                    "deer": {
+                        "correct": 682,
+                        "total": 1000,
+                        "acc": 0.682
+                    },
+                    "dog": {
+                        "correct": 795,
+                        "total": 1000,
+                        "acc": 0.795
+                    },
+                    "frog": {
+                        "correct": 523,
+                        "total": 1000,
+                        "acc": 0.523
+                    },
+                    "horse": {
+                        "correct": 738,
+                        "total": 1000,
+                        "acc": 0.738
+                    },
+                    "ship": {
+                        "correct": 943,
+                        "total": 1000,
+                        "acc": 0.943
+                    },
+                    "truck": {
+                        "correct": 777,
+                        "total": 1000,
+                        "acc": 0.777
+                    }
+                }
+            }
+        },
+        "jpeg_compression": {
+            "severity_accs": {
+                "severity_1": 0.8026,
+                "severity_2": 0.7454,
+                "severity_3": 0.7195,
+                "severity_4": 0.6885,
+                "severity_5": 0.6619
+            },
+            "mean_acc": 0.72358,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 744,
+                        "total": 1000,
+                        "acc": 0.744
+                    },
+                    "automobile": {
+                        "correct": 922,
+                        "total": 1000,
+                        "acc": 0.922
+                    },
+                    "bird": {
+                        "correct": 903,
+                        "total": 1000,
+                        "acc": 0.903
+                    },
+                    "cat": {
+                        "correct": 527,
+                        "total": 1000,
+                        "acc": 0.527
+                    },
+                    "deer": {
+                        "correct": 775,
+                        "total": 1000,
+                        "acc": 0.775
+                    },
+                    "dog": {
+                        "correct": 873,
+                        "total": 1000,
+                        "acc": 0.873
+                    },
+                    "frog": {
+                        "correct": 625,
+                        "total": 1000,
+                        "acc": 0.625
+                    },
+                    "horse": {
+                        "correct": 871,
+                        "total": 1000,
+                        "acc": 0.871
+                    },
+                    "ship": {
+                        "correct": 908,
+                        "total": 1000,
+                        "acc": 0.908
+                    },
+                    "truck": {
+                        "correct": 878,
+                        "total": 1000,
+                        "acc": 0.878
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 711,
+                        "total": 1000,
+                        "acc": 0.711
+                    },
+                    "automobile": {
+                        "correct": 884,
+                        "total": 1000,
+                        "acc": 0.884
+                    },
+                    "bird": {
+                        "correct": 886,
+                        "total": 1000,
+                        "acc": 0.886
+                    },
+                    "cat": {
+                        "correct": 390,
+                        "total": 1000,
+                        "acc": 0.39
+                    },
+                    "deer": {
+                        "correct": 679,
+                        "total": 1000,
+                        "acc": 0.679
+                    },
+                    "dog": {
+                        "correct": 834,
+                        "total": 1000,
+                        "acc": 0.834
+                    },
+                    "frog": {
+                        "correct": 536,
+                        "total": 1000,
+                        "acc": 0.536
+                    },
+                    "horse": {
+                        "correct": 832,
+                        "total": 1000,
+                        "acc": 0.832
+                    },
+                    "ship": {
+                        "correct": 887,
+                        "total": 1000,
+                        "acc": 0.887
+                    },
+                    "truck": {
+                        "correct": 815,
+                        "total": 1000,
+                        "acc": 0.815
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 680,
+                        "total": 1000,
+                        "acc": 0.68
+                    },
+                    "automobile": {
+                        "correct": 862,
+                        "total": 1000,
+                        "acc": 0.862
+                    },
+                    "bird": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    },
+                    "cat": {
+                        "correct": 358,
+                        "total": 1000,
+                        "acc": 0.358
+                    },
+                    "deer": {
+                        "correct": 637,
+                        "total": 1000,
+                        "acc": 0.637
+                    },
+                    "dog": {
+                        "correct": 821,
+                        "total": 1000,
+                        "acc": 0.821
+                    },
+                    "frog": {
+                        "correct": 516,
+                        "total": 1000,
+                        "acc": 0.516
+                    },
+                    "horse": {
+                        "correct": 810,
+                        "total": 1000,
+                        "acc": 0.81
+                    },
+                    "ship": {
+                        "correct": 861,
+                        "total": 1000,
+                        "acc": 0.861
+                    },
+                    "truck": {
+                        "correct": 793,
+                        "total": 1000,
+                        "acc": 0.793
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 649,
+                        "total": 1000,
+                        "acc": 0.649
+                    },
+                    "automobile": {
+                        "correct": 821,
+                        "total": 1000,
+                        "acc": 0.821
+                    },
+                    "bird": {
+                        "correct": 836,
+                        "total": 1000,
+                        "acc": 0.836
+                    },
+                    "cat": {
+                        "correct": 318,
+                        "total": 1000,
+                        "acc": 0.318
+                    },
+                    "deer": {
+                        "correct": 591,
+                        "total": 1000,
+                        "acc": 0.591
+                    },
+                    "dog": {
+                        "correct": 793,
+                        "total": 1000,
+                        "acc": 0.793
+                    },
+                    "frog": {
+                        "correct": 462,
+                        "total": 1000,
+                        "acc": 0.462
+                    },
+                    "horse": {
+                        "correct": 766,
+                        "total": 1000,
+                        "acc": 0.766
+                    },
+                    "ship": {
+                        "correct": 868,
+                        "total": 1000,
+                        "acc": 0.868
+                    },
+                    "truck": {
+                        "correct": 781,
+                        "total": 1000,
+                        "acc": 0.781
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 639,
+                        "total": 1000,
+                        "acc": 0.639
+                    },
+                    "automobile": {
+                        "correct": 806,
+                        "total": 1000,
+                        "acc": 0.806
+                    },
+                    "bird": {
+                        "correct": 827,
+                        "total": 1000,
+                        "acc": 0.827
+                    },
+                    "cat": {
+                        "correct": 275,
+                        "total": 1000,
+                        "acc": 0.275
+                    },
+                    "deer": {
+                        "correct": 548,
+                        "total": 1000,
+                        "acc": 0.548
+                    },
+                    "dog": {
+                        "correct": 764,
+                        "total": 1000,
+                        "acc": 0.764
+                    },
+                    "frog": {
+                        "correct": 448,
+                        "total": 1000,
+                        "acc": 0.448
+                    },
+                    "horse": {
+                        "correct": 729,
+                        "total": 1000,
+                        "acc": 0.729
+                    },
+                    "ship": {
+                        "correct": 843,
+                        "total": 1000,
+                        "acc": 0.843
+                    },
+                    "truck": {
+                        "correct": 740,
+                        "total": 1000,
+                        "acc": 0.74
+                    }
+                }
+            }
+        },
+        "speckle_noise": {
+            "severity_accs": {
+                "severity_1": 0.8556,
+                "severity_2": 0.8059,
+                "severity_3": 0.7704,
+                "severity_4": 0.6909,
+                "severity_5": 0.6099
+            },
+            "mean_acc": 0.74654,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 791,
+                        "total": 1000,
+                        "acc": 0.791
+                    },
+                    "automobile": {
+                        "correct": 946,
+                        "total": 1000,
+                        "acc": 0.946
+                    },
+                    "bird": {
+                        "correct": 910,
+                        "total": 1000,
+                        "acc": 0.91
+                    },
+                    "cat": {
+                        "correct": 666,
+                        "total": 1000,
+                        "acc": 0.666
+                    },
+                    "deer": {
+                        "correct": 854,
+                        "total": 1000,
+                        "acc": 0.854
+                    },
+                    "dog": {
+                        "correct": 910,
+                        "total": 1000,
+                        "acc": 0.91
+                    },
+                    "frog": {
+                        "correct": 770,
+                        "total": 1000,
+                        "acc": 0.77
+                    },
+                    "horse": {
+                        "correct": 865,
+                        "total": 1000,
+                        "acc": 0.865
+                    },
+                    "ship": {
+                        "correct": 927,
+                        "total": 1000,
+                        "acc": 0.927
+                    },
+                    "truck": {
+                        "correct": 917,
+                        "total": 1000,
+                        "acc": 0.917
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 693,
+                        "total": 1000,
+                        "acc": 0.693
+                    },
+                    "automobile": {
+                        "correct": 927,
+                        "total": 1000,
+                        "acc": 0.927
+                    },
+                    "bird": {
+                        "correct": 890,
+                        "total": 1000,
+                        "acc": 0.89
+                    },
+                    "cat": {
+                        "correct": 529,
+                        "total": 1000,
+                        "acc": 0.529
+                    },
+                    "deer": {
+                        "correct": 796,
+                        "total": 1000,
+                        "acc": 0.796
+                    },
+                    "dog": {
+                        "correct": 893,
+                        "total": 1000,
+                        "acc": 0.893
+                    },
+                    "frog": {
+                        "correct": 743,
+                        "total": 1000,
+                        "acc": 0.743
+                    },
+                    "horse": {
+                        "correct": 815,
+                        "total": 1000,
+                        "acc": 0.815
+                    },
+                    "ship": {
+                        "correct": 909,
+                        "total": 1000,
+                        "acc": 0.909
+                    },
+                    "truck": {
+                        "correct": 864,
+                        "total": 1000,
+                        "acc": 0.864
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 652,
+                        "total": 1000,
+                        "acc": 0.652
+                    },
+                    "automobile": {
+                        "correct": 907,
+                        "total": 1000,
+                        "acc": 0.907
+                    },
+                    "bird": {
+                        "correct": 867,
+                        "total": 1000,
+                        "acc": 0.867
+                    },
+                    "cat": {
+                        "correct": 464,
+                        "total": 1000,
+                        "acc": 0.464
+                    },
+                    "deer": {
+                        "correct": 742,
+                        "total": 1000,
+                        "acc": 0.742
+                    },
+                    "dog": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    },
+                    "frog": {
+                        "correct": 729,
+                        "total": 1000,
+                        "acc": 0.729
+                    },
+                    "horse": {
+                        "correct": 779,
+                        "total": 1000,
+                        "acc": 0.779
+                    },
+                    "ship": {
+                        "correct": 877,
+                        "total": 1000,
+                        "acc": 0.877
+                    },
+                    "truck": {
+                        "correct": 835,
+                        "total": 1000,
+                        "acc": 0.835
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 551,
+                        "total": 1000,
+                        "acc": 0.551
+                    },
+                    "automobile": {
+                        "correct": 879,
+                        "total": 1000,
+                        "acc": 0.879
+                    },
+                    "bird": {
+                        "correct": 847,
+                        "total": 1000,
+                        "acc": 0.847
+                    },
+                    "cat": {
+                        "correct": 352,
+                        "total": 1000,
+                        "acc": 0.352
+                    },
+                    "deer": {
+                        "correct": 638,
+                        "total": 1000,
+                        "acc": 0.638
+                    },
+                    "dog": {
+                        "correct": 777,
+                        "total": 1000,
+                        "acc": 0.777
+                    },
+                    "frog": {
+                        "correct": 656,
+                        "total": 1000,
+                        "acc": 0.656
+                    },
+                    "horse": {
+                        "correct": 691,
+                        "total": 1000,
+                        "acc": 0.691
+                    },
+                    "ship": {
+                        "correct": 812,
+                        "total": 1000,
+                        "acc": 0.812
+                    },
+                    "truck": {
+                        "correct": 706,
+                        "total": 1000,
+                        "acc": 0.706
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 473,
+                        "total": 1000,
+                        "acc": 0.473
+                    },
+                    "automobile": {
+                        "correct": 802,
+                        "total": 1000,
+                        "acc": 0.802
+                    },
+                    "bird": {
+                        "correct": 813,
+                        "total": 1000,
+                        "acc": 0.813
+                    },
+                    "cat": {
+                        "correct": 239,
+                        "total": 1000,
+                        "acc": 0.239
+                    },
+                    "deer": {
+                        "correct": 523,
+                        "total": 1000,
+                        "acc": 0.523
+                    },
+                    "dog": {
+                        "correct": 665,
+                        "total": 1000,
+                        "acc": 0.665
+                    },
+                    "frog": {
+                        "correct": 619,
+                        "total": 1000,
+                        "acc": 0.619
+                    },
+                    "horse": {
+                        "correct": 613,
+                        "total": 1000,
+                        "acc": 0.613
+                    },
+                    "ship": {
+                        "correct": 747,
+                        "total": 1000,
+                        "acc": 0.747
+                    },
+                    "truck": {
+                        "correct": 605,
+                        "total": 1000,
+                        "acc": 0.605
+                    }
+                }
+            }
+        },
+        "gaussian_blur": {
+            "severity_accs": {
+                "severity_1": 0.8718,
+                "severity_2": 0.804,
+                "severity_3": 0.7696,
+                "severity_4": 0.7344,
+                "severity_5": 0.6691
+            },
+            "mean_acc": 0.7697800000000001,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 842,
+                        "total": 1000,
+                        "acc": 0.842
+                    },
+                    "automobile": {
+                        "correct": 952,
+                        "total": 1000,
+                        "acc": 0.952
+                    },
+                    "bird": {
+                        "correct": 936,
+                        "total": 1000,
+                        "acc": 0.936
+                    },
+                    "cat": {
+                        "correct": 727,
+                        "total": 1000,
+                        "acc": 0.727
+                    },
+                    "deer": {
+                        "correct": 848,
+                        "total": 1000,
+                        "acc": 0.848
+                    },
+                    "dog": {
+                        "correct": 898,
+                        "total": 1000,
+                        "acc": 0.898
+                    },
+                    "frog": {
+                        "correct": 760,
+                        "total": 1000,
+                        "acc": 0.76
+                    },
+                    "horse": {
+                        "correct": 888,
+                        "total": 1000,
+                        "acc": 0.888
+                    },
+                    "ship": {
+                        "correct": 943,
+                        "total": 1000,
+                        "acc": 0.943
+                    },
+                    "truck": {
+                        "correct": 924,
+                        "total": 1000,
+                        "acc": 0.924
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 757,
+                        "total": 1000,
+                        "acc": 0.757
+                    },
+                    "automobile": {
+                        "correct": 913,
+                        "total": 1000,
+                        "acc": 0.913
+                    },
+                    "bird": {
+                        "correct": 908,
+                        "total": 1000,
+                        "acc": 0.908
+                    },
+                    "cat": {
+                        "correct": 602,
+                        "total": 1000,
+                        "acc": 0.602
+                    },
+                    "deer": {
+                        "correct": 760,
+                        "total": 1000,
+                        "acc": 0.76
+                    },
+                    "dog": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    },
+                    "frog": {
+                        "correct": 631,
+                        "total": 1000,
+                        "acc": 0.631
+                    },
+                    "horse": {
+                        "correct": 842,
+                        "total": 1000,
+                        "acc": 0.842
+                    },
+                    "ship": {
+                        "correct": 915,
+                        "total": 1000,
+                        "acc": 0.915
+                    },
+                    "truck": {
+                        "correct": 860,
+                        "total": 1000,
+                        "acc": 0.86
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 717,
+                        "total": 1000,
+                        "acc": 0.717
+                    },
+                    "automobile": {
+                        "correct": 898,
+                        "total": 1000,
+                        "acc": 0.898
+                    },
+                    "bird": {
+                        "correct": 897,
+                        "total": 1000,
+                        "acc": 0.897
+                    },
+                    "cat": {
+                        "correct": 544,
+                        "total": 1000,
+                        "acc": 0.544
+                    },
+                    "deer": {
+                        "correct": 710,
+                        "total": 1000,
+                        "acc": 0.71
+                    },
+                    "dog": {
+                        "correct": 829,
+                        "total": 1000,
+                        "acc": 0.829
+                    },
+                    "frog": {
+                        "correct": 597,
+                        "total": 1000,
+                        "acc": 0.597
+                    },
+                    "horse": {
+                        "correct": 806,
+                        "total": 1000,
+                        "acc": 0.806
+                    },
+                    "ship": {
+                        "correct": 895,
+                        "total": 1000,
+                        "acc": 0.895
+                    },
+                    "truck": {
+                        "correct": 803,
+                        "total": 1000,
+                        "acc": 0.803
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 696,
+                        "total": 1000,
+                        "acc": 0.696
+                    },
+                    "automobile": {
+                        "correct": 860,
+                        "total": 1000,
+                        "acc": 0.86
+                    },
+                    "bird": {
+                        "correct": 880,
+                        "total": 1000,
+                        "acc": 0.88
+                    },
+                    "cat": {
+                        "correct": 478,
+                        "total": 1000,
+                        "acc": 0.478
+                    },
+                    "deer": {
+                        "correct": 676,
+                        "total": 1000,
+                        "acc": 0.676
+                    },
+                    "dog": {
+                        "correct": 802,
+                        "total": 1000,
+                        "acc": 0.802
+                    },
+                    "frog": {
+                        "correct": 547,
+                        "total": 1000,
+                        "acc": 0.547
+                    },
+                    "horse": {
+                        "correct": 779,
+                        "total": 1000,
+                        "acc": 0.779
+                    },
+                    "ship": {
+                        "correct": 885,
+                        "total": 1000,
+                        "acc": 0.885
+                    },
+                    "truck": {
+                        "correct": 741,
+                        "total": 1000,
+                        "acc": 0.741
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 641,
+                        "total": 1000,
+                        "acc": 0.641
+                    },
+                    "automobile": {
+                        "correct": 785,
+                        "total": 1000,
+                        "acc": 0.785
+                    },
+                    "bird": {
+                        "correct": 840,
+                        "total": 1000,
+                        "acc": 0.84
+                    },
+                    "cat": {
+                        "correct": 374,
+                        "total": 1000,
+                        "acc": 0.374
+                    },
+                    "deer": {
+                        "correct": 608,
+                        "total": 1000,
+                        "acc": 0.608
+                    },
+                    "dog": {
+                        "correct": 776,
+                        "total": 1000,
+                        "acc": 0.776
+                    },
+                    "frog": {
+                        "correct": 442,
+                        "total": 1000,
+                        "acc": 0.442
+                    },
+                    "horse": {
+                        "correct": 723,
+                        "total": 1000,
+                        "acc": 0.723
+                    },
+                    "ship": {
+                        "correct": 850,
+                        "total": 1000,
+                        "acc": 0.85
+                    },
+                    "truck": {
+                        "correct": 652,
+                        "total": 1000,
+                        "acc": 0.652
+                    }
+                }
+            }
+        },
+        "spatter": {
+            "severity_accs": {
+                "severity_1": 0.8432,
+                "severity_2": 0.7857,
+                "severity_3": 0.7218,
+                "severity_4": 0.7322,
+                "severity_5": 0.6407
+            },
+            "mean_acc": 0.7447199999999998,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 782,
+                        "total": 1000,
+                        "acc": 0.782
+                    },
+                    "automobile": {
+                        "correct": 946,
+                        "total": 1000,
+                        "acc": 0.946
+                    },
+                    "bird": {
+                        "correct": 910,
+                        "total": 1000,
+                        "acc": 0.91
+                    },
+                    "cat": {
+                        "correct": 625,
+                        "total": 1000,
+                        "acc": 0.625
+                    },
+                    "deer": {
+                        "correct": 806,
+                        "total": 1000,
+                        "acc": 0.806
+                    },
+                    "dog": {
+                        "correct": 893,
+                        "total": 1000,
+                        "acc": 0.893
+                    },
+                    "frog": {
+                        "correct": 783,
+                        "total": 1000,
+                        "acc": 0.783
+                    },
+                    "horse": {
+                        "correct": 853,
+                        "total": 1000,
+                        "acc": 0.853
+                    },
+                    "ship": {
+                        "correct": 928,
+                        "total": 1000,
+                        "acc": 0.928
+                    },
+                    "truck": {
+                        "correct": 906,
+                        "total": 1000,
+                        "acc": 0.906
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 734,
+                        "total": 1000,
+                        "acc": 0.734
+                    },
+                    "automobile": {
+                        "correct": 929,
+                        "total": 1000,
+                        "acc": 0.929
+                    },
+                    "bird": {
+                        "correct": 883,
+                        "total": 1000,
+                        "acc": 0.883
+                    },
+                    "cat": {
+                        "correct": 492,
+                        "total": 1000,
+                        "acc": 0.492
+                    },
+                    "deer": {
+                        "correct": 734,
+                        "total": 1000,
+                        "acc": 0.734
+                    },
+                    "dog": {
+                        "correct": 832,
+                        "total": 1000,
+                        "acc": 0.832
+                    },
+                    "frog": {
+                        "correct": 762,
+                        "total": 1000,
+                        "acc": 0.762
+                    },
+                    "horse": {
+                        "correct": 797,
+                        "total": 1000,
+                        "acc": 0.797
+                    },
+                    "ship": {
+                        "correct": 876,
+                        "total": 1000,
+                        "acc": 0.876
+                    },
+                    "truck": {
+                        "correct": 818,
+                        "total": 1000,
+                        "acc": 0.818
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 636,
+                        "total": 1000,
+                        "acc": 0.636
+                    },
+                    "automobile": {
+                        "correct": 890,
+                        "total": 1000,
+                        "acc": 0.89
+                    },
+                    "bird": {
+                        "correct": 856,
+                        "total": 1000,
+                        "acc": 0.856
+                    },
+                    "cat": {
+                        "correct": 387,
+                        "total": 1000,
+                        "acc": 0.387
+                    },
+                    "deer": {
+                        "correct": 628,
+                        "total": 1000,
+                        "acc": 0.628
+                    },
+                    "dog": {
+                        "correct": 793,
+                        "total": 1000,
+                        "acc": 0.793
+                    },
+                    "frog": {
+                        "correct": 713,
+                        "total": 1000,
+                        "acc": 0.713
+                    },
+                    "horse": {
+                        "correct": 728,
+                        "total": 1000,
+                        "acc": 0.728
+                    },
+                    "ship": {
+                        "correct": 826,
+                        "total": 1000,
+                        "acc": 0.826
+                    },
+                    "truck": {
+                        "correct": 761,
+                        "total": 1000,
+                        "acc": 0.761
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 644,
+                        "total": 1000,
+                        "acc": 0.644
+                    },
+                    "automobile": {
+                        "correct": 881,
+                        "total": 1000,
+                        "acc": 0.881
+                    },
+                    "bird": {
+                        "correct": 886,
+                        "total": 1000,
+                        "acc": 0.886
+                    },
+                    "cat": {
+                        "correct": 593,
+                        "total": 1000,
+                        "acc": 0.593
+                    },
+                    "deer": {
+                        "correct": 651,
+                        "total": 1000,
+                        "acc": 0.651
+                    },
+                    "dog": {
+                        "correct": 807,
+                        "total": 1000,
+                        "acc": 0.807
+                    },
+                    "frog": {
+                        "correct": 611,
+                        "total": 1000,
+                        "acc": 0.611
+                    },
+                    "horse": {
+                        "correct": 733,
+                        "total": 1000,
+                        "acc": 0.733
+                    },
+                    "ship": {
+                        "correct": 720,
+                        "total": 1000,
+                        "acc": 0.72
+                    },
+                    "truck": {
+                        "correct": 796,
+                        "total": 1000,
+                        "acc": 0.796
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 526,
+                        "total": 1000,
+                        "acc": 0.526
+                    },
+                    "automobile": {
+                        "correct": 793,
+                        "total": 1000,
+                        "acc": 0.793
+                    },
+                    "bird": {
+                        "correct": 863,
+                        "total": 1000,
+                        "acc": 0.863
+                    },
+                    "cat": {
+                        "correct": 500,
+                        "total": 1000,
+                        "acc": 0.5
+                    },
+                    "deer": {
+                        "correct": 534,
+                        "total": 1000,
+                        "acc": 0.534
+                    },
+                    "dog": {
+                        "correct": 713,
+                        "total": 1000,
+                        "acc": 0.713
+                    },
+                    "frog": {
+                        "correct": 575,
+                        "total": 1000,
+                        "acc": 0.575
+                    },
+                    "horse": {
+                        "correct": 639,
+                        "total": 1000,
+                        "acc": 0.639
+                    },
+                    "ship": {
+                        "correct": 599,
+                        "total": 1000,
+                        "acc": 0.599
+                    },
+                    "truck": {
+                        "correct": 665,
+                        "total": 1000,
+                        "acc": 0.665
+                    }
+                }
+            }
+        },
+        "saturate": {
+            "severity_accs": {
+                "severity_1": 0.8213,
+                "severity_2": 0.7731,
+                "severity_3": 0.8805,
+                "severity_4": 0.8536,
+                "severity_5": 0.8088
+            },
+            "mean_acc": 0.82746,
+            "per_class_by_severity": {
+                "severity_1": {
+                    "airplane": {
+                        "correct": 801,
+                        "total": 1000,
+                        "acc": 0.801
+                    },
+                    "automobile": {
+                        "correct": 944,
+                        "total": 1000,
+                        "acc": 0.944
+                    },
+                    "bird": {
+                        "correct": 907,
+                        "total": 1000,
+                        "acc": 0.907
+                    },
+                    "cat": {
+                        "correct": 719,
+                        "total": 1000,
+                        "acc": 0.719
+                    },
+                    "deer": {
+                        "correct": 792,
+                        "total": 1000,
+                        "acc": 0.792
+                    },
+                    "dog": {
+                        "correct": 897,
+                        "total": 1000,
+                        "acc": 0.897
+                    },
+                    "frog": {
+                        "correct": 507,
+                        "total": 1000,
+                        "acc": 0.507
+                    },
+                    "horse": {
+                        "correct": 846,
+                        "total": 1000,
+                        "acc": 0.846
+                    },
+                    "ship": {
+                        "correct": 914,
+                        "total": 1000,
+                        "acc": 0.914
+                    },
+                    "truck": {
+                        "correct": 886,
+                        "total": 1000,
+                        "acc": 0.886
+                    }
+                },
+                "severity_2": {
+                    "airplane": {
+                        "correct": 762,
+                        "total": 1000,
+                        "acc": 0.762
+                    },
+                    "automobile": {
+                        "correct": 947,
+                        "total": 1000,
+                        "acc": 0.947
+                    },
+                    "bird": {
+                        "correct": 870,
+                        "total": 1000,
+                        "acc": 0.87
+                    },
+                    "cat": {
+                        "correct": 602,
+                        "total": 1000,
+                        "acc": 0.602
+                    },
+                    "deer": {
+                        "correct": 737,
+                        "total": 1000,
+                        "acc": 0.737
+                    },
+                    "dog": {
+                        "correct": 877,
+                        "total": 1000,
+                        "acc": 0.877
+                    },
+                    "frog": {
+                        "correct": 388,
+                        "total": 1000,
+                        "acc": 0.388
+                    },
+                    "horse": {
+                        "correct": 807,
+                        "total": 1000,
+                        "acc": 0.807
+                    },
+                    "ship": {
+                        "correct": 891,
+                        "total": 1000,
+                        "acc": 0.891
+                    },
+                    "truck": {
+                        "correct": 850,
+                        "total": 1000,
+                        "acc": 0.85
+                    }
+                },
+                "severity_3": {
+                    "airplane": {
+                        "correct": 863,
+                        "total": 1000,
+                        "acc": 0.863
+                    },
+                    "automobile": {
+                        "correct": 943,
+                        "total": 1000,
+                        "acc": 0.943
+                    },
+                    "bird": {
+                        "correct": 936,
+                        "total": 1000,
+                        "acc": 0.936
+                    },
+                    "cat": {
+                        "correct": 707,
+                        "total": 1000,
+                        "acc": 0.707
+                    },
+                    "deer": {
+                        "correct": 852,
+                        "total": 1000,
+                        "acc": 0.852
+                    },
+                    "dog": {
+                        "correct": 915,
+                        "total": 1000,
+                        "acc": 0.915
+                    },
+                    "frog": {
+                        "correct": 808,
+                        "total": 1000,
+                        "acc": 0.808
+                    },
+                    "horse": {
+                        "correct": 902,
+                        "total": 1000,
+                        "acc": 0.902
+                    },
+                    "ship": {
+                        "correct": 945,
+                        "total": 1000,
+                        "acc": 0.945
+                    },
+                    "truck": {
+                        "correct": 934,
+                        "total": 1000,
+                        "acc": 0.934
+                    }
+                },
+                "severity_4": {
+                    "airplane": {
+                        "correct": 815,
+                        "total": 1000,
+                        "acc": 0.815
+                    },
+                    "automobile": {
+                        "correct": 933,
+                        "total": 1000,
+                        "acc": 0.933
+                    },
+                    "bird": {
+                        "correct": 905,
+                        "total": 1000,
+                        "acc": 0.905
+                    },
+                    "cat": {
+                        "correct": 631,
+                        "total": 1000,
+                        "acc": 0.631
+                    },
+                    "deer": {
+                        "correct": 810,
+                        "total": 1000,
+                        "acc": 0.81
+                    },
+                    "dog": {
+                        "correct": 888,
+                        "total": 1000,
+                        "acc": 0.888
+                    },
+                    "frog": {
+                        "correct": 828,
+                        "total": 1000,
+                        "acc": 0.828
+                    },
+                    "horse": {
+                        "correct": 893,
+                        "total": 1000,
+                        "acc": 0.893
+                    },
+                    "ship": {
+                        "correct": 925,
+                        "total": 1000,
+                        "acc": 0.925
+                    },
+                    "truck": {
+                        "correct": 908,
+                        "total": 1000,
+                        "acc": 0.908
+                    }
+                },
+                "severity_5": {
+                    "airplane": {
+                        "correct": 747,
+                        "total": 1000,
+                        "acc": 0.747
+                    },
+                    "automobile": {
+                        "correct": 896,
+                        "total": 1000,
+                        "acc": 0.896
+                    },
+                    "bird": {
+                        "correct": 891,
+                        "total": 1000,
+                        "acc": 0.891
+                    },
+                    "cat": {
+                        "correct": 532,
+                        "total": 1000,
+                        "acc": 0.532
+                    },
+                    "deer": {
+                        "correct": 754,
+                        "total": 1000,
+                        "acc": 0.754
+                    },
+                    "dog": {
+                        "correct": 822,
+                        "total": 1000,
+                        "acc": 0.822
+                    },
+                    "frog": {
+                        "correct": 823,
+                        "total": 1000,
+                        "acc": 0.823
+                    },
+                    "horse": {
+                        "correct": 877,
+                        "total": 1000,
+                        "acc": 0.877
+                    },
+                    "ship": {
+                        "correct": 889,
+                        "total": 1000,
+                        "acc": 0.889
+                    },
+                    "truck": {
+                        "correct": 857,
+                        "total": 1000,
+                        "acc": 0.857
+                    }
+                }
+            }
+        }
+    },
+    "overall_mean_acc": 0.7368957894736843,
+    "seed": 42
+}

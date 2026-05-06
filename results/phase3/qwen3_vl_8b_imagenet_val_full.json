@@ -1,0 +1,5002 @@
+{
+    "model": "qwen3_vl_8b",
+    "model_family": "Qwen3-VL",
+    "dataset": "imagenet_val",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 1000,
+    "num_images": 50000,
+    "val_acc": 0.35966,
+    "per_class_accuracy": {
+        "tench": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "goldfish": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "great white shark": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "tiger shark": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "hammerhead": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "electric ray": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "stingray": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "cock": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "hen": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "ostrich": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "brambling": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "goldfinch": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "house finch": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "junco": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "indigo bunting": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "robin": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "bulbul": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "jay": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "magpie": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "chickadee": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "water ouzel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "kite": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bald eagle": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "vulture": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "great grey owl": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "European fire salamander": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "common newt": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "eft": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "spotted salamander": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "axolotl": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "bullfrog": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "tree frog": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "tailed frog": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "loggerhead": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "leatherback turtle": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "mud turtle": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "terrapin": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "box turtle": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "banded gecko": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "common iguana": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "American chameleon": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "whiptail": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "agama": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "frilled lizard": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "alligator lizard": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "Gila monster": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "green lizard": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "African chameleon": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "Komodo dragon": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "African crocodile": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "American alligator": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "triceratops": {
+            "correct": 27,
+            "total": 50,
+            "acc": 0.54
+        },
+        "thunder snake": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "ringneck snake": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "hognose snake": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "green snake": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "king snake": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "garter snake": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "water snake": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "vine snake": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "night snake": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "boa constrictor": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "rock python": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Indian cobra": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "green mamba": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "sea snake": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "horned viper": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "diamondback": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "sidewinder": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "trilobite": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "harvestman": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "scorpion": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "black and gold garden spider": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "barn spider": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "garden spider": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "black widow": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "tarantula": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "wolf spider": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "tick": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "centipede": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "black grouse": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "ptarmigan": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "ruffed grouse": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "prairie chicken": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "peacock": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "quail": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "partridge": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "African grey": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "macaw": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "sulphur-crested cockatoo": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "lorikeet": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "coucal": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bee eater": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "hornbill": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "hummingbird": {
+            "correct": 17,
+            "total": 50,
+            "acc": 0.34
+        },
+        "jacamar": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "toucan": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "drake": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "red-breasted merganser": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "goose": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "black swan": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "tusker": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "echidna": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "platypus": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "wallaby": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "koala": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "wombat": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "jellyfish": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "sea anemone": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "brain coral": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "flatworm": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "nematode": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "conch": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "snail": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "slug": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "sea slug": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "chiton": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "chambered nautilus": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "Dungeness crab": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "rock crab": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "fiddler crab": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "king crab": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "American lobster": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "spiny lobster": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "crayfish": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "hermit crab": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "isopod": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "white stork": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "black stork": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "spoonbill": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "flamingo": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "little blue heron": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "American egret": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "bittern": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "crane": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "limpkin": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "European gallinule": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "American coot": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bustard": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "ruddy turnstone": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "red-backed sandpiper": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "redshank": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "dowitcher": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "oystercatcher": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "pelican": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "king penguin": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "albatross": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "grey whale": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "killer whale": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "dugong": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "sea lion": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "Chihuahua": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Japanese spaniel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Maltese dog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Pekinese": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Shih-Tzu": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Blenheim spaniel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "papillon": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "toy terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Rhodesian ridgeback": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Afghan hound": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "basset": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "beagle": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "bloodhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bluetick": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "black-and-tan coonhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Walker hound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "English foxhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "redbone": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "borzoi": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Irish wolfhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Italian greyhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "whippet": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Ibizan hound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Norwegian elkhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "otterhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Saluki": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Scottish deerhound": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Weimaraner": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Staffordshire bullterrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "American Staffordshire terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Bedlington terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Border terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Kerry blue terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Irish terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Norfolk terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Norwich terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Yorkshire terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "wire-haired fox terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Lakeland terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Sealyham terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Airedale": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "cairn": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Australian terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Dandie Dinmont": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Boston bull": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "miniature schnauzer": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "giant schnauzer": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "standard schnauzer": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Scotch terrier": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "Tibetan terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "silky terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "soft-coated wheaten terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "West Highland white terrier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Lhasa": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "flat-coated retriever": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "curly-coated retriever": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "golden retriever": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Labrador retriever": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Chesapeake Bay retriever": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "German short-haired pointer": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "vizsla": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "English setter": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Irish setter": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Gordon setter": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Brittany spaniel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "clumber": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "English springer": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Welsh springer spaniel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "cocker spaniel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Sussex spaniel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Irish water spaniel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "kuvasz": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "schipperke": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "groenendael": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "malinois": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "briard": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "kelpie": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "komondor": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Old English sheepdog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Shetland sheepdog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "collie": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Border collie": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Bouvier des Flandres": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Rottweiler": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "German shepherd": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Doberman": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "miniature pinscher": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Greater Swiss Mountain dog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Bernese mountain dog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Appenzeller": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "EntleBucher": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "boxer": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bull mastiff": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Tibetan mastiff": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "French bulldog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Great Dane": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Saint Bernard": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Eskimo dog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "malamute": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Siberian husky": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "dalmatian": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "affenpinscher": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "basenji": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "pug": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "Leonberg": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Newfoundland": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Great Pyrenees": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Samoyed": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Pomeranian": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "chow": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "keeshond": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Brabancon griffon": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Pembroke": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Cardigan": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "toy poodle": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "miniature poodle": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "standard poodle": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "Mexican hairless": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "timber wolf": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "white wolf": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "red wolf": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "coyote": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "dingo": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "dhole": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "African hunting dog": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "hyena": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "red fox": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "kit fox": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Arctic fox": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "grey fox": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "tabby": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "tiger cat": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "Persian cat": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Siamese cat": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Egyptian cat": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "cougar": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "lynx": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "leopard": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "snow leopard": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "jaguar": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "lion": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "tiger": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "cheetah": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "brown bear": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "American black bear": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "ice bear": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "sloth bear": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "mongoose": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "meerkat": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "tiger beetle": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "ladybug": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "ground beetle": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "long-horned beetle": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "leaf beetle": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "dung beetle": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "rhinoceros beetle": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "weevil": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "fly": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "bee": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "ant": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "grasshopper": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "cricket": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "walking stick": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "cockroach": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "mantis": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "cicada": {
+            "correct": 27,
+            "total": 50,
+            "acc": 0.54
+        },
+        "leafhopper": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "lacewing": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "dragonfly": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "damselfly": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "admiral": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "ringlet": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "monarch": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "cabbage butterfly": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "sulphur butterfly": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "lycaenid": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "starfish": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "sea urchin": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "sea cucumber": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "wood rabbit": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "hare": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "Angora": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "hamster": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "porcupine": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "fox squirrel": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "marmot": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "beaver": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "guinea pig": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "sorrel": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "zebra": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "hog": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "wild boar": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "warthog": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "hippopotamus": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "ox": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "water buffalo": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "bison": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "ram": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "bighorn": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "ibex": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "hartebeest": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "impala": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "gazelle": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "Arabian camel": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "llama": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "weasel": {
+            "correct": 12,
+            "total": 50,
+            "acc": 0.24
+        },
+        "mink": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "polecat": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "black-footed ferret": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "otter": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "skunk": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "badger": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "armadillo": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "three-toed sloth": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "orangutan": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "gorilla": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "chimpanzee": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "gibbon": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "siamang": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "guenon": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "patas": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "baboon": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "macaque": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "langur": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "colobus": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "proboscis monkey": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "marmoset": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "capuchin": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "howler monkey": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "titi": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "spider monkey": {
+            "correct": 47,
+            "total": 50,
+            "acc": 0.94
+        },
+        "squirrel monkey": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "Madagascar cat": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "indri": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Indian elephant": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "African elephant": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "lesser panda": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "giant panda": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "barracouta": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "eel": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "coho": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "rock beauty": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "anemone fish": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "sturgeon": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "gar": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "lionfish": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "puffer": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "abacus": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "abaya": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "academic gown": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "accordion": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "acoustic guitar": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "aircraft carrier": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "airliner": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "airship": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "altar": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "ambulance": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "amphibian": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "analog clock": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "apiary": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "apron": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "ashcan": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "assault rifle": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "backpack": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "bakery": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "balance beam": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "balloon": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "ballpoint": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "Band Aid": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "banjo": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "bannister": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "barbell": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "barber chair": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "barbershop": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "barn": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "barometer": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "barrel": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "barrow": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "baseball": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "basketball": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "bassinet": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "bassoon": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "bathing cap": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bath towel": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "bathtub": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "beach wagon": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "beacon": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "beaker": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "bearskin": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "beer bottle": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "beer glass": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "bell cote": {
+            "correct": 12,
+            "total": 50,
+            "acc": 0.24
+        },
+        "bib": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "bicycle-built-for-two": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bikini": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "binder": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "binoculars": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "birdhouse": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "boathouse": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "bobsled": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "bolo tie": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "bonnet": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "bookcase": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "bookshop": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "bottlecap": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "bow": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "bow tie": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "brass": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "brassiere": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "breakwater": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "breastplate": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "broom": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "bucket": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "buckle": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "bulletproof vest": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "bullet train": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "butcher shop": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "cab": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "caldron": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "candle": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "cannon": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "canoe": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "can opener": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "cardigan": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "car mirror": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "carousel": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "carpenter's kit": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "carton": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "car wheel": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "cash machine": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "cassette": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "cassette player": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "castle": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "catamaran": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "CD player": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "cello": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "cellular telephone": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "chain": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "chainlink fence": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "chain mail": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "chain saw": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "chest": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "chiffonier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "chime": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "china cabinet": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "Christmas stocking": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "church": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "cinema": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "cleaver": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "cliff dwelling": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "cloak": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "clog": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "cocktail shaker": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "coffee mug": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "coffeepot": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "coil": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "combination lock": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "computer keyboard": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "confectionery": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "container ship": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "convertible": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "corkscrew": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "cornet": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "cowboy boot": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "cowboy hat": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "cradle": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "crash helmet": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "crate": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "crib": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "Crock Pot": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "croquet ball": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "crutch": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "cuirass": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "dam": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "desk": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "desktop computer": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "dial telephone": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "diaper": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "digital clock": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "digital watch": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "dining table": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "dishrag": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "dishwasher": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "disk brake": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "dock": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "dogsled": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "dome": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "doormat": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "drilling platform": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "drum": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "drumstick": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "dumbbell": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "Dutch oven": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "electric fan": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "electric guitar": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "electric locomotive": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "entertainment center": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "envelope": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "espresso maker": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "face powder": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "feather boa": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "file": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "fireboat": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "fire engine": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "fire screen": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "flagpole": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "flute": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "folding chair": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "football helmet": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "forklift": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "fountain": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "fountain pen": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "four-poster": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "freight car": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "French horn": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "frying pan": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "fur coat": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "garbage truck": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "gasmask": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "gas pump": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "goblet": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "go-kart": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "golf ball": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "golfcart": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "gondola": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "gong": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "gown": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "grand piano": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "greenhouse": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "grille": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "grocery store": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "guillotine": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "hair slide": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "hair spray": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "half track": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "hammer": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "hamper": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "hand blower": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "hand-held computer": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "handkerchief": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "hard disc": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "harmonica": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "harp": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "harvester": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "hatchet": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "holster": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "home theater": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "honeycomb": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "hook": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "hoopskirt": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "horizontal bar": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "horse cart": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "hourglass": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "iPod": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "iron": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "jack-o'-lantern": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "jean": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "jeep": {
+            "correct": 12,
+            "total": 50,
+            "acc": 0.24
+        },
+        "jersey": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "jigsaw puzzle": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "jinrikisha": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "joystick": {
+            "correct": 27,
+            "total": 50,
+            "acc": 0.54
+        },
+        "kimono": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "knee pad": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "knot": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "lab coat": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "ladle": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "lampshade": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "laptop": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "lawn mower": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "lens cap": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "letter opener": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "library": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "lifeboat": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "lighter": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "limousine": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "liner": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "lipstick": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "Loafer": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "lotion": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "loudspeaker": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "loupe": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "lumbermill": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "magnetic compass": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "mailbag": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "mailbox": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "maillot": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "manhole cover": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "maraca": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "marimba": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "mask": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "matchstick": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "maypole": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "maze": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "measuring cup": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "medicine chest": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "megalith": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "microphone": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "microwave": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "military uniform": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "milk can": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "minibus": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "miniskirt": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "minivan": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "missile": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "mitten": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "mixing bowl": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "mobile home": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "Model T": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "modem": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "monastery": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "monitor": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "moped": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "mortar": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "mortarboard": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "mosque": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "mosquito net": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "motor scooter": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "mountain bike": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "mountain tent": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "mouse": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "mousetrap": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "moving van": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "muzzle": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "nail": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "neck brace": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "necklace": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "nipple": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "notebook": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "obelisk": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "oboe": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "ocarina": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "odometer": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "oil filter": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "organ": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "oscilloscope": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "overskirt": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "oxcart": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "oxygen mask": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "packet": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "paddle": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "paddlewheel": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "padlock": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "paintbrush": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "pajama": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "palace": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "panpipe": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "paper towel": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "parachute": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "parallel bars": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "park bench": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "parking meter": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "passenger car": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "patio": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "pay-phone": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "pedestal": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "pencil box": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "pencil sharpener": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "perfume": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "Petri dish": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "photocopier": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "pick": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "pickelhaube": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "picket fence": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "pickup": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "pier": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "piggy bank": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "pill bottle": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "pillow": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "ping-pong ball": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "pinwheel": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "pirate": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "pitcher": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "plane": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "planetarium": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "plastic bag": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "plate rack": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "plow": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "plunger": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "Polaroid camera": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "pole": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "police van": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "poncho": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "pool table": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "pop bottle": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "pot": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "potter's wheel": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "power drill": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "prayer rug": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "printer": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "prison": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "projectile": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "projector": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "puck": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "punching bag": {
+            "correct": 12,
+            "total": 50,
+            "acc": 0.24
+        },
+        "purse": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "quill": {
+            "correct": 17,
+            "total": 50,
+            "acc": 0.34
+        },
+        "quilt": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "racer": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "racket": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "radiator": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "radio": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "radio telescope": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "rain barrel": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "recreational vehicle": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "reel": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "reflex camera": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "refrigerator": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "remote control": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "restaurant": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "revolver": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "rifle": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "rocking chair": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "rotisserie": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "rubber eraser": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "rugby ball": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "rule": {
+            "correct": 27,
+            "total": 50,
+            "acc": 0.54
+        },
+        "running shoe": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "safe": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "safety pin": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "saltshaker": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "sandal": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "sarong": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "sax": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "scabbard": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "scale": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "school bus": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "schooner": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "scoreboard": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "screen": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "screw": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "screwdriver": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "seat belt": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "sewing machine": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "shield": {
+            "correct": 18,
+            "total": 50,
+            "acc": 0.36
+        },
+        "shoe shop": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "shoji": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "shopping basket": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "shopping cart": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "shovel": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "shower cap": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "shower curtain": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "ski": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "ski mask": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "sleeping bag": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "slide rule": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "sliding door": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "slot": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "snorkel": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "snowmobile": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "snowplow": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "soap dispenser": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "soccer ball": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "sock": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "solar dish": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "sombrero": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "soup bowl": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "space bar": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "space heater": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "space shuttle": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "spatula": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "speedboat": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "spider web": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "spindle": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "sports car": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "spotlight": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "stage": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "steam locomotive": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "steel arch bridge": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "steel drum": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "stethoscope": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "stole": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "stone wall": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "stopwatch": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "stove": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "strainer": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "streetcar": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "stretcher": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "studio couch": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "stupa": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "submarine": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "suit": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "sundial": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "sunglass": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "sunglasses": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "sunscreen": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "suspension bridge": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "swab": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "sweatshirt": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "swimming trunks": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "swing": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "switch": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "syringe": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "table lamp": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "tank": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "tape player": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "teapot": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "teddy": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "television": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "tennis ball": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "thatch": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "theater curtain": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "thimble": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "thresher": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "throne": {
+            "correct": 17,
+            "total": 50,
+            "acc": 0.34
+        },
+        "tile roof": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "toaster": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "tobacco shop": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "toilet seat": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "torch": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "totem pole": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "tow truck": {
+            "correct": 38,
+            "total": 50,
+            "acc": 0.76
+        },
+        "toyshop": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "tractor": {
+            "correct": 49,
+            "total": 50,
+            "acc": 0.98
+        },
+        "trailer truck": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "tray": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "trench coat": {
+            "correct": 7,
+            "total": 50,
+            "acc": 0.14
+        },
+        "tricycle": {
+            "correct": 21,
+            "total": 50,
+            "acc": 0.42
+        },
+        "trimaran": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "tripod": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "triumphal arch": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "trolleybus": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "trombone": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "tub": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "turnstile": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "typewriter keyboard": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "umbrella": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "unicycle": {
+            "correct": 23,
+            "total": 50,
+            "acc": 0.46
+        },
+        "upright": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "vacuum": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "vase": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "vault": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "velvet": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "vending machine": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "vestment": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "viaduct": {
+            "correct": 20,
+            "total": 50,
+            "acc": 0.4
+        },
+        "violin": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "volleyball": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "waffle iron": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "wall clock": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "wallet": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "wardrobe": {
+            "correct": 9,
+            "total": 50,
+            "acc": 0.18
+        },
+        "warplane": {
+            "correct": 28,
+            "total": 50,
+            "acc": 0.56
+        },
+        "washbasin": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "washer": {
+            "correct": 4,
+            "total": 50,
+            "acc": 0.08
+        },
+        "water bottle": {
+            "correct": 27,
+            "total": 50,
+            "acc": 0.54
+        },
+        "water jug": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "water tower": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "whiskey jug": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "whistle": {
+            "correct": 33,
+            "total": 50,
+            "acc": 0.66
+        },
+        "wig": {
+            "correct": 26,
+            "total": 50,
+            "acc": 0.52
+        },
+        "window screen": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "window shade": {
+            "correct": 10,
+            "total": 50,
+            "acc": 0.2
+        },
+        "Windsor tie": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "wine bottle": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "wing": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "wok": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "wooden spoon": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "wool": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "worm fence": {
+            "correct": 32,
+            "total": 50,
+            "acc": 0.64
+        },
+        "wreck": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "yawl": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "yurt": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "web site": {
+            "correct": 8,
+            "total": 50,
+            "acc": 0.16
+        },
+        "comic book": {
+            "correct": 24,
+            "total": 50,
+            "acc": 0.48
+        },
+        "crossword puzzle": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "street sign": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "traffic light": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "book jacket": {
+            "correct": 37,
+            "total": 50,
+            "acc": 0.74
+        },
+        "menu": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "plate": {
+            "correct": 3,
+            "total": 50,
+            "acc": 0.06
+        },
+        "guacamole": {
+            "correct": 27,
+            "total": 50,
+            "acc": 0.54
+        },
+        "consomme": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "hot pot": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "trifle": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "ice cream": {
+            "correct": 25,
+            "total": 50,
+            "acc": 0.5
+        },
+        "ice lolly": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "French loaf": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "bagel": {
+            "correct": 40,
+            "total": 50,
+            "acc": 0.8
+        },
+        "pretzel": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "cheeseburger": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "hotdog": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "mashed potato": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "head cabbage": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "broccoli": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "cauliflower": {
+            "correct": 41,
+            "total": 50,
+            "acc": 0.82
+        },
+        "zucchini": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "spaghetti squash": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "acorn squash": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "butternut squash": {
+            "correct": 31,
+            "total": 50,
+            "acc": 0.62
+        },
+        "cucumber": {
+            "correct": 22,
+            "total": 50,
+            "acc": 0.44
+        },
+        "artichoke": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "bell pepper": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "cardoon": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "mushroom": {
+            "correct": 50,
+            "total": 50,
+            "acc": 1.0
+        },
+        "Granny Smith": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "strawberry": {
+            "correct": 19,
+            "total": 50,
+            "acc": 0.38
+        },
+        "orange": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "lemon": {
+            "correct": 35,
+            "total": 50,
+            "acc": 0.7
+        },
+        "fig": {
+            "correct": 42,
+            "total": 50,
+            "acc": 0.84
+        },
+        "pineapple": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "banana": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "jackfruit": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "custard apple": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "pomegranate": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "hay": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "carbonara": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "chocolate sauce": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "dough": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "meat loaf": {
+            "correct": 27,
+            "total": 50,
+            "acc": 0.54
+        },
+        "pizza": {
+            "correct": 44,
+            "total": 50,
+            "acc": 0.88
+        },
+        "potpie": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "burrito": {
+            "correct": 39,
+            "total": 50,
+            "acc": 0.78
+        },
+        "red wine": {
+            "correct": 36,
+            "total": 50,
+            "acc": 0.72
+        },
+        "espresso": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "cup": {
+            "correct": 15,
+            "total": 50,
+            "acc": 0.3
+        },
+        "eggnog": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "alp": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bubble": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        },
+        "cliff": {
+            "correct": 14,
+            "total": 50,
+            "acc": 0.28
+        },
+        "coral reef": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "geyser": {
+            "correct": 45,
+            "total": 50,
+            "acc": 0.9
+        },
+        "lakeside": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "promontory": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "sandbar": {
+            "correct": 1,
+            "total": 50,
+            "acc": 0.02
+        },
+        "seashore": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "valley": {
+            "correct": 6,
+            "total": 50,
+            "acc": 0.12
+        },
+        "volcano": {
+            "correct": 16,
+            "total": 50,
+            "acc": 0.32
+        },
+        "ballplayer": {
+            "correct": 30,
+            "total": 50,
+            "acc": 0.6
+        },
+        "groom": {
+            "correct": 5,
+            "total": 50,
+            "acc": 0.1
+        },
+        "scuba diver": {
+            "correct": 43,
+            "total": 50,
+            "acc": 0.86
+        },
+        "rapeseed": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "daisy": {
+            "correct": 13,
+            "total": 50,
+            "acc": 0.26
+        },
+        "yellow lady's slipper": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "corn": {
+            "correct": 34,
+            "total": 50,
+            "acc": 0.68
+        },
+        "acorn": {
+            "correct": 48,
+            "total": 50,
+            "acc": 0.96
+        },
+        "hip": {
+            "correct": 11,
+            "total": 50,
+            "acc": 0.22
+        },
+        "buckeye": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "coral fungus": {
+            "correct": 46,
+            "total": 50,
+            "acc": 0.92
+        },
+        "agaric": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "gyromitra": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "stinkhorn": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "earthstar": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "hen-of-the-woods": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "bolete": {
+            "correct": 0,
+            "total": 50,
+            "acc": 0.0
+        },
+        "ear": {
+            "correct": 2,
+            "total": 50,
+            "acc": 0.04
+        },
+        "toilet tissue": {
+            "correct": 29,
+            "total": 50,
+            "acc": 0.58
+        }
+    },
+    "seed": 42
+}

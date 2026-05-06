@@ -1,0 +1,11 @@
+{
+    "model": "qwen2_5_vl",
+    "model_family": "Qwen2.5-VL",
+    "backend": "qwen2_5_vl",
+    "dataset": "imagenet_a",
+    "evaluation_mode": "zero_shot",
+    "num_imagenet_a_classes": 200,
+    "imagenet_a_acc": 0.30546666666666666,
+    "text_templates": "generative_prompt",
+    "seed": 42
+}

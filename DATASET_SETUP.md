@@ -8,8 +8,8 @@
 ## 0. Clone the repo & create the data directory
 
 ```bash
-git clone https://github.com/hkayann/ARCADE--Screwset.git
-cd ARCADE--Screwset
+git clone <anonymous-repo-url>
+cd <repo-folder-name>
 mkdir -p data
 ```
 

@@ -1,0 +1,61 @@
+{
+    "model": "qwen3_vl_8b",
+    "model_family": "Qwen3-VL",
+    "dataset": "cifar10",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 10,
+    "test_acc": 0.8748,
+    "per_class_accuracy": {
+        "airplane": {
+            "correct": 828,
+            "total": 1000,
+            "acc": 0.828
+        },
+        "automobile": {
+            "correct": 982,
+            "total": 1000,
+            "acc": 0.982
+        },
+        "bird": {
+            "correct": 882,
+            "total": 1000,
+            "acc": 0.882
+        },
+        "cat": {
+            "correct": 825,
+            "total": 1000,
+            "acc": 0.825
+        },
+        "deer": {
+            "correct": 851,
+            "total": 1000,
+            "acc": 0.851
+        },
+        "dog": {
+            "correct": 858,
+            "total": 1000,
+            "acc": 0.858
+        },
+        "frog": {
+            "correct": 712,
+            "total": 1000,
+            "acc": 0.712
+        },
+        "horse": {
+            "correct": 950,
+            "total": 1000,
+            "acc": 0.95
+        },
+        "ship": {
+            "correct": 955,
+            "total": 1000,
+            "acc": 0.955
+        },
+        "truck": {
+            "correct": 905,
+            "total": 1000,
+            "acc": 0.905
+        }
+    },
+    "seed": 42
+}

@@ -1,0 +1,13 @@
+{
+    "model": "qwen2_5_vl",
+    "model_family": "Qwen2.5-VL",
+    "backend": "qwen2_5_vl",
+    "dataset": "cifar10",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 10,
+    "test_acc": 0.8827,
+    "corrupt_results": {},
+    "mean_corrupt_acc": null,
+    "text_templates": "generative_prompt",
+    "seed": 42
+}

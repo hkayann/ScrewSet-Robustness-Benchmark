@@ -19,7 +19,8 @@ socket.getaddrinfo = _ipv4
 from huggingface_hub import hf_hub_download
 import pyarrow.parquet as pq
 
-DATA_DIR = Path("/home/hakan/ARCADE--Screwset/data")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = REPO_ROOT / "data"
 CACHE_DIR = DATA_DIR / "imagenet-hf-cache"
 OUTPUT_DIR = DATA_DIR / "imagenet-val"
 CLASS_INDEX_PATH = DATA_DIR / "imagenet_class_index.json"

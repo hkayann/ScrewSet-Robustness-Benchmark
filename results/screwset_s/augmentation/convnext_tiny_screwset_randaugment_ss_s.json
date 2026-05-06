@@ -1,0 +1,183 @@
+{
+    "model": "convnext_tiny",
+    "dataset": "screwset_s",
+    "augmentation": "randaugment",
+    "augmentation_meta": {
+        "method": "randaugment",
+        "num_ops": 2,
+        "magnitude": 9
+    },
+    "phase": "Phase2-ViT",
+    "num_classes": 40,
+    "test_acc": 0.999902,
+    "mean_acc_all": 0.814294,
+    "corruption_results": {
+        "gaussian_noise": {
+            "severity_1": 0.999365,
+            "severity_2": 0.992188,
+            "severity_3": 0.975146,
+            "severity_4": 0.95918,
+            "severity_5": 0.883545,
+            "mean": 0.961885
+        },
+        "shot_noise": {
+            "severity_1": 0.995996,
+            "severity_2": 0.978564,
+            "severity_3": 0.965039,
+            "severity_4": 0.931445,
+            "severity_5": 0.765186,
+            "mean": 0.927246
+        },
+        "impulse_noise": {
+            "severity_1": 0.998145,
+            "severity_2": 0.987402,
+            "severity_3": 0.975244,
+            "severity_4": 0.957373,
+            "severity_5": 0.912061,
+            "mean": 0.966045
+        },
+        "defocus_blur": {
+            "severity_1": 0.942432,
+            "severity_2": 0.802344,
+            "severity_3": 0.470068,
+            "severity_4": 0.381494,
+            "severity_5": 0.344385,
+            "mean": 0.588145
+        },
+        "glass_blur": {
+            "severity_1": 0.862451,
+            "severity_2": 0.77168,
+            "severity_3": 0.498193,
+            "severity_4": 0.465283,
+            "severity_5": 0.370557,
+            "mean": 0.593633
+        },
+        "motion_blur": {
+            "severity_1": 0.793408,
+            "severity_2": 0.684473,
+            "severity_3": 0.688086,
+            "severity_4": 0.689746,
+            "severity_5": 0.597217,
+            "mean": 0.690586
+        },
+        "zoom_blur": {
+            "severity_1": 0.964502,
+            "severity_2": 0.908643,
+            "severity_3": 0.80625,
+            "severity_4": 0.731299,
+            "severity_5": 0.620459,
+            "mean": 0.806231
+        },
+        "snow": {
+            "severity_1": 0.992969,
+            "severity_2": 0.968457,
+            "severity_3": 0.827783,
+            "severity_4": 0.571533,
+            "severity_5": 0.587646,
+            "mean": 0.789678
+        },
+        "frost": {
+            "severity_1": 0.999268,
+            "severity_2": 0.998828,
+            "severity_3": 0.996289,
+            "severity_4": 0.995361,
+            "severity_5": 0.991211,
+            "mean": 0.996191
+        },
+        "fog": {
+            "severity_1": 0.999023,
+            "severity_2": 0.997168,
+            "severity_3": 0.983105,
+            "severity_4": 0.958936,
+            "severity_5": 0.86123,
+            "mean": 0.959892
+        },
+        "brightness": {
+            "severity_1": 0.999854,
+            "severity_2": 0.998291,
+            "severity_3": 0.971191,
+            "severity_4": 0.769238,
+            "severity_5": 0.480664,
+            "mean": 0.843848
+        },
+        "contrast": {
+            "severity_1": 0.998779,
+            "severity_2": 0.996533,
+            "severity_3": 0.978369,
+            "severity_4": 0.792773,
+            "severity_5": 0.24707,
+            "mean": 0.802705
+        },
+        "elastic_transform": {
+            "severity_1": 0.800244,
+            "severity_2": 0.232178,
+            "severity_3": 0.610547,
+            "severity_4": 0.468799,
+            "severity_5": 0.311865,
+            "mean": 0.484727
+        },
+        "pixelate": {
+            "severity_1": 0.999805,
+            "severity_2": 0.999805,
+            "severity_3": 0.998047,
+            "severity_4": 0.997021,
+            "severity_5": 0.988232,
+            "mean": 0.996582
+        },
+        "jpeg_compression": {
+            "severity_1": 0.998682,
+            "severity_2": 0.998242,
+            "severity_3": 0.993799,
+            "severity_4": 0.993799,
+            "severity_5": 0.971729,
+            "mean": 0.99125
+        },
+        "speckle_noise": {
+            "severity_1": 0.996631,
+            "severity_2": 0.986328,
+            "severity_3": 0.963525,
+            "severity_4": 0.955518,
+            "severity_5": 0.889209,
+            "mean": 0.958242
+        },
+        "gaussian_blur": {
+            "severity_1": 0.996191,
+            "severity_2": 0.882568,
+            "severity_3": 0.578076,
+            "severity_4": 0.421533,
+            "severity_5": 0.313916,
+            "mean": 0.638457
+        },
+        "spatter": {
+            "severity_1": 0.999805,
+            "severity_2": 0.986572,
+            "severity_3": 0.970215,
+            "severity_4": 0.331445,
+            "severity_5": 0.214307,
+            "mean": 0.700469
+        },
+        "saturate": {
+            "severity_1": 0.992383,
+            "severity_2": 0.945605,
+            "severity_3": 0.994629,
+            "severity_4": 0.719287,
+            "severity_5": 0.227002,
+            "mean": 0.775781
+        }
+    },
+    "model_path": "/home/c1857243/workspace/ARCADE--Screwset/results/augmentation/models/convnext_tiny_screwset_randaugment_best.pth",
+    "was_retrained": true,
+    "training_time_sec": 2556.8,
+    "best_val_acc": 0.999951,
+    "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "seed": 42
+}

@@ -1,0 +1,9 @@
+{
+    "model": "qwen3_vl_8b",
+    "model_family": "Qwen3-VL",
+    "backend": "qwen3_vl",
+    "dataset": "imagenet_c",
+    "evaluation_mode": "zero_shot",
+    "skipped": true,
+    "skip_reason": "Generative qwen3_vl_8b too slow for 4.75M images (estimated 130+ hours)"
+}

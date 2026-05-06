@@ -1,0 +1,13 @@
+{
+    "model": "qwen2_5_vl",
+    "model_family": "Qwen2.5-VL",
+    "backend": "qwen2_5_vl",
+    "dataset": "lens",
+    "evaluation_mode": "zero_shot",
+    "num_classes": 200,
+    "test_acc": 0.519,
+    "corrupt_results": {},
+    "mean_corrupt_acc": null,
+    "text_templates": "generative_prompt",
+    "seed": 42
+}

@@ -1,0 +1,237 @@
+{
+  "model": "qwen3_vl_8b",
+  "model_family": "Qwen3-VL",
+  "evaluation_mode": "finetuned_lora",
+  "dataset": "screwset",
+  "num_classes": 40,
+  "lora_config": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "training_config": {
+    "epochs": 1,
+    "batch_size": 4,
+    "grad_accum_steps": 4,
+    "effective_batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "seed": 42
+  },
+  "best_val_acc": 0,
+  "best_epoch": -1,
+  "test_acc": 0.0,
+  "per_class_accuracy": {
+    "10#_19_4.6": {
+      "correct": 0,
+      "total": 8,
+      "acc": 0.0
+    },
+    "10#_38_4.6": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "7#_16_Yellow": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "7#_25_Black": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "7#_25_Yellow": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "7#_40_Black": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "7#_40_Yellow": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "8#_16_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_10_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_10_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_14_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_14_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_18_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_18_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_6_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M3_6_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4.2_20_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4.2_20_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4.2_25_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4.2_25_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_12_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_12_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_16_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_16_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_18_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_18_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_25_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_25_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_30_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_30_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_8_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M4_8_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M5_10_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M5_10_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M5_16_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M5_16_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M5_18_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M5_18_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M5_20_Flat": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    },
+    "M6_20_Round": {
+      "correct": 0,
+      "total": 0,
+      "acc": 0
+    }
+  },
+  "smoke_test": true
+}

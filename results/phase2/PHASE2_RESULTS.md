@@ -2,8 +2,10 @@
 
 **Date:** February 19–20, 2026  
 **Precision:** FP32 (full precision, no quantization)  
-**Hardware:** NVIDIA RTX PRO 6000 Blackwell Max-Q (95 GB VRAM, 300W TDP)  
+**Hardware:** NVIDIA GeForce RTX 5090 (32 GB VRAM)  
 **Framework:** PyTorch 2.10.0+cu128, torchvision 0.25.0+cu128, timm 1.0.24
+
+> Canonical cross-phase summary is maintained in `results/ALL_RESULTS.md`. This phase file is a detailed breakdown of Phase 2 only.
 
 ---
 
