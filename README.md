@@ -11,9 +11,9 @@ Code and evaluation scripts for the NeurIPS 2026 Datasets & Benchmarks paper.
 | Archive | Contents |
 |---------|----------|
 | `screwset_split.tar.gz` | 109,200 images · 40 screw classes · train / val / test split |
-| `screwset_c.tar.gz` | 7,680 images · 6 physical corruptions (shadow, reflection, occlusion, sawdust, multi-object) |
+| `screwset_c.tar.gz` | 7,680 images · 6 physical corruptions (shadow, reflection, occlusion top-left, occlusion bottom-right, scrap paper, multi-object) |
 
-For additional datasets (CIFAR-10, ImageNet-C, ImageNet-A, ScrewSet-S) and full download instructions see [DATASET_SETUP.md](DATASET_SETUP.md).
+For CIFAR-10, ImageNet-C, ImageNet-A, and ScrewSet-S download details see the paper appendix.
 
 ---
 
